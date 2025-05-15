@@ -1,0 +1,6 @@
+SalinityLevelID,SalinityLevel,Classification,Description,ImpactonPlants
+1,< 2,Non-Saline,"Very low salinity, ideal for most crops.",No adverse effects on plant growth. Suitable for a wide variety of crops.
+2,2-4,Slightly Saline,"Mild salinity, some sensitive crops may start showing signs of stress.",Sensitive plants like beans and carrots may experience reduced growth; tolerant plants generally unaffected.
+3,4-8,Moderately Saline,"Salinity begins to affect many common crops, reducing their growth and yield.","Moderate stress on crops like corn, wheat, and lettuce; salt-tolerant plants like barley may still thrive."
+4,8-16,Strongly Saline,"High salinity level, most conventional crops will struggle to grow.","Only highly salt-tolerant crops like beets, spinach, and certain grasses can grow effectively."
+5,> 16,Extremely Saline,"Very high salinity, unsuitable for almost all crop production.","Only the most salt-tolerant species (e.g., halophytes) can survive; most plants will suffer severe damage."

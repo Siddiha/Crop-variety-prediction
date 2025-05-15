@@ -1,0 +1,6 @@
+OrganicMatterID,OrganicMatterContent,Description,ImportanceToSoilAndPlants
+1,Very Low (< 1%),"Soils with minimal organic matter, typically found in degraded or over-farmed soils.","Poor nutrient availability, reduced soil structure, and low water retention. Minimal support for plant growth."
+2,Low (1% - 2%),"Soils with some organic matter, but still insufficient for optimal plant growth.","Limited nutrient cycling and water retention, poor microbial activity, and weaker soil structure."
+3,Moderate (2% - 4%),"Adequate organic matter levels, common in well-managed agricultural soils.","Improved water retention, better soil structure, increased microbial activity, and moderate nutrient availability."
+4,High (4% - 6%),"Rich organic content, typical of fertile, healthy soils with good plant growth.","Excellent nutrient availability, high microbial activity, improved soil aeration, and moisture retention."
+5,Very High (> 6%),"Extremely rich in organic matter, often found in peaty or well-composted soils.","Outstanding nutrient supply, water retention, and microbial activity. Excessive levels can lead to over-saturation."

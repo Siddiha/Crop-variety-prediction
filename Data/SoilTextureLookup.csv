@@ -1,0 +1,11 @@
+SoilTextureID,SoilTexture,Description
+1,Sandy Soil,"Large particles, gritty, excellent drainage, poor nutrient retention."
+2,Sandy Loam,"Mostly sand with some silt and clay; better structure than sandy soil, good drainage, moderately fertile."
+3,Loamy Soil,"Balanced mix of sand, silt, and clay, well-draining but retains moisture, highly fertile."
+4,Silt Soil,"Smooth, powdery texture, holds water better than sandy soil but drains slower, fertile."
+5,Clay Soil,"Very fine particles, heavy, poor drainage, retains water, often nutrient-rich but difficult to work with."
+6,Clay Loam,"A balanced mix of clay, silt, and sand; retains moisture better than loamy soil but drains slower."
+7,Silty Loam,"High in silt content, retains water well but still drains adequately, fertile and easy to cultivate."
+8,Loamy Sand,"Mostly sand with a bit of loam, drains well but doesn’t retain water or nutrients as well."
+9,Peaty Soil,"Rich in organic matter, dark, retains moisture well but drains poorly, often acidic."
+10,Chalky Soil,"Contains lime, stony, drains quickly, can be nutrient-poor, and tends to be alkaline."

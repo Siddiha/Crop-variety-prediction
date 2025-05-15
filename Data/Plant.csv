@@ -1,0 +1,146 @@
+PlantID,PlantName,PlantDescription,SoilTextureID,PHRangeID,OrganicMatterID,SalinityLevelID,ZoneID,HumidityID,PlantTypeID
+2,Lettuce,A leafy green vegetable commonly used in salads.,3.0,4,3.0,1.0,10.0,3.0,1.0
+3,Carrot,"A root vegetable, typically orange, rich in beta-carotene.",3.0,5,2.0,2.0,8.0,2.0,8.0
+4,Broccoli,"A green vegetable rich in vitamins and minerals, often steamed.",4.0,6,3.0,2.0,7.0,4.0,1.0
+5,Cucumber,A widely cultivated plant producing cylindrical fruits used in salads.,2.0,5,3.0,1.0,9.0,3.0,1.0
+6,Spinach,A leafy green vegetable rich in iron and vitamins.,3.0,4,3.0,1.0,8.0,2.0,10.0
+7,Kale,"A leafy green known for its health benefits, often eaten raw or cooked.",3.0,5,3.0,1.0,8.0,2.0,10.0
+8,Apple,A widely consumed fruit known for its crisp texture and sweet flavor.,4.0,6,3.0,1.0,5.0,3.0,3.0
+9,Orange,"A citrus fruit rich in vitamin C, typically grown in warmer climates.",2.0,6,4.0,2.0,9.0,4.0,3.0
+10,Banana,A tropical fruit known for its sweetness and potassium content.,2.0,6,4.0,3.0,11.0,4.0,3.0
+11,Peanut,A legume grown for its edible seeds and oil content.,3.0,5,3.0,2.0,8.0,4.0,4.0
+12,Lentil,"A small, lens-shaped legume rich in protein.",4.0,6,3.0,1.0,7.0,3.0,4.0
+13,Chickpea,A legume known for its use in hummus and other dishes.,3.0,5,2.0,2.0,8.0,3.0,4.0
+14,Almond,A tree nut known for its wide use in snacks and baking.,3.0,6,3.0,1.0,9.0,4.0,5.0
+15,Walnut,A tree nut rich in omega-3 fatty acids and commonly used in baking.,3.0,5,3.0,2.0,8.0,4.0,5.0
+16,Wheat,A cereal grain grown for flour production.,3.0,5,3.0,1.0,9.0,3.0,6.0
+17,Rice,"A staple grain consumed worldwide, grown in flooded paddies.",4.0,5,3.0,2.0,11.0,4.0,6.0
+18,Corn,"A grain used in a variety of food products, including meal and starch.",2.0,5,3.0,1.0,8.0,3.0,6.0
+19,Beetroot,"A root vegetable used in salads and juices, rich in nutrients.",4.0,5,2.0,2.0,8.0,2.0,8.0
+20,Turnip,A root vegetable grown in temperate climates.,3.0,5,2.0,2.0,7.0,2.0,8.0
+21,Potato,A starchy tuber widely consumed as a staple food.,4.0,6,3.0,1.0,8.0,3.0,9.0
+22,Sweet Potato,"A tuber rich in fiber and vitamins, often eaten baked or fried.",3.0,5,3.0,1.0,9.0,3.0,9.0
+23,Basil,"A fragrant herb used in cooking, especially Italian cuisine.",3.0,5,2.0,2.0,9.0,4.0,2.0
+24,Thyme,An herb used for its flavor and medicinal properties.,4.0,6,3.0,2.0,9.0,3.0,2.0
+25,Oregano,A herb commonly used in Mediterranean cuisine.,3.0,5,3.0,1.0,8.0,4.0,2.0
+26,Parsley,An herb used in salads and as a garnish.,3.0,5,2.0,2.0,8.0,4.0,2.0
+27,Mushrooms,A widely cultivated mushroom variety.,3.0,6,3.0,1.0,9.0,4.0,7.0
+28,Cabbage,"A leafy green, red, or white biennial plant grown as an annual vegetable crop for its dense-leaved heads.",3.0,5,3.0,2.0,9.0,3.0,1.0
+31,Radish,"An edible root vegetable of the Brassicaceae family, domesticated in pre-Roman times.",3.0,4,3.0,2.0,8.0,3.0,1.0
+32,Watermelon,"A large vine-like fruit, originally from West Africa, with a sweet, juicy interior.",4.0,6,4.0,2.0,7.0,4.0,3.0
+33,Strawberry,"A bright red, juicy fruit that is sweet and slightly tart, commonly eaten fresh or in desserts.",3.0,5,3.0,2.0,9.0,3.0,3.0
+34,Blueberry,"A small, round fruit, dark blue or purple in color, commonly grown in cooler climates.",3.0,5,3.0,2.0,7.0,3.0,3.0
+35,Avocado,"A tree native to south-central Mexico, cultivated for its nutrient-dense fruit.",3.0,5,3.0,2.0,2.0,3.0,3.0
+36,Sorghum,"A grain used for food, animal fodder, and ethanol production.",2.0,6,3.0,3.0,9.0,3.0,6.0
+37,Barley,"A major cereal grain, commonly used in bread, beverages, and as animal fodder.",2.0,6,3.0,3.0,9.0,3.0,6.0
+38,Oats,A cereal grain commonly used in food for human consumption and as livestock feed.,2.0,6,3.0,3.0,9.0,3.0,6.0
+39,Mint,A fragrant herb commonly used in cooking and herbal remedies.,3.0,5,3.0,2.0,8.0,3.0,2.0
+43,Yam,"A starchy tuber cultivated in tropical regions, used as a staple food.",3.0,5,3.0,3.0,7.0,3.0,9.0
+44,Taro,A tropical plant grown primarily for its edible corms.,3.0,5,3.0,3.0,8.0,4.0,9.0
+45,Peas,A small spherical seed or seed-pod of the legume Pisum sativum.,3.0,5,3.0,2.0,9.0,3.0,4.0
+46,Lentils,An edible legume known for its lens-shaped seeds.,3.0,5,3.0,2.0,9.0,3.0,4.0
+47,Chickpeas,"A legume of the family Fabaceae, widely used in cooking.",3.0,5,3.0,2.0,9.0,3.0,4.0
+48,Pecan,"A species of hickory, native to Mexico and the southern United States, cultivated for its seeds.",3.0,6,3.0,2.0,2.0,4.0,5.0
+51,Eggplant,A purple vegetable commonly used in Mediterranean and Asian cuisines.,3.0,6,3.0,2.0,10.0,3.0,1.0
+52,Zucchini,A type of summer squash used in a variety of dishes.,3.0,6,3.0,2.0,9.0,3.0,1.0
+53,Bell Pepper,A colorful vegetable used in salads and cooking.,3.0,6,3.0,2.0,10.0,3.0,1.0
+54,Okra,A green pod vegetable used in soups and stews.,3.0,6,3.0,2.0,11.0,3.0,1.0
+56,Pumpkin,A large vegetable used in cooking and baking.,3.0,6,3.0,2.0,9.0,3.0,1.0
+57,Celery,A crunchy vegetable used in salads and soups.,3.0,6,3.0,2.0,8.0,3.0,1.0
+58,Brussels Sprouts,"A small, cabbage-like vegetable.",3.0,6,3.0,2.0,6.0,3.0,1.0
+59,Artichoke,A thistle-like plant cultivated for its edible flower buds.,3.0,6,3.0,2.0,8.0,3.0,1.0
+60,Leek,A vegetable related to onions and garlic.,3.0,6,3.0,2.0,8.0,3.0,1.0
+61,Rutabaga,A root vegetable that is a cross between cabbage and turnip.,3.0,6,3.0,2.0,7.0,3.0,1.0
+62,Pineapple,"A tropical fruit with sweet, tangy flesh.",2.0,6,3.0,3.0,13.0,4.0,3.0
+63,Mango,"A tropical stone fruit with sweet, juicy flesh.",2.0,6,3.0,3.0,12.0,4.0,3.0
+64,Papaya,"A tropical fruit with sweet, orange flesh.",2.0,6,3.0,3.0,12.0,4.0,3.0
+65,Grapes,A fruit used for fresh consumption and wine production.,3.0,6,3.0,2.0,9.0,3.0,3.0
+66,Pear,A sweet fruit with a fibrous center.,3.0,6,3.0,2.0,6.0,3.0,3.0
+67,Peach,A juicy fruit with fuzzy skin and sweet flesh.,3.0,6,3.0,2.0,8.0,3.0,3.0
+68,Plum,A sweet fruit with a smooth skin and juicy flesh.,3.0,6,3.0,2.0,7.0,3.0,3.0
+69,Cherry,"A small, round fruit with a pit, sweet or tart in flavor.",3.0,6,3.0,2.0,6.0,3.0,3.0
+70,Kiwi,A small fruit with fuzzy skin and bright green flesh.,3.0,6,3.0,2.0,9.0,3.0,3.0
+71,Fig,"A sweet fruit with a unique texture, often eaten dried.",3.0,6,3.0,2.0,9.0,3.0,3.0
+72,Pomegranate,A fruit with numerous edible seeds surrounded by juicy arils.,3.0,6,3.0,2.0,9.0,3.0,3.0
+73,Apricot,A small fruit with sweet flesh and a single large seed.,3.0,6,3.0,2.0,6.0,3.0,3.0
+74,Guava,A tropical fruit with sweet and tangy flesh.,3.0,6,3.0,2.0,12.0,4.0,3.0
+75,Cantaloupe,"A melon with sweet, orange flesh.",3.0,6,3.0,2.0,10.0,3.0,3.0
+76,Honeydew,A sweet melon with pale green flesh.,3.0,6,3.0,2.0,10.0,3.0,3.0
+77,Quinoa,A grain-like crop grown for its edible seeds.,2.0,6,3.0,3.0,9.0,3.0,6.0
+78,Millet,A group of small-seeded grasses cultivated for grain.,2.0,6,3.0,3.0,9.0,3.0,6.0
+79,Rye,"A cereal grain used for bread, beer, and animal fodder.",2.0,6,3.0,3.0,6.0,3.0,6.0
+80,Buckwheat,A grain-like seed used for flour and groats.,2.0,6,3.0,3.0,7.0,3.0,6.0
+81,Black Beans,A legume popular in Latin American cuisine.,3.0,5,3.0,2.0,9.0,3.0,4.0
+82,Kidney Beans,"A common bean named for its shape, used in many dishes.",3.0,5,3.0,2.0,9.0,3.0,4.0
+83,Pinto Beans,A legume common in Mexican cuisine.,3.0,5,3.0,2.0,9.0,3.0,4.0
+84,Soybeans,A legume used for its oil and protein-rich seeds.,3.0,5,3.0,2.0,9.0,3.0,4.0
+85,Mung Beans,A small green legume used in Asian cuisines.,3.0,5,3.0,2.0,9.0,3.0,4.0
+86,Cashew,A tree nut grown in tropical climates.,3.0,6,3.0,3.0,12.0,4.0,5.0
+87,Pistachio,A tree nut with a slightly sweet flavor.,3.0,6,3.0,2.0,9.0,3.0,5.0
+88,Hazelnut,A nut used in confections and spreads.,3.0,6,3.0,2.0,6.0,3.0,5.0
+89,Macadamia,"A rich, buttery-flavored nut.",3.0,6,3.0,3.0,12.0,4.0,5.0
+90,Chestnut,"A nut with a sweet flavor, often roasted.",3.0,6,3.0,2.0,6.0,3.0,5.0
+91,Cassava,A woody shrub grown for its starchy tuberous root.,3.0,5,3.0,3.0,13.0,4.0,8.0
+92,Ginger,A flowering plant whose rhizome is used as a spice.,3.0,6,3.0,2.0,10.0,3.0,8.0
+93,Turmeric,A plant whose rhizome is used as a spice and dye.,3.0,6,3.0,2.0,10.0,3.0,8.0
+96,Dill,An herb used for flavoring and pickling.,3.0,5,3.0,2.0,9.0,3.0,2.0
+97,Sage,An herb used in cooking and traditional medicine.,3.0,5,3.0,2.0,8.0,3.0,2.0
+98,Cilantro,An herb used in various cuisines for its fresh leaves.,3.0,5,3.0,2.0,9.0,3.0,2.0
+99,Lavender,An herb used for its fragrance and in culinary dishes.,3.0,6,3.0,2.0,8.0,3.0,2.0
+100,Shiitake Mushroom,An edible mushroom native to East Asia.,3.0,6,3.0,2.0,9.0,4.0,7.0
+101,Oyster Mushroom,A mushroom with a delicate flavor.,3.0,6,3.0,2.0,9.0,4.0,7.0
+102,Enoki Mushroom,"A long, thin white mushroom used in East Asian cuisine.",3.0,6,3.0,2.0,9.0,4.0,7.0
+103,Black Pepper,"A flowering vine cultivated for its fruit, used as a spice.",3.0,6,3.0,3.0,12.0,4.0,7.0
+104,Cinnamon,An aromatic spice made from the bark of certain trees.,3.0,6,3.0,2.0,12.0,4.0,7.0
+105,Vanilla,A flavoring derived from orchids of the genus Vanilla.,3.0,6,3.0,2.0,12.0,4.0,7.0
+106,Nutmeg,A spice made from the seed of the nutmeg tree.,3.0,6,3.0,2.0,12.0,4.0,7.0
+108,Amaranth,A pseudocereal used for its edible starchy seeds.,2.0,6,3.0,3.0,9.0,3.0,6.0
+109,Edible Seaweed,Various marine algae consumed as food.,1.0,7,3.0,4.0,4.0,5.0,9.0
+110,Coffee,A plant whose seeds are roasted and ground to make coffee.,3.0,6,3.0,2.0,12.0,4.0,3.0
+111,Tea,A plant whose leaves are used to make tea.,3.0,5,3.0,2.0,9.0,4.0,3.0
+112,Sugarcane,A tropical grass cultivated for its juice from which sugar is processed.,2.0,6,3.0,3.0,13.0,4.0,6.0
+113,Sugar Beet,A plant whose root contains a high concentration of sucrose.,3.0,5,3.0,2.0,8.0,3.0,8.0
+114,Agave,A succulent plant used to produce agave nectar and tequila.,3.0,7,3.0,3.0,11.0,4.0,9.0
+115,Date Palm,A palm tree cultivated for its sweet fruit.,2.0,7,3.0,3.0,13.0,4.0,3.0
+116,Fennel,"A vegetable with a bulb and fronds, used in cooking and salads.",3.0,6,3.0,2.0,8.0,3.0,1.0
+117,Kohlrabi,"A bulbous vegetable related to cabbage, eaten raw or cooked.",3.0,6,3.0,2.0,7.0,3.0,1.0
+120,Swiss Chard,A leafy green vegetable with colorful stems.,3.0,6,3.0,2.0,7.0,3.0,1.0
+121,Coconut,A tropical fruit with a hard shell and sweet water inside.,2.0,7,3.0,3.0,13.0,4.0,3.0
+122,Passion Fruit,A tropical fruit with a sweet and tart flavor.,2.0,6,3.0,3.0,12.0,4.0,3.0
+123,Blackberry,A dark purple fruit that grows in brambles.,3.0,6,3.0,2.0,7.0,3.0,3.0
+124,Raspberry,"A sweet, red fruit that grows on thorny bushes.",3.0,6,3.0,2.0,7.0,3.0,3.0
+125,Starfruit,A tropical fruit with a unique star shape when sliced.,2.0,6,3.0,3.0,12.0,4.0,3.0
+130,Green Peas,"A sweet, green legume eaten fresh or cooked.",3.0,5,3.0,2.0,9.0,3.0,4.0
+133,Pine Nut,"A small edible seed from pine trees, often used in cooking.",3.0,6,3.0,2.0,8.0,3.0,5.0
+135,Parsnip,"A root vegetable related to carrots, with a sweet, nutty flavor.",3.0,6,3.0,2.0,8.0,3.0,8.0
+136,Jerusalem Artichoke,"A tuber from a sunflower species, with a nutty flavor.",3.0,6,3.0,2.0,9.0,3.0,8.0
+137,Kumara,A sweet potato variety popular in New Zealand.,3.0,6,3.0,2.0,8.0,3.0,9.0
+141,Portobello Mushroom,"A large, meaty mushroom used in grilling and stuffing.",3.0,6,3.0,2.0,9.0,4.0,7.0
+142,Cremini Mushroom,A small brown mushroom with a rich flavor.,3.0,6,3.0,2.0,9.0,4.0,7.0
+143,Chanterelle Mushroom,A highly prized wild mushroom known for its delicate flavor.,3.0,6,3.0,2.0,9.0,4.0,7.0
+144,Kelp,A type of large seaweed often used in Asian cuisine.,1.0,7,3.0,4.0,13.0,5.0,9.0
+145,Nasturtium,"An edible flower with a peppery flavor, often used in salads.",3.0,5,3.0,2.0,9.0,3.0,2.0
+146,Chia Seeds,"Seeds from the Salvia hispanica plant, rich in omega-3 fatty acids.",2.0,6,3.0,2.0,9.0,3.0,6.0
+148,Wasabi,A plant whose rhizome is used as a spicy condiment in Japanese cuisine.,3.0,6,3.0,2.0,12.0,4.0,8.0
+149,Saffron,"A spice derived from the flower of Crocus sativus, used for flavor and color.",3.0,6,3.0,2.0,12.0,4.0,7.0
+160,Horseradish,,,4,,,,,
+161,Marigold,,,4,,,,,
+162,Onion,,,4,,,,,
+163,Garlic,,,4,,,,,
+164,Sea Buckthorn,,,4,,,,,
+165,Spelt,,,4,,,,,
+166,Teasel Root,,,4,,,,,
+167,Chervil,,,4,,,,,
+168,Fava Bean,,,4,,,,,
+169,Kumquat,,,4,,,,,
+170,Tangerine,,,4,,,,,
+171,Sesame,,,4,,,,,
+172,Lotus Root,,,4,,,,,
+173,Purslane,,,4,,,,,
+174,Broccolini,,,4,,,,,
+175,Mustard Greens,,,4,,,,,
+176,Lima Beans,,,4,,,,,
+177,Cranberry,,,4,,,,,
+178,Soursop,,,4,,,,,
+179,Mangosteen,,,4,,,,,
+180,Tree Onion,,,4,,,,,
