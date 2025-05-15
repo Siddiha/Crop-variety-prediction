@@ -115,10 +115,9 @@ print(f"Best Params: {grid_search.best_params_}")
 
 ## Contact
 
-Feel free to reach out for collaboration or feedback. **Created by:** Me and my teammates - Komal Nayak, Mahima Advilkar, Vibha Gupta
+
 
 Connect with me:
 
-- **Email**: [osheengupta1994@gmail.com](mailto\:osheengupta1994@gmail.com)
-- **GitHub**: [osheengupta](https://github.com/osheengupta)
-- **LinkedIn**: [Osheen Gupta](https://linkedin.com/in/osheengupta/)
+- **Email**: FathimaSiddka62@gmail.com
+
