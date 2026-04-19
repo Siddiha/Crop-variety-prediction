@@ -1,11 +1,16 @@
-# Crop variety recommendation (predictive modeling)
+# Crop variety prediction (predictive modeling)
 
-Machine learning project that recommends plant varieties from growing conditions—soil, climate zone, humidity, salinity, organic matter, and related factors. Choosing varieties that fit local conditions supports higher yields, lower risk, and more efficient use of water and inputs.
+This project joins agronomic lookup tables, builds features, and trains a **Random Forest** classifier with **`GridSearchCV`** to predict **crop variety** (`PlantVarietyName`) from soil, climate zone, humidity, salinity, organic matter, and related fields. **Plant type** (e.g. vegetable vs fruit) is kept as an input feature so the model can separate variety within type.
+
+Choosing varieties that fit local conditions supports higher yields, lower risk, and more efficient use of water and inputs.
+
+**Recognition:** Developed for a Datathon; the team placed **2nd runner-up**. [View the digital badge](https://badgr.com/public/assertions/rpl3BidYQJKToosP9B4jLg?identity__email=ogupta@horizon.csueastbay.edu).
 
 ## Table of contents
 
 - [Overview](#overview)
 - [Project structure](#project-structure)
+- [Data](#data)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Run the notebook](#run-the-notebook)
@@ -15,31 +20,49 @@ Machine learning project that recommends plant varieties from growing conditions
 - [Features](#features)
 - [Status](#status)
 - [Challenges & learnings](#challenges--learnings)
+- [License](#license)
 - [Contact](#contact)
 
 ## Overview
 
-The workflow loads and joins agricultural lookup tables, engineers features, and trains a **Random Forest** classifier with **Grid Search** hyperparameter tuning. The model is evaluated with accuracy metrics and confusion-matrix style visuals; results are framed as zone- and soil-aware variety recommendations.
+The notebook loads CSVs from `data/`, merges hardiness zones, pH, soil texture, humidity, salinity, organic matter, plant type, and variety tables, cleans the result, then trains a **Random Forest** with **hyperparameter grid search**. Evaluation includes **accuracy**, a **classification report**, a **confusion matrix**, and **feature importance** plots.
 
 ## Project structure
 
 ```
 Crop-variety-prediction/
 ├── README.md
-├── images/              # EDA, model metrics, recommendation visuals
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+├── data/                    # CSV inputs (see Data section)
+├── images/                  # Figures for the README (EDA, metrics, recommendations)
+├── docs/                    # Extra materials (e.g. presentation slides), optional
 ├── notebooks/
-│   └── Datathon.ipynb   # Main analysis and modeling notebook
-└── docs/                # Additional project materials
+│   └── Datathon.ipynb       # Main analysis and modeling
+└── scripts/
+    ├── generate_sample_data.py   # Builds synthetic CSVs under data/ for a runnable demo
+    ├── patch_notebook.py         # One-off notebook path cleanup (historical)
+    └── update_notebook_ml.py     # ML cell definitions (optional maintainer helper)
 ```
 
-The notebook reads CSV files from a `data/` folder at the **repository root** (paths like `../data/…` from inside `notebooks/`). Add the Datathon dataset files there before running cells that load data.
+## Data
+
+- **Bundled demo:** The repo includes **synthetic sample CSVs** in `data/` so `notebooks/Datathon.ipynb` runs end-to-end after `pip install -r requirements.txt`. Regenerate them with:
+  ```bash
+  python scripts/generate_sample_data.py
+  ```
+- **Original Datathon data:** If you have the competition files, replace the contents of `data/` with those CSVs (same filenames expected by the notebook: `Plant.csv`, `PlantVariety.csv`, lookups, etc.). Metrics and plots will then reflect the real dataset.
+
+The notebook resolves `data/` whether you start Jupyter from the **repository root** or the **`notebooks/`** folder (see first code cell).
 
 ## Technologies
 
-- Python
+- Python 3.10+
 - pandas, NumPy
 - Matplotlib, Seaborn
-- scikit-learn (Random Forest, `GridSearchCV`)
+- scikit-learn (Random Forest, `GridSearchCV`, metrics, confusion matrix display)
+- Jupyter
 
 ## Setup
 
@@ -62,35 +85,48 @@ python -m venv .venv
 **3. Install dependencies**
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+pip install -r requirements.txt
 ```
 
 ## Run the notebook
 
-Start Jupyter from the `notebooks` directory so paths such as `../data/` resolve correctly:
+From the **repository root**:
+
+```bash
+jupyter notebook notebooks/Datathon.ipynb
+```
+
+Or from `notebooks/`:
 
 ```bash
 cd notebooks
 jupyter notebook Datathon.ipynb
 ```
 
-Alternatively, open `notebooks/Datathon.ipynb` from JupyterLab or VS Code; if imports fail, set the kernel’s working directory to the `notebooks` folder or adjust the CSV paths in the first data-loading cells.
+To re-run all cells and save outputs into the `.ipynb` file:
+
+```bash
+jupyter nbconvert --to notebook --execute notebooks/Datathon.ipynb --inplace
+```
 
 ## How it works
 
-1. **Load & explore** — Read lookup tables and the main plant table; exploratory analysis on distributions and relationships.
-2. **Preprocess** — Handle missing values, encode categoricals, normalize or scale where needed.
-3. **Feature engineering** — Merge lookups (zone, soil, pH, humidity, salinity, organic matter, variety) into a modeling table.
-4. **Train** — Random Forest with grid-searched hyperparameters.
-5. **Evaluate** — Accuracy and visual diagnostics (e.g. confusion matrix–style plots).
+1. **Load & explore** — Read lookup tables and `Plant.csv`; inspect distributions and missing values.
+2. **Preprocess** — Drop incomplete rows where needed; normalize organic-matter labels for modeling.
+3. **Feature engineering** — Merge lookups into one table; unify hardiness zones in memory (no local absolute paths).
+4. **Encode target** — `LabelEncoder` on **crop variety** (`PlantVarietyName`).
+5. **Train** — One-hot encode features (including **plant type**), then **`GridSearchCV`** over `n_estimators`, `max_depth`, and `min_samples_leaf`.
+6. **Evaluate** — Accuracy, per-class report, **confusion matrix**, and **feature importance** plots.
 
 ## Screenshots
+
+Figures below are from an **earlier Datathon run** (illustrative). Your notebook output will depend on the **data** in `data/` (demo sample vs original files).
 
 ### EDA and trends
 
 ![EDA](./images/EDA.png)
 
-Distribution of plant varieties across zones and related trends.
+Exploratory views of varieties and zones.
 
 ### Model accuracy
 
@@ -98,7 +134,7 @@ Distribution of plant varieties across zones and related trends.
 
 ![Categories](./images/MA2.png)
 
-Confusion matrix and accuracy for the Random Forest model (~80% accuracy in the reported run).
+Model diagnostics from the original run (example).
 
 ### Recommendations
 
@@ -112,25 +148,30 @@ Recommendations aligned to zones, soil, and environmental factors.
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 
-rf = RandomForestClassifier()
-param_grid = {"n_estimators": [100, 200], "max_depth": [10, 20]}
-grid_search = GridSearchCV(rf, param_grid, cv=5)
+rf = RandomForestClassifier(random_state=42)
+param_grid = {
+    "n_estimators": [100, 200],
+    "max_depth": [None, 15],
+    "min_samples_leaf": [1, 2],
+}
+grid_search = GridSearchCV(rf, param_grid, cv=3, n_jobs=-1)
 grid_search.fit(X_train, y_train)
-print(f"Best params: {grid_search.best_params_}")
+print("Best params:", grid_search.best_params_)
 ```
 
 ## Features
 
 **Current**
 
-- Variety predictions from engineered environmental and soil inputs
-- Visual summaries for trends and model performance
-- Recommendations framed by zone, soil, and growing conditions
+- **Variety** prediction from engineered soil and climate features (with **plant type** as an input).
+- **Grid search** for Random Forest hyperparameters.
+- **Confusion matrix** and classification report for multi-class variety labels.
+- Visual summaries (Seaborn count plots, feature importance).
 
 **Possible next steps**
 
-- Interactive assistant for farmer-facing Q&A
-- Stronger use of weather or forecast features in recommendations
+- Interactive assistant for farmer-facing Q&A.
+- Weather or forecast features in the feature set.
 
 ## Status
 
@@ -138,8 +179,12 @@ Initial version is complete; contributions and refinements are welcome.
 
 ## Challenges & learnings
 
-- **Challenges:** Class imbalance affected metrics; grid search added compute time.
-- **Learnings:** End-to-end preprocessing and feature joins for tabular agronomic data; practical use of `GridSearchCV`; communicating results with clear plots.
+- **Challenges:** Class imbalance can affect metrics; grid search adds runtime; many variety classes make confusion matrices dense.
+- **Learnings:** Tabular joins for agronomic data, `GridSearchCV`, and reporting with confusion matrices and feature importance.
+
+## License
+
+This project is released under the [MIT License](./LICENSE).
 
 ## Contact
 

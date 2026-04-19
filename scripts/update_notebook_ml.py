@@ -23,7 +23,7 @@ CELL_15 = """variety_mapping = dict(
 print(variety_mapping)
 """
 
-CELL_17 = """from sklearn.model_selection import train_test_split, GridSearchCV
+CELL_17 = r"""from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, ConfusionMatrixDisplay
 
@@ -92,7 +92,7 @@ ConfusionMatrixDisplay.from_predictions(
     xticks_rotation=45,
     colorbar=True,
 )
-plt.title("Random Forest — confusion matrix (crop variety)")
+plt.title("Random Forest - confusion matrix (crop variety)")
 plt.tight_layout()
 plt.show()
 """
