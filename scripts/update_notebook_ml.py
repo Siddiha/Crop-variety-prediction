@@ -23,7 +23,7 @@ CELL_15 = """variety_mapping = dict(
 print(variety_mapping)
 """
 
-CELL_17 = r"""from sklearn.model_selection import train_test_split, GridSearchCV
+CELL_17 = """from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, ConfusionMatrixDisplay
 
@@ -47,7 +47,7 @@ X = cleaned_df_copy4.drop(
 y = cleaned_df_copy4["PlantVarietyName_enc"]
 
 X_encoded = pd.get_dummies(X, drop_first=True)
-X_encoded.columns = X_encoded.columns.str.replace(r"[^\w\s]", "", regex=True)
+X_encoded.columns = X_encoded.columns.str.replace("[^\\w\\s]", "", regex=True)
 
 _strat = y if y.value_counts().min() >= 2 else None
 X_train, X_test, y_train, y_test = train_test_split(
@@ -73,7 +73,9 @@ y_pred_rf = rf_model.predict(X_test)
 
 accuracy_rf = accuracy_score(y_test, y_pred_rf)
 print(f"Random Forest Accuracy: {accuracy_rf:.2f}")
-print("\\nClassification Report for Random Forest:\\n")
+print()
+print("Classification Report for Random Forest:")
+print()
 print(
     classification_report(
         y_test,
