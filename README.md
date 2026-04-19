@@ -10,22 +10,28 @@ Choosing varieties that fit local conditions supports higher yields, lower risk,
 
 ## Table of contents
 
-- [Overview](#overview)
-- [Project structure](#project-structure)
-- [Data](#data)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Run the notebook](#run-the-notebook)
-- [Exported model (optional)](#exported-model-optional)
-- [How it works](#how-it-works)
-- [Screenshots](#screenshots)
-- [Example code](#example-code)
-- [Features](#features)
-- [Status](#status)
-- [Challenges & learnings](#challenges--learnings)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Crop variety prediction (predictive modeling)](#crop-variety-prediction-predictive-modeling)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Project structure](#project-structure)
+  - [Data](#data)
+    - [Maintainer tools](#maintainer-tools)
+  - [Exported model (optional)](#exported-model-optional)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Run the notebook](#run-the-notebook)
+  - [How it works](#how-it-works)
+  - [Screenshots](#screenshots)
+    - [EDA and trends](#eda-and-trends)
+    - [Model accuracy](#model-accuracy)
+    - [Recommendations](#recommendations)
+  - [Example code](#example-code)
+  - [Features](#features)
+  - [Status](#status)
+  - [Challenges \& learnings](#challenges--learnings)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
 
 ## Overview
 
@@ -95,11 +101,11 @@ Metadata and the feature column list are written next to the model for the demo 
 
 ## Technologies
 
-- Python 3.10+
+- Python 3.10+ (CI uses 3.12)
 - pandas, NumPy
 - Matplotlib, Seaborn
-- scikit-learn (Random Forest, `GridSearchCV`, metrics, confusion matrix display)
-- Jupyter
+- scikit-learn, joblib (Random Forest, `GridSearchCV`, saved models)
+- Jupyter, nbconvert (notebook execution)
 
 ## Setup
 
