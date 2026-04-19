@@ -4,7 +4,7 @@ This project joins agronomic lookup tables, builds features, and trains a **Rand
 
 Choosing varieties that fit local conditions supports higher yields, lower risk, and more efficient use of water and inputs.
 
-**Recognition:** Developed for a Datathon; the team placed **2nd runner-up**. [View the digital badge](https://badgr.com/public/assertions/rpl3BidYQJKToosP9B4jLg?identity__email=ogupta@horizon.csueastbay.edu).
+
 
 [![Notebook CI](https://github.com/Siddiha/Crop-variety-prediction/actions/workflows/notebook.yml/badge.svg)](https://github.com/Siddiha/Crop-variety-prediction/actions/workflows/notebook.yml)
 
