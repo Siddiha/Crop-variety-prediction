@@ -5,18 +5,22 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [How It Works](#how-it-works)
-- [Code Snippets](#code-snippets)
-- [Features](#features)
-- [Status](#status)
-- [Challenges](#challenges)
-- [Learnings](#learnings)
-- [Contributors](#contributors)
-- [Contact](#contact)
+- [Crop variety recommendation using Predictive Modeling and Analysis](#crop-variety-recommendation-using-predictive-modeling-and-analysis)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Screenshots](#screenshots)
+    - [Visualizations from the Project:](#visualizations-from-the-project)
+  - [Technologies Used](#technologies-used)
+  - [Setup Instructions](#setup-instructions)
+  - [How It Works](#how-it-works)
+  - [Code Snippets](#code-snippets)
+  - [Features](#features)
+    - [Current Features](#current-features)
+    - [Future Enhancements](#future-enhancements)
+  - [Status](#status)
+  - [Challenges](#challenges)
+  - [Learnings](#learnings)
+  - [Contact](#contact)
 
 ## Overview
 
@@ -27,16 +31,16 @@ This project focuses on building predictive models using Python to analyze datas
 ### Visualizations from the Project:
 
 1. **EDA and Trends**:
-   ![EDA](./img/EDA.png)
+   ![EDA](./images/EDA.png)
    - This chart explores the distribution of plant varieties across different zones and highlights key trends.
 
 2. **Predictive Model Accuracy**:
-   ![Model Accuracy](./img/ModelAccuracy.png)
-   ![Categories](./img/MA2.png)
+   ![Model Accuracy](./images/ModelAccuracy.png)
+   ![Categories](./images/MA2.png)
    - A confusion matrix and accuracy metrics for the Random Forest model achieving 80% accuracy.
 
-4. **Recommendations**:
-   ![Recommendations](./img/Recommendations.png)
+3. **Recommendations**:
+   ![Recommendations](./images/Recommendations.png)
    - This dashboard showcases crop recommendations tailored for zones, soil types, and environmental conditions.
 
 ## Technologies Used
