@@ -1,0 +1,3 @@
+SalinityLevelID,SalinityLevel,Classification
+1,< 2,Non-Saline
+2,>= 2,Saline

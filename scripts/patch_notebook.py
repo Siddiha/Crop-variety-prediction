@@ -73,7 +73,7 @@ def main() -> None:
     for i in sorted(to_remove, reverse=True):
         del cells[i]
 
-    # Fix optional export path in commented cell
+    # Fix optional export paths in commented cells
     for c in cells:
         if c["cell_type"] != "code":
             continue
@@ -82,6 +82,11 @@ def main() -> None:
             c["source"] = [
                 "# Optional: export cleaned table\n",
                 "# cleaned_df.to_csv(DATA_DIR / \"cleaned_df.csv\", index=False)\n",
+            ]
+        elif "Joined_Data.csv" in src and "/Users/osheen" in src:
+            c["source"] = [
+                "# Optional: export joined table\n",
+                "# result.to_csv(DATA_DIR / \"Joined_Data.csv\", index=False)\n",
             ]
 
     # Drop trailing empty code cell if present
