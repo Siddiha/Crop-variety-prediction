@@ -49,8 +49,9 @@ y = cleaned_df_copy4["PlantVarietyName_enc"]
 X_encoded = pd.get_dummies(X, drop_first=True)
 X_encoded.columns = X_encoded.columns.str.replace(r"[^\w\s]", "", regex=True)
 
+_strat = y if y.value_counts().min() >= 2 else None
 X_train, X_test, y_train, y_test = train_test_split(
-    X_encoded, y, test_size=0.2, random_state=42, stratify=y
+    X_encoded, y, test_size=0.2, random_state=42, stratify=_strat
 )
 
 param_grid = {
@@ -83,11 +84,13 @@ print(
     )
 )
 
-fig, ax = plt.subplots(figsize=(10, 8))
+fig, ax = plt.subplots(figsize=(12, 10))
+_labels = list(range(len(variety_encoder.classes_)))
 ConfusionMatrixDisplay.from_predictions(
     y_test,
     y_pred_rf,
-    display_labels=variety_encoder.classes_,
+    labels=_labels,
+    display_labels=list(variety_encoder.classes_),
     ax=ax,
     xticks_rotation=45,
     colorbar=True,
