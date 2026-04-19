@@ -1,4 +1,9 @@
-"""Generate sample CSVs under data/ so notebooks/Datathon.ipynb can run end-to-end."""
+"""Generate sample CSVs under data/ so notebooks/Datathon.ipynb can run end-to-end.
+
+Each plant row includes a target variety plus feature values sampled around variety-specific
+centroids so a classifier can learn variety labels (unlike a cartesian merge of all
+varieties per PlantID, which duplicates identical features under different labels).
+"""
 from __future__ import annotations
 
 import numpy as np
@@ -7,6 +12,140 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
+
+# Variety -> typical growing attributes (IDs match lookup tables below)
+VARIETY_PROFILES: dict[str, dict[str, float | int]] = {
+    "Little Gem": {
+        "PlantID": 2,
+        "PlantTypeID": 1,
+        "SoilTextureID": 2,
+        "PHRangeID": 4,
+        "OrganicMatterID": 2,
+        "SalinityLevelID": 1,
+        "ZoneID": 10.0,
+        "HumidityID": 2,
+    },
+    "Looseleaf": {
+        "PlantID": 2,
+        "PlantTypeID": 1,
+        "SoilTextureID": 2,
+        "PHRangeID": 3,
+        "OrganicMatterID": 2,
+        "SalinityLevelID": 1,
+        "ZoneID": 9.0,
+        "HumidityID": 3,
+    },
+    "Oak Leaf": {
+        "PlantID": 2,
+        "PlantTypeID": 1,
+        "SoilTextureID": 3,
+        "PHRangeID": 3,
+        "OrganicMatterID": 3,
+        "SalinityLevelID": 1,
+        "ZoneID": 10.0,
+        "HumidityID": 2,
+    },
+    "Crisphead": {
+        "PlantID": 2,
+        "PlantTypeID": 1,
+        "SoilTextureID": 1,
+        "PHRangeID": 4,
+        "OrganicMatterID": 2,
+        "SalinityLevelID": 2,
+        "ZoneID": 8.0,
+        "HumidityID": 1,
+    },
+    "Red Leaf Lettuce": {
+        "PlantID": 2,
+        "PlantTypeID": 1,
+        "SoilTextureID": 2,
+        "PHRangeID": 2,
+        "OrganicMatterID": 1,
+        "SalinityLevelID": 1,
+        "ZoneID": 9.0,
+        "HumidityID": 2,
+    },
+    "Cherry": {
+        "PlantID": 3,
+        "PlantTypeID": 2,
+        "SoilTextureID": 2,
+        "PHRangeID": 4,
+        "OrganicMatterID": 3,
+        "SalinityLevelID": 1,
+        "ZoneID": 10.0,
+        "HumidityID": 3,
+    },
+    "Roma": {
+        "PlantID": 3,
+        "PlantTypeID": 2,
+        "SoilTextureID": 3,
+        "PHRangeID": 3,
+        "OrganicMatterID": 2,
+        "SalinityLevelID": 1,
+        "ZoneID": 9.0,
+        "HumidityID": 2,
+    },
+    "Beefsteak": {
+        "PlantID": 3,
+        "PlantTypeID": 2,
+        "SoilTextureID": 2,
+        "PHRangeID": 4,
+        "OrganicMatterID": 2,
+        "SalinityLevelID": 2,
+        "ZoneID": 10.0,
+        "HumidityID": 2,
+    },
+    "Grape": {
+        "PlantID": 3,
+        "PlantTypeID": 2,
+        "SoilTextureID": 1,
+        "PHRangeID": 2,
+        "OrganicMatterID": 2,
+        "SalinityLevelID": 1,
+        "ZoneID": 9.0,
+        "HumidityID": 3,
+    },
+    "Basil Genovese": {
+        "PlantID": 4,
+        "PlantTypeID": 3,
+        "SoilTextureID": 2,
+        "PHRangeID": 3,
+        "OrganicMatterID": 2,
+        "SalinityLevelID": 1,
+        "ZoneID": 10.0,
+        "HumidityID": 2,
+    },
+    "Thai": {
+        "PlantID": 4,
+        "PlantTypeID": 3,
+        "SoilTextureID": 3,
+        "PHRangeID": 2,
+        "OrganicMatterID": 3,
+        "SalinityLevelID": 1,
+        "ZoneID": 9.0,
+        "HumidityID": 3,
+    },
+    "Sweet": {
+        "PlantID": 4,
+        "PlantTypeID": 3,
+        "SoilTextureID": 2,
+        "PHRangeID": 4,
+        "OrganicMatterID": 2,
+        "SalinityLevelID": 1,
+        "ZoneID": 8.0,
+        "HumidityID": 2,
+    },
+}
+
+NAME_MAP = {2: "Lettuce", 3: "Tomato", 4: "Basil"}
+
+
+def _jitter_zone(val: float, rng: np.random.Generator) -> float:
+    return float(np.clip(val + rng.normal(0, 0.35), 8.0, 10.0))
+
+
+def _jitter_id(val: int, rng: np.random.Generator, lo: int, hi: int) -> int:
+    return int(np.clip(val + rng.integers(-1, 2), lo, hi))
 
 
 def main() -> None:
@@ -73,23 +212,25 @@ def main() -> None:
             varieties.append({"PlantID": pid, "PlantVarietyName": n})
     var_df = pd.DataFrame(varieties)
 
-    n = 500
-    plant_ids = rng.choice([2, 3, 4], size=n)
-    name_map = {2: "Lettuce", 3: "Tomato", 4: "Basil"}
+    n = 2000
+    variety_names = list(VARIETY_PROFILES.keys())
     records = []
     for i in range(n):
-        pid = int(plant_ids[i])
+        vname = str(rng.choice(variety_names))
+        prof = VARIETY_PROFILES[vname]
+        pid = int(prof["PlantID"])
         records.append(
             {
                 "PlantID": pid,
-                "PlantName": name_map[pid],
-                "SoilTextureID": int(rng.choice([1, 2, 3])),
-                "PHRangeID": int(rng.choice([1, 2, 3, 4])),
-                "OrganicMatterID": int(rng.choice([1, 2, 3])),
-                "SalinityLevelID": int(rng.choice([1, 2])),
-                "ZoneID": float(rng.choice([8.0, 9.0, 10.0])),
-                "HumidityID": int(rng.choice([1, 2, 3])),
-                "PlantTypeID": int(rng.choice([1, 2, 3])),
+                "PlantName": NAME_MAP[pid],
+                "PlantVarietyName": vname,
+                "SoilTextureID": _jitter_id(int(prof["SoilTextureID"]), rng, 1, 3),
+                "PHRangeID": _jitter_id(int(prof["PHRangeID"]), rng, 1, 4),
+                "OrganicMatterID": _jitter_id(int(prof["OrganicMatterID"]), rng, 1, 3),
+                "SalinityLevelID": _jitter_id(int(prof["SalinityLevelID"]), rng, 1, 2),
+                "ZoneID": _jitter_zone(float(prof["ZoneID"]), rng),
+                "HumidityID": _jitter_id(int(prof["HumidityID"]), rng, 1, 3),
+                "PlantTypeID": int(prof["PlantTypeID"]),
                 "PlantDescription": f"Sample row {i}",
             }
         )

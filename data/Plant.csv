@@ -1,501 +1,2001 @@
-PlantID,PlantName,SoilTextureID,PHRangeID,OrganicMatterID,SalinityLevelID,ZoneID,HumidityID,PlantTypeID,PlantDescription
-2,Lettuce,1,3,3,2,8.0,2,2,Sample row 0
-4,Basil,1,2,1,2,10.0,3,3,Sample row 1
-3,Tomato,3,1,3,1,9.0,2,2,Sample row 2
-3,Tomato,1,1,3,1,8.0,3,1,Sample row 3
-3,Tomato,3,4,2,1,8.0,1,2,Sample row 4
-4,Basil,1,2,1,2,8.0,3,1,Sample row 5
-2,Lettuce,1,1,3,1,9.0,2,2,Sample row 6
-4,Basil,3,4,2,2,8.0,3,2,Sample row 7
-2,Lettuce,3,4,3,2,9.0,1,2,Sample row 8
-2,Lettuce,1,4,1,1,8.0,2,2,Sample row 9
-3,Tomato,3,2,1,1,8.0,2,3,Sample row 10
-4,Basil,2,4,1,1,10.0,1,1,Sample row 11
-4,Basil,2,4,3,1,10.0,3,3,Sample row 12
-4,Basil,3,1,3,1,10.0,2,3,Sample row 13
-4,Basil,2,3,2,2,10.0,1,3,Sample row 14
-4,Basil,2,2,2,2,10.0,3,2,Sample row 15
-3,Tomato,3,2,3,2,8.0,1,1,Sample row 16
-2,Lettuce,1,2,2,1,9.0,2,1,Sample row 17
-4,Basil,2,2,2,1,10.0,1,2,Sample row 18
-3,Tomato,2,1,3,1,8.0,3,3,Sample row 19
-3,Tomato,3,4,3,1,10.0,1,2,Sample row 20
-3,Tomato,2,4,3,1,9.0,1,3,Sample row 21
-2,Lettuce,2,3,3,2,8.0,1,1,Sample row 22
-4,Basil,3,1,1,2,10.0,2,3,Sample row 23
-4,Basil,3,1,3,2,9.0,1,2,Sample row 24
-3,Tomato,3,3,1,2,10.0,3,1,Sample row 25
-3,Tomato,3,4,1,2,9.0,2,2,Sample row 26
-4,Basil,3,4,3,2,10.0,1,1,Sample row 27
-3,Tomato,3,3,1,1,9.0,2,1,Sample row 28
-3,Tomato,1,1,2,1,9.0,2,2,Sample row 29
-3,Tomato,3,3,3,2,10.0,3,2,Sample row 30
-2,Lettuce,2,1,2,1,10.0,3,1,Sample row 31
-2,Lettuce,3,1,3,1,9.0,2,3,Sample row 32
-3,Tomato,2,4,3,1,10.0,3,2,Sample row 33
-4,Basil,3,4,3,2,9.0,1,3,Sample row 34
-2,Lettuce,2,3,1,1,8.0,3,1,Sample row 35
-4,Basil,1,4,2,1,10.0,2,1,Sample row 36
-4,Basil,3,1,2,2,10.0,2,3,Sample row 37
-2,Lettuce,2,2,1,1,9.0,3,1,Sample row 38
-3,Tomato,3,4,3,1,8.0,1,3,Sample row 39
-2,Lettuce,3,3,1,1,9.0,2,1,Sample row 40
-4,Basil,3,3,1,1,9.0,3,3,Sample row 41
-4,Basil,2,2,3,1,8.0,2,1,Sample row 42
-3,Tomato,1,3,3,2,10.0,2,1,Sample row 43
-2,Lettuce,2,4,1,2,10.0,1,3,Sample row 44
-4,Basil,3,1,1,2,10.0,1,2,Sample row 45
-3,Tomato,1,3,2,1,10.0,3,3,Sample row 46
-4,Basil,1,1,1,1,8.0,3,3,Sample row 47
-4,Basil,3,1,1,2,8.0,2,3,Sample row 48
-4,Basil,1,1,1,1,8.0,3,2,Sample row 49
-4,Basil,3,4,3,1,8.0,3,1,Sample row 50
-2,Lettuce,1,3,3,2,10.0,1,3,Sample row 51
-3,Tomato,3,3,3,2,9.0,1,2,Sample row 52
-3,Tomato,1,1,1,2,9.0,2,3,Sample row 53
-3,Tomato,2,3,1,2,9.0,1,3,Sample row 54
-2,Lettuce,3,1,1,1,8.0,1,3,Sample row 55
-3,Tomato,2,4,3,2,9.0,1,1,Sample row 56
-2,Lettuce,2,1,1,1,10.0,2,3,Sample row 57
-4,Basil,2,1,2,1,10.0,1,2,Sample row 58
-4,Basil,3,3,2,2,10.0,1,2,Sample row 59
-4,Basil,3,3,2,1,8.0,3,2,Sample row 60
-4,Basil,1,2,2,2,10.0,1,2,Sample row 61
-3,Tomato,2,4,1,1,9.0,2,3,Sample row 62
-4,Basil,2,4,2,1,8.0,3,1,Sample row 63
-3,Tomato,3,2,1,1,9.0,2,3,Sample row 64
-2,Lettuce,2,2,2,2,9.0,1,2,Sample row 65
-4,Basil,3,1,3,2,9.0,1,3,Sample row 66
-3,Tomato,1,2,2,1,9.0,1,1,Sample row 67
-2,Lettuce,1,3,2,2,9.0,3,2,Sample row 68
-3,Tomato,2,3,2,2,8.0,1,3,Sample row 69
-4,Basil,2,3,1,1,9.0,2,2,Sample row 70
-2,Lettuce,2,4,2,2,10.0,2,3,Sample row 71
-3,Tomato,1,4,3,2,10.0,2,1,Sample row 72
-2,Lettuce,3,1,1,2,10.0,2,2,Sample row 73
-4,Basil,1,1,1,1,10.0,3,3,Sample row 74
-3,Tomato,1,1,1,2,9.0,2,1,Sample row 75
-2,Lettuce,3,2,1,2,10.0,1,2,Sample row 76
-2,Lettuce,3,3,3,1,9.0,3,1,Sample row 77
-3,Tomato,1,3,3,1,9.0,2,2,Sample row 78
-4,Basil,3,1,3,1,10.0,2,1,Sample row 79
-4,Basil,3,3,1,2,10.0,2,3,Sample row 80
-3,Tomato,2,2,1,2,8.0,3,2,Sample row 81
-2,Lettuce,2,1,3,1,9.0,3,3,Sample row 82
-4,Basil,3,4,2,1,10.0,3,3,Sample row 83
-3,Tomato,2,1,2,1,10.0,2,1,Sample row 84
-4,Basil,1,4,3,1,9.0,2,2,Sample row 85
-2,Lettuce,3,1,1,1,8.0,3,3,Sample row 86
-2,Lettuce,1,3,1,1,8.0,1,2,Sample row 87
-4,Basil,3,3,3,1,8.0,1,1,Sample row 88
-4,Basil,1,4,3,2,9.0,2,2,Sample row 89
-3,Tomato,2,3,3,2,9.0,1,3,Sample row 90
-4,Basil,2,3,2,2,9.0,3,3,Sample row 91
-4,Basil,1,2,2,2,10.0,3,2,Sample row 92
-3,Tomato,2,2,3,1,9.0,1,3,Sample row 93
-4,Basil,2,2,2,1,10.0,2,2,Sample row 94
-2,Lettuce,1,1,2,2,10.0,2,2,Sample row 95
-2,Lettuce,2,1,1,1,8.0,1,1,Sample row 96
-4,Basil,1,3,3,2,9.0,2,1,Sample row 97
-3,Tomato,1,3,2,1,9.0,1,1,Sample row 98
-2,Lettuce,3,3,2,2,10.0,3,2,Sample row 99
-4,Basil,3,2,3,2,9.0,3,2,Sample row 100
-2,Lettuce,3,2,3,2,10.0,2,3,Sample row 101
-4,Basil,1,1,2,2,10.0,2,2,Sample row 102
-2,Lettuce,2,4,2,1,10.0,1,3,Sample row 103
-4,Basil,1,2,3,2,10.0,3,2,Sample row 104
-4,Basil,2,1,1,1,8.0,2,3,Sample row 105
-4,Basil,3,2,3,2,10.0,2,1,Sample row 106
-3,Tomato,3,1,2,1,10.0,2,1,Sample row 107
-3,Tomato,1,3,2,2,8.0,3,2,Sample row 108
-4,Basil,3,1,1,1,9.0,3,1,Sample row 109
-2,Lettuce,2,1,3,2,10.0,3,2,Sample row 110
-4,Basil,3,1,3,2,10.0,2,3,Sample row 111
-3,Tomato,2,1,3,1,8.0,2,1,Sample row 112
-3,Tomato,3,2,1,2,9.0,1,3,Sample row 113
-3,Tomato,2,1,3,1,10.0,3,2,Sample row 114
-3,Tomato,3,2,1,1,10.0,2,2,Sample row 115
-2,Lettuce,3,4,3,1,10.0,2,2,Sample row 116
-2,Lettuce,2,1,1,2,10.0,3,1,Sample row 117
-2,Lettuce,3,1,3,1,9.0,3,2,Sample row 118
-2,Lettuce,3,3,3,2,8.0,3,2,Sample row 119
-3,Tomato,2,1,1,2,8.0,3,3,Sample row 120
-4,Basil,3,3,2,1,9.0,2,3,Sample row 121
-3,Tomato,1,2,2,1,8.0,2,1,Sample row 122
-3,Tomato,1,2,1,2,8.0,1,2,Sample row 123
-4,Basil,3,3,3,1,9.0,2,3,Sample row 124
-3,Tomato,3,4,3,2,9.0,3,1,Sample row 125
-2,Lettuce,2,4,2,1,9.0,1,3,Sample row 126
-4,Basil,3,2,2,2,10.0,1,2,Sample row 127
-3,Tomato,2,3,1,1,10.0,1,1,Sample row 128
-3,Tomato,1,1,1,1,10.0,1,1,Sample row 129
-3,Tomato,1,3,1,2,9.0,3,2,Sample row 130
-3,Tomato,2,4,2,2,10.0,2,3,Sample row 131
-2,Lettuce,1,4,3,2,8.0,3,2,Sample row 132
-3,Tomato,1,1,2,1,8.0,2,2,Sample row 133
-4,Basil,1,4,3,2,10.0,2,1,Sample row 134
-2,Lettuce,1,4,3,2,8.0,1,1,Sample row 135
-3,Tomato,1,1,2,1,10.0,2,1,Sample row 136
-2,Lettuce,2,4,1,1,8.0,3,1,Sample row 137
-3,Tomato,2,2,3,1,10.0,3,2,Sample row 138
-3,Tomato,1,4,1,1,9.0,1,2,Sample row 139
-4,Basil,1,1,1,1,9.0,3,1,Sample row 140
-2,Lettuce,1,1,2,1,9.0,1,1,Sample row 141
-2,Lettuce,2,2,2,2,9.0,3,2,Sample row 142
-3,Tomato,1,1,1,2,8.0,3,2,Sample row 143
-4,Basil,3,3,2,1,10.0,1,1,Sample row 144
-4,Basil,3,2,1,1,9.0,3,3,Sample row 145
-2,Lettuce,1,1,2,1,8.0,1,1,Sample row 146
-2,Lettuce,3,1,1,2,8.0,3,1,Sample row 147
-4,Basil,1,1,3,2,9.0,1,1,Sample row 148
-2,Lettuce,2,1,2,2,10.0,2,1,Sample row 149
-4,Basil,1,4,2,2,9.0,1,3,Sample row 150
-2,Lettuce,3,4,3,1,8.0,1,3,Sample row 151
-4,Basil,2,2,3,2,10.0,3,1,Sample row 152
-2,Lettuce,2,3,3,1,8.0,2,3,Sample row 153
-3,Tomato,1,3,1,1,9.0,2,2,Sample row 154
-3,Tomato,1,4,1,2,8.0,3,2,Sample row 155
-2,Lettuce,2,1,3,1,9.0,3,3,Sample row 156
-3,Tomato,3,2,3,2,8.0,1,3,Sample row 157
-3,Tomato,1,3,1,1,10.0,1,3,Sample row 158
-4,Basil,3,1,1,2,9.0,1,3,Sample row 159
-4,Basil,1,1,3,1,9.0,3,2,Sample row 160
-3,Tomato,2,2,1,2,10.0,1,3,Sample row 161
-3,Tomato,2,3,1,2,8.0,1,3,Sample row 162
-3,Tomato,1,2,2,1,8.0,2,2,Sample row 163
-3,Tomato,3,4,1,1,8.0,2,1,Sample row 164
-4,Basil,1,4,3,2,8.0,2,2,Sample row 165
-2,Lettuce,1,3,2,1,10.0,3,2,Sample row 166
-2,Lettuce,3,4,2,1,10.0,3,3,Sample row 167
-3,Tomato,1,2,3,2,10.0,1,1,Sample row 168
-2,Lettuce,3,2,2,1,9.0,3,1,Sample row 169
-2,Lettuce,3,4,2,1,8.0,3,2,Sample row 170
-2,Lettuce,1,2,3,1,8.0,3,1,Sample row 171
-4,Basil,3,4,3,2,8.0,1,2,Sample row 172
-4,Basil,2,4,3,2,10.0,2,2,Sample row 173
-4,Basil,2,3,1,2,9.0,3,2,Sample row 174
-3,Tomato,3,4,2,1,8.0,3,3,Sample row 175
-4,Basil,3,4,3,2,9.0,1,1,Sample row 176
-2,Lettuce,1,2,3,1,8.0,1,3,Sample row 177
-4,Basil,3,2,3,2,10.0,3,2,Sample row 178
-3,Tomato,2,3,1,1,9.0,2,2,Sample row 179
-4,Basil,2,2,1,2,9.0,3,2,Sample row 180
-2,Lettuce,2,1,1,1,9.0,2,2,Sample row 181
-3,Tomato,3,1,1,1,8.0,3,1,Sample row 182
-4,Basil,2,1,3,2,8.0,1,1,Sample row 183
-3,Tomato,2,4,2,2,9.0,1,2,Sample row 184
-3,Tomato,1,4,1,1,9.0,1,2,Sample row 185
-2,Lettuce,2,2,1,1,8.0,2,1,Sample row 186
-3,Tomato,3,1,2,2,9.0,3,1,Sample row 187
-2,Lettuce,1,2,1,1,8.0,3,1,Sample row 188
-2,Lettuce,3,4,3,1,10.0,2,3,Sample row 189
-4,Basil,2,4,2,1,9.0,1,3,Sample row 190
-3,Tomato,1,1,2,1,8.0,3,3,Sample row 191
-3,Tomato,3,3,2,2,9.0,1,1,Sample row 192
-3,Tomato,1,2,1,1,10.0,2,2,Sample row 193
-4,Basil,2,3,3,1,10.0,2,3,Sample row 194
-2,Lettuce,2,1,3,1,10.0,1,1,Sample row 195
-3,Tomato,2,4,2,1,8.0,3,3,Sample row 196
-2,Lettuce,1,2,1,1,10.0,2,1,Sample row 197
-3,Tomato,2,2,1,1,8.0,1,3,Sample row 198
-4,Basil,3,1,3,2,10.0,3,2,Sample row 199
-3,Tomato,2,3,3,1,8.0,1,1,Sample row 200
-4,Basil,1,1,3,1,10.0,1,3,Sample row 201
-3,Tomato,1,3,1,1,9.0,2,2,Sample row 202
-4,Basil,2,4,2,1,8.0,2,1,Sample row 203
-3,Tomato,1,4,1,1,10.0,3,1,Sample row 204
-2,Lettuce,1,2,2,2,8.0,1,1,Sample row 205
-4,Basil,3,1,2,1,8.0,3,1,Sample row 206
-4,Basil,1,4,2,1,9.0,3,2,Sample row 207
-2,Lettuce,2,3,2,1,10.0,3,1,Sample row 208
-4,Basil,3,4,3,1,9.0,3,1,Sample row 209
-2,Lettuce,3,4,3,1,9.0,1,3,Sample row 210
-4,Basil,2,1,3,2,9.0,1,3,Sample row 211
-4,Basil,2,4,3,1,8.0,3,2,Sample row 212
-3,Tomato,2,2,2,2,8.0,2,3,Sample row 213
-4,Basil,1,2,3,1,9.0,2,3,Sample row 214
-2,Lettuce,1,2,1,2,9.0,2,2,Sample row 215
-2,Lettuce,1,4,2,1,9.0,3,3,Sample row 216
-2,Lettuce,2,2,2,2,9.0,1,2,Sample row 217
-3,Tomato,2,4,2,1,9.0,1,1,Sample row 218
-4,Basil,3,4,3,2,8.0,3,2,Sample row 219
-2,Lettuce,1,4,3,2,8.0,3,2,Sample row 220
-3,Tomato,2,4,2,1,8.0,2,3,Sample row 221
-4,Basil,3,2,3,2,9.0,2,3,Sample row 222
-2,Lettuce,2,1,3,2,9.0,3,3,Sample row 223
-4,Basil,1,2,1,2,9.0,2,3,Sample row 224
-2,Lettuce,2,2,2,1,8.0,3,1,Sample row 225
-4,Basil,1,3,1,2,10.0,2,1,Sample row 226
-3,Tomato,1,4,1,2,8.0,1,3,Sample row 227
-3,Tomato,3,4,3,1,10.0,3,1,Sample row 228
-2,Lettuce,1,4,1,2,8.0,1,1,Sample row 229
-3,Tomato,1,3,3,2,10.0,1,3,Sample row 230
-4,Basil,2,3,3,2,10.0,2,2,Sample row 231
-2,Lettuce,3,2,1,2,8.0,1,3,Sample row 232
-4,Basil,3,3,2,1,10.0,2,1,Sample row 233
-3,Tomato,2,2,3,2,10.0,2,2,Sample row 234
-4,Basil,2,1,3,2,10.0,1,1,Sample row 235
-3,Tomato,3,3,3,1,9.0,2,3,Sample row 236
-3,Tomato,2,4,1,1,10.0,3,3,Sample row 237
-2,Lettuce,1,4,3,2,8.0,3,3,Sample row 238
-3,Tomato,3,1,3,1,9.0,2,2,Sample row 239
-2,Lettuce,3,1,2,2,9.0,1,1,Sample row 240
-3,Tomato,1,2,2,1,9.0,1,1,Sample row 241
-2,Lettuce,2,4,1,2,9.0,1,2,Sample row 242
-3,Tomato,1,1,2,1,10.0,1,3,Sample row 243
-3,Tomato,1,1,3,2,9.0,1,1,Sample row 244
-2,Lettuce,2,2,3,1,8.0,3,1,Sample row 245
-4,Basil,1,2,2,2,10.0,3,1,Sample row 246
-3,Tomato,3,3,1,2,8.0,2,3,Sample row 247
-4,Basil,1,2,2,2,8.0,2,2,Sample row 248
-2,Lettuce,1,3,3,2,8.0,1,2,Sample row 249
-2,Lettuce,2,3,1,2,8.0,3,3,Sample row 250
-3,Tomato,2,1,3,1,10.0,1,2,Sample row 251
-2,Lettuce,1,1,3,2,8.0,3,1,Sample row 252
-2,Lettuce,1,2,2,1,9.0,1,1,Sample row 253
-3,Tomato,2,3,3,1,8.0,3,3,Sample row 254
-2,Lettuce,3,4,3,2,9.0,2,1,Sample row 255
-4,Basil,1,3,3,2,8.0,2,1,Sample row 256
-2,Lettuce,3,2,1,2,10.0,3,1,Sample row 257
-2,Lettuce,1,1,1,2,8.0,1,2,Sample row 258
-3,Tomato,1,1,1,1,9.0,3,3,Sample row 259
-4,Basil,1,1,2,2,10.0,3,2,Sample row 260
-2,Lettuce,1,1,1,1,10.0,1,3,Sample row 261
-2,Lettuce,2,3,2,2,8.0,1,2,Sample row 262
-4,Basil,2,3,3,2,8.0,1,3,Sample row 263
-4,Basil,1,3,2,2,10.0,2,1,Sample row 264
-3,Tomato,2,2,1,2,8.0,2,3,Sample row 265
-3,Tomato,3,1,3,1,9.0,1,1,Sample row 266
-3,Tomato,1,1,3,1,9.0,3,3,Sample row 267
-3,Tomato,3,1,3,2,8.0,2,3,Sample row 268
-3,Tomato,2,1,3,2,10.0,3,3,Sample row 269
-2,Lettuce,2,1,2,1,9.0,2,3,Sample row 270
-2,Lettuce,1,2,3,1,9.0,3,2,Sample row 271
-2,Lettuce,2,4,2,2,9.0,1,2,Sample row 272
-4,Basil,1,4,2,1,9.0,2,1,Sample row 273
-3,Tomato,1,2,1,2,8.0,3,2,Sample row 274
-3,Tomato,2,1,2,2,8.0,1,2,Sample row 275
-3,Tomato,1,2,2,2,9.0,3,3,Sample row 276
-4,Basil,1,2,1,1,8.0,2,3,Sample row 277
-2,Lettuce,3,3,3,1,10.0,3,1,Sample row 278
-2,Lettuce,2,4,2,2,10.0,2,1,Sample row 279
-2,Lettuce,2,1,2,2,9.0,1,1,Sample row 280
-3,Tomato,3,1,1,2,8.0,2,1,Sample row 281
-4,Basil,1,2,2,1,8.0,1,2,Sample row 282
-3,Tomato,3,1,1,1,9.0,1,1,Sample row 283
-3,Tomato,2,2,2,1,10.0,2,2,Sample row 284
-4,Basil,1,4,3,1,10.0,3,1,Sample row 285
-2,Lettuce,3,1,1,1,9.0,2,2,Sample row 286
-3,Tomato,1,1,3,2,10.0,1,3,Sample row 287
-3,Tomato,3,3,1,2,9.0,1,1,Sample row 288
-3,Tomato,2,1,1,1,10.0,1,2,Sample row 289
-4,Basil,3,4,3,1,10.0,3,1,Sample row 290
-2,Lettuce,2,3,2,1,10.0,3,2,Sample row 291
-4,Basil,3,2,3,2,9.0,1,2,Sample row 292
-2,Lettuce,1,1,1,2,8.0,3,3,Sample row 293
-3,Tomato,1,3,2,1,10.0,2,2,Sample row 294
-3,Tomato,2,4,2,1,10.0,3,3,Sample row 295
-4,Basil,3,2,3,1,8.0,2,3,Sample row 296
-3,Tomato,2,2,2,1,9.0,2,2,Sample row 297
-2,Lettuce,2,2,3,1,8.0,2,2,Sample row 298
-2,Lettuce,1,2,1,2,10.0,3,2,Sample row 299
-3,Tomato,3,1,3,2,10.0,3,2,Sample row 300
-4,Basil,1,3,3,2,10.0,1,2,Sample row 301
-2,Lettuce,1,3,3,1,9.0,3,3,Sample row 302
-4,Basil,2,1,3,2,9.0,3,1,Sample row 303
-3,Tomato,2,1,3,2,10.0,2,1,Sample row 304
-2,Lettuce,1,2,3,1,10.0,1,2,Sample row 305
-2,Lettuce,1,2,2,1,9.0,3,3,Sample row 306
-3,Tomato,1,4,3,2,9.0,3,2,Sample row 307
-2,Lettuce,1,2,3,1,9.0,3,1,Sample row 308
-2,Lettuce,2,1,2,1,10.0,1,3,Sample row 309
-3,Tomato,3,4,3,1,10.0,2,3,Sample row 310
-4,Basil,3,3,2,1,8.0,2,3,Sample row 311
-2,Lettuce,2,2,1,2,9.0,3,3,Sample row 312
-2,Lettuce,2,4,2,2,9.0,1,2,Sample row 313
-2,Lettuce,1,1,3,2,8.0,3,1,Sample row 314
-3,Tomato,1,3,1,2,10.0,1,1,Sample row 315
-4,Basil,3,3,2,1,9.0,3,2,Sample row 316
-4,Basil,1,3,3,1,9.0,3,2,Sample row 317
-4,Basil,1,1,2,1,10.0,2,3,Sample row 318
-4,Basil,1,2,1,2,8.0,2,2,Sample row 319
-2,Lettuce,1,1,2,2,8.0,2,1,Sample row 320
-2,Lettuce,3,2,3,1,8.0,2,2,Sample row 321
-3,Tomato,3,4,3,2,9.0,2,1,Sample row 322
-4,Basil,2,2,1,1,9.0,2,3,Sample row 323
-4,Basil,2,4,2,1,8.0,3,2,Sample row 324
-2,Lettuce,1,3,3,1,8.0,1,3,Sample row 325
-2,Lettuce,3,4,3,1,8.0,1,1,Sample row 326
-2,Lettuce,3,4,1,2,9.0,1,3,Sample row 327
-2,Lettuce,3,3,3,1,10.0,2,3,Sample row 328
-3,Tomato,1,1,3,1,8.0,3,1,Sample row 329
-3,Tomato,2,2,1,2,8.0,1,3,Sample row 330
-3,Tomato,3,1,3,2,10.0,1,3,Sample row 331
-2,Lettuce,2,4,2,2,9.0,1,3,Sample row 332
-4,Basil,3,2,2,1,9.0,3,3,Sample row 333
-3,Tomato,1,4,2,2,10.0,2,2,Sample row 334
-4,Basil,2,4,2,1,9.0,1,2,Sample row 335
-4,Basil,1,1,3,1,9.0,3,3,Sample row 336
-2,Lettuce,2,1,3,2,9.0,1,1,Sample row 337
-2,Lettuce,1,1,3,1,8.0,3,3,Sample row 338
-4,Basil,1,2,2,2,10.0,3,3,Sample row 339
-3,Tomato,1,1,2,1,9.0,1,3,Sample row 340
-2,Lettuce,1,1,1,1,9.0,2,3,Sample row 341
-3,Tomato,1,3,2,2,10.0,1,2,Sample row 342
-3,Tomato,3,4,2,2,10.0,2,3,Sample row 343
-4,Basil,1,2,1,1,9.0,1,2,Sample row 344
-2,Lettuce,2,3,3,2,9.0,1,3,Sample row 345
-4,Basil,1,3,2,1,9.0,1,1,Sample row 346
-4,Basil,2,1,3,1,9.0,3,1,Sample row 347
-2,Lettuce,3,3,3,1,10.0,3,3,Sample row 348
-2,Lettuce,1,4,1,2,9.0,2,2,Sample row 349
-3,Tomato,1,3,3,1,8.0,3,1,Sample row 350
-2,Lettuce,2,3,2,2,9.0,3,1,Sample row 351
-2,Lettuce,3,3,1,1,10.0,2,2,Sample row 352
-3,Tomato,1,3,3,1,9.0,2,3,Sample row 353
-4,Basil,1,2,3,1,10.0,3,3,Sample row 354
-4,Basil,2,3,3,2,9.0,2,2,Sample row 355
-2,Lettuce,1,4,3,2,8.0,2,2,Sample row 356
-4,Basil,2,4,3,2,10.0,3,2,Sample row 357
-2,Lettuce,2,2,2,2,9.0,2,1,Sample row 358
-4,Basil,3,2,2,2,8.0,2,3,Sample row 359
-4,Basil,2,1,2,1,9.0,2,1,Sample row 360
-4,Basil,3,1,3,2,8.0,2,1,Sample row 361
-2,Lettuce,1,4,3,1,8.0,1,2,Sample row 362
-4,Basil,1,2,2,1,10.0,3,3,Sample row 363
-2,Lettuce,1,3,3,1,10.0,2,3,Sample row 364
-3,Tomato,2,4,1,1,8.0,1,1,Sample row 365
-3,Tomato,2,1,3,2,10.0,3,1,Sample row 366
-2,Lettuce,1,2,2,1,10.0,2,3,Sample row 367
-2,Lettuce,1,4,1,1,9.0,3,1,Sample row 368
-4,Basil,1,2,2,1,8.0,1,2,Sample row 369
-3,Tomato,2,2,3,1,10.0,3,1,Sample row 370
-3,Tomato,1,1,1,1,8.0,1,2,Sample row 371
-3,Tomato,3,2,3,1,10.0,1,2,Sample row 372
-3,Tomato,3,1,3,1,9.0,2,2,Sample row 373
-4,Basil,1,4,2,2,9.0,2,2,Sample row 374
-2,Lettuce,3,4,3,2,10.0,2,2,Sample row 375
-4,Basil,3,1,3,1,9.0,2,2,Sample row 376
-4,Basil,2,2,2,1,9.0,3,2,Sample row 377
-3,Tomato,2,4,3,1,10.0,1,1,Sample row 378
-2,Lettuce,3,1,3,2,10.0,3,3,Sample row 379
-2,Lettuce,1,4,1,1,8.0,2,3,Sample row 380
-4,Basil,1,4,2,2,10.0,2,2,Sample row 381
-4,Basil,3,3,2,1,8.0,1,1,Sample row 382
-2,Lettuce,1,3,1,2,10.0,3,2,Sample row 383
-2,Lettuce,1,4,1,2,10.0,1,3,Sample row 384
-2,Lettuce,1,1,3,2,8.0,3,3,Sample row 385
-2,Lettuce,3,1,1,2,10.0,3,2,Sample row 386
-4,Basil,1,4,1,1,10.0,2,1,Sample row 387
-4,Basil,1,2,3,1,10.0,1,3,Sample row 388
-2,Lettuce,3,3,3,2,9.0,3,3,Sample row 389
-4,Basil,3,1,3,1,9.0,2,2,Sample row 390
-2,Lettuce,3,4,1,1,8.0,3,2,Sample row 391
-3,Tomato,3,4,3,1,8.0,2,2,Sample row 392
-3,Tomato,3,1,2,1,8.0,1,1,Sample row 393
-4,Basil,2,2,2,1,10.0,3,2,Sample row 394
-4,Basil,2,3,3,1,10.0,1,2,Sample row 395
-2,Lettuce,2,2,1,2,8.0,1,3,Sample row 396
-2,Lettuce,3,1,3,2,8.0,2,2,Sample row 397
-2,Lettuce,1,1,1,1,9.0,2,1,Sample row 398
-2,Lettuce,1,1,3,1,10.0,2,3,Sample row 399
-4,Basil,2,2,2,1,8.0,1,1,Sample row 400
-4,Basil,1,1,3,2,9.0,3,1,Sample row 401
-2,Lettuce,2,4,2,1,8.0,1,1,Sample row 402
-4,Basil,1,4,2,1,10.0,1,1,Sample row 403
-3,Tomato,2,4,2,2,8.0,3,1,Sample row 404
-3,Tomato,1,3,1,2,10.0,2,1,Sample row 405
-3,Tomato,1,3,2,2,9.0,1,1,Sample row 406
-2,Lettuce,3,1,3,1,10.0,3,2,Sample row 407
-4,Basil,1,4,1,2,10.0,3,1,Sample row 408
-2,Lettuce,3,1,3,2,8.0,2,1,Sample row 409
-2,Lettuce,3,1,1,2,10.0,2,2,Sample row 410
-2,Lettuce,2,4,2,2,10.0,3,3,Sample row 411
-2,Lettuce,3,1,3,2,8.0,3,1,Sample row 412
-2,Lettuce,2,4,1,1,10.0,2,3,Sample row 413
-2,Lettuce,1,3,3,2,8.0,3,2,Sample row 414
-4,Basil,2,2,2,2,9.0,1,3,Sample row 415
-4,Basil,1,1,2,1,9.0,3,1,Sample row 416
-2,Lettuce,1,3,3,2,9.0,2,3,Sample row 417
-2,Lettuce,2,4,3,1,8.0,3,1,Sample row 418
-3,Tomato,2,1,2,1,9.0,3,3,Sample row 419
-4,Basil,3,1,2,1,10.0,3,1,Sample row 420
-4,Basil,2,3,2,1,8.0,2,2,Sample row 421
-4,Basil,3,4,3,1,10.0,2,2,Sample row 422
-3,Tomato,3,4,1,1,10.0,2,1,Sample row 423
-3,Tomato,2,4,1,2,10.0,3,1,Sample row 424
-2,Lettuce,1,3,2,1,10.0,3,1,Sample row 425
-4,Basil,3,1,2,1,9.0,3,2,Sample row 426
-4,Basil,3,1,2,1,10.0,3,2,Sample row 427
-2,Lettuce,1,2,1,1,8.0,2,1,Sample row 428
-4,Basil,1,1,3,2,10.0,1,2,Sample row 429
-2,Lettuce,3,3,1,1,8.0,3,1,Sample row 430
-4,Basil,3,3,3,2,8.0,3,1,Sample row 431
-4,Basil,1,1,1,1,8.0,1,2,Sample row 432
-2,Lettuce,1,1,3,1,8.0,1,1,Sample row 433
-3,Tomato,2,4,3,2,8.0,3,1,Sample row 434
-2,Lettuce,2,2,3,1,9.0,2,2,Sample row 435
-3,Tomato,3,3,2,1,10.0,2,1,Sample row 436
-4,Basil,2,1,1,1,10.0,3,1,Sample row 437
-2,Lettuce,2,1,3,1,10.0,3,3,Sample row 438
-3,Tomato,1,4,3,2,10.0,3,1,Sample row 439
-4,Basil,3,4,1,1,10.0,1,2,Sample row 440
-2,Lettuce,3,3,3,1,8.0,3,2,Sample row 441
-2,Lettuce,1,2,2,2,8.0,2,2,Sample row 442
-3,Tomato,2,1,2,2,8.0,1,3,Sample row 443
-3,Tomato,2,3,2,2,9.0,1,3,Sample row 444
-3,Tomato,2,1,2,1,8.0,3,1,Sample row 445
-2,Lettuce,1,2,3,2,10.0,1,3,Sample row 446
-4,Basil,3,2,2,1,10.0,3,2,Sample row 447
-3,Tomato,2,2,1,2,10.0,3,3,Sample row 448
-2,Lettuce,2,4,2,2,9.0,3,3,Sample row 449
-4,Basil,1,1,2,2,10.0,2,2,Sample row 450
-4,Basil,3,2,2,2,9.0,3,3,Sample row 451
-3,Tomato,2,2,2,1,9.0,1,1,Sample row 452
-2,Lettuce,1,3,1,2,9.0,2,3,Sample row 453
-3,Tomato,2,3,3,1,8.0,2,3,Sample row 454
-3,Tomato,1,1,3,2,8.0,2,2,Sample row 455
-2,Lettuce,1,2,2,2,8.0,2,1,Sample row 456
-3,Tomato,3,1,1,1,10.0,3,2,Sample row 457
-4,Basil,1,4,2,2,9.0,3,3,Sample row 458
-2,Lettuce,1,3,1,1,8.0,3,1,Sample row 459
-4,Basil,2,3,3,2,8.0,3,1,Sample row 460
-2,Lettuce,2,2,2,2,10.0,2,3,Sample row 461
-4,Basil,1,1,2,2,10.0,3,1,Sample row 462
-3,Tomato,1,4,2,1,10.0,2,3,Sample row 463
-2,Lettuce,3,4,2,2,10.0,1,1,Sample row 464
-4,Basil,1,3,2,1,9.0,1,2,Sample row 465
-2,Lettuce,2,3,2,1,10.0,3,3,Sample row 466
-3,Tomato,2,2,1,2,8.0,2,1,Sample row 467
-2,Lettuce,2,4,3,1,8.0,1,1,Sample row 468
-4,Basil,3,4,2,1,8.0,3,1,Sample row 469
-4,Basil,1,1,1,2,10.0,1,3,Sample row 470
-4,Basil,1,1,1,2,9.0,3,1,Sample row 471
-3,Tomato,1,4,1,1,9.0,2,1,Sample row 472
-3,Tomato,2,3,2,1,8.0,2,3,Sample row 473
-3,Tomato,2,4,1,1,9.0,1,2,Sample row 474
-4,Basil,3,2,2,2,8.0,3,1,Sample row 475
-4,Basil,3,3,1,2,8.0,2,3,Sample row 476
-2,Lettuce,3,4,2,2,8.0,3,2,Sample row 477
-3,Tomato,3,2,3,1,10.0,1,1,Sample row 478
-2,Lettuce,2,2,3,1,8.0,1,2,Sample row 479
-2,Lettuce,2,3,1,2,9.0,3,2,Sample row 480
-4,Basil,3,1,3,1,8.0,3,2,Sample row 481
-2,Lettuce,2,3,3,1,8.0,1,3,Sample row 482
-4,Basil,1,3,2,1,9.0,1,1,Sample row 483
-3,Tomato,1,4,2,2,9.0,1,2,Sample row 484
-2,Lettuce,3,3,1,1,10.0,2,3,Sample row 485
-3,Tomato,2,1,3,2,10.0,3,1,Sample row 486
-3,Tomato,3,1,3,1,9.0,3,1,Sample row 487
-4,Basil,1,4,1,2,10.0,2,2,Sample row 488
-3,Tomato,2,3,2,2,8.0,2,3,Sample row 489
-4,Basil,3,1,3,2,8.0,3,2,Sample row 490
-4,Basil,2,3,2,2,8.0,3,3,Sample row 491
-4,Basil,1,3,1,1,10.0,1,2,Sample row 492
-3,Tomato,1,3,2,2,10.0,2,3,Sample row 493
-2,Lettuce,1,1,3,2,9.0,2,1,Sample row 494
-3,Tomato,3,4,1,2,9.0,2,3,Sample row 495
-2,Lettuce,1,2,1,2,9.0,3,2,Sample row 496
-3,Tomato,1,2,1,2,10.0,3,2,Sample row 497
-4,Basil,1,1,2,1,10.0,3,1,Sample row 498
-3,Tomato,1,3,2,1,10.0,3,2,Sample row 499
+PlantID,PlantName,PlantVarietyName,SoilTextureID,PHRangeID,OrganicMatterID,SalinityLevelID,ZoneID,HumidityID,PlantTypeID,PlantDescription
+2,Lettuce,Looseleaf,3,3,2,1,9.329197650736925,3,1,Sample row 0
+2,Lettuce,Oak Leaf,2,3,3,2,9.889315092679746,3,1,Sample row 1
+3,Tomato,Roma,2,4,2,1,9.272227177400133,2,2,Sample row 2
+4,Basil,Basil Genovese,2,3,3,1,9.699247637990867,2,3,Sample row 3
+2,Lettuce,Looseleaf,2,4,1,2,8.982525931154811,3,1,Sample row 4
+2,Lettuce,Looseleaf,3,4,2,1,8.94591468127592,3,1,Sample row 5
+3,Tomato,Grape,2,3,1,1,9.127905422527427,3,2,Sample row 6
+3,Tomato,Roma,2,4,3,2,8.857754744265385,3,2,Sample row 7
+2,Lettuce,Red Leaf Lettuce,1,3,1,1,9.395140302452312,2,1,Sample row 8
+3,Tomato,Cherry,1,4,3,1,10.0,2,2,Sample row 9
+4,Basil,Sweet,2,3,3,1,8.190103993906819,3,3,Sample row 10
+4,Basil,Basil Genovese,3,3,3,2,10.0,2,3,Sample row 11
+2,Lettuce,Oak Leaf,3,3,2,2,10.0,1,1,Sample row 12
+4,Basil,Basil Genovese,3,4,2,1,9.888115074274944,3,3,Sample row 13
+3,Tomato,Roma,3,3,2,1,9.523229458932038,1,2,Sample row 14
+3,Tomato,Cherry,3,4,3,2,9.88279023950498,3,2,Sample row 15
+3,Tomato,Roma,3,3,2,1,9.277671532319975,2,2,Sample row 16
+3,Tomato,Beefsteak,1,4,2,2,9.933043486291435,1,2,Sample row 17
+4,Basil,Sweet,3,3,1,2,8.174006260418818,1,3,Sample row 18
+4,Basil,Sweet,1,4,2,1,8.05548889187685,2,3,Sample row 19
+4,Basil,Sweet,2,4,2,1,8.0,3,3,Sample row 20
+2,Lettuce,Red Leaf Lettuce,1,1,1,2,9.170440368274953,3,1,Sample row 21
+3,Tomato,Grape,1,3,2,2,9.15628591161048,2,2,Sample row 22
+3,Tomato,Cherry,2,3,3,1,9.97209862618276,2,2,Sample row 23
+3,Tomato,Beefsteak,2,4,1,2,9.650963610339481,1,2,Sample row 24
+2,Lettuce,Red Leaf Lettuce,3,2,2,1,9.454729904225124,1,1,Sample row 25
+2,Lettuce,Crisphead,2,3,3,2,8.0,1,1,Sample row 26
+2,Lettuce,Little Gem,1,4,3,1,9.395437851882678,2,1,Sample row 27
+3,Tomato,Grape,1,3,2,1,8.493879750964041,2,2,Sample row 28
+2,Lettuce,Little Gem,3,4,3,1,10.0,2,1,Sample row 29
+2,Lettuce,Looseleaf,2,2,2,1,9.06274647223471,2,1,Sample row 30
+4,Basil,Basil Genovese,1,2,2,1,10.0,1,3,Sample row 31
+3,Tomato,Grape,1,1,2,2,8.675698420508066,2,2,Sample row 32
+4,Basil,Sweet,2,4,2,1,8.0,2,3,Sample row 33
+2,Lettuce,Looseleaf,3,3,2,1,9.293344298763033,3,1,Sample row 34
+2,Lettuce,Crisphead,1,4,2,2,8.0,2,1,Sample row 35
+3,Tomato,Roma,3,4,1,2,8.85462495893711,1,2,Sample row 36
+4,Basil,Thai,3,1,2,1,9.05496699860587,3,3,Sample row 37
+3,Tomato,Roma,2,2,2,1,8.829792231824333,1,2,Sample row 38
+2,Lettuce,Looseleaf,1,2,2,2,9.04559608251551,3,1,Sample row 39
+2,Lettuce,Crisphead,1,4,3,2,8.0,1,1,Sample row 40
+2,Lettuce,Looseleaf,2,3,2,1,9.29347122130772,3,1,Sample row 41
+4,Basil,Sweet,1,3,3,1,8.0,1,3,Sample row 42
+4,Basil,Thai,2,3,3,1,8.840755781880727,2,3,Sample row 43
+2,Lettuce,Crisphead,1,4,3,1,8.552681939743652,2,1,Sample row 44
+4,Basil,Thai,3,1,3,1,9.457100609597388,3,3,Sample row 45
+2,Lettuce,Little Gem,3,4,2,1,10.0,2,1,Sample row 46
+3,Tomato,Grape,2,2,1,1,8.521144280264018,3,2,Sample row 47
+2,Lettuce,Little Gem,1,3,3,2,9.865884437602404,1,1,Sample row 48
+2,Lettuce,Red Leaf Lettuce,2,3,2,1,8.686845543365461,1,1,Sample row 49
+4,Basil,Sweet,3,3,3,1,8.0,2,3,Sample row 50
+4,Basil,Sweet,1,3,1,1,8.2253785776469,1,3,Sample row 51
+4,Basil,Sweet,1,3,2,2,8.0,3,3,Sample row 52
+3,Tomato,Cherry,1,4,3,1,9.535762548791153,3,2,Sample row 53
+4,Basil,Basil Genovese,1,3,1,1,9.830540698333248,3,3,Sample row 54
+4,Basil,Sweet,1,3,2,1,8.46808933760496,2,3,Sample row 55
+3,Tomato,Roma,2,4,3,1,9.084873876944927,1,2,Sample row 56
+2,Lettuce,Looseleaf,2,4,1,2,9.079879915548617,2,1,Sample row 57
+2,Lettuce,Little Gem,3,3,2,1,9.899415823457788,3,1,Sample row 58
+3,Tomato,Cherry,2,4,3,2,10.0,2,2,Sample row 59
+2,Lettuce,Crisphead,2,3,3,2,8.0,1,1,Sample row 60
+4,Basil,Basil Genovese,2,4,3,2,9.814696200421874,2,3,Sample row 61
+2,Lettuce,Looseleaf,2,4,2,1,8.384795063025178,3,1,Sample row 62
+2,Lettuce,Crisphead,1,4,1,1,8.0,1,1,Sample row 63
+4,Basil,Thai,3,3,2,2,8.87111286512419,2,3,Sample row 64
+2,Lettuce,Red Leaf Lettuce,1,1,2,1,8.914152753920261,1,1,Sample row 65
+4,Basil,Thai,3,2,2,1,8.953161962419385,2,3,Sample row 66
+3,Tomato,Cherry,1,4,2,2,10.0,2,2,Sample row 67
+4,Basil,Basil Genovese,1,3,2,1,10.0,3,3,Sample row 68
+4,Basil,Basil Genovese,1,4,2,2,9.747454688260003,3,3,Sample row 69
+3,Tomato,Roma,2,3,1,2,9.732608908125709,1,2,Sample row 70
+3,Tomato,Beefsteak,2,4,2,1,9.610655984805804,1,2,Sample row 71
+2,Lettuce,Looseleaf,3,2,1,1,8.389394904559033,3,1,Sample row 72
+4,Basil,Thai,3,3,3,1,8.834966317392517,3,3,Sample row 73
+3,Tomato,Roma,3,3,2,1,8.963779106176913,3,2,Sample row 74
+4,Basil,Basil Genovese,2,2,2,2,9.101669545674046,3,3,Sample row 75
+4,Basil,Basil Genovese,2,4,2,1,9.86982989653755,1,3,Sample row 76
+3,Tomato,Cherry,2,3,3,1,9.463148508279351,2,2,Sample row 77
+3,Tomato,Roma,3,4,1,1,8.631485521253618,2,2,Sample row 78
+2,Lettuce,Oak Leaf,2,4,3,2,10.0,3,1,Sample row 79
+4,Basil,Basil Genovese,1,3,2,2,10.0,3,3,Sample row 80
+2,Lettuce,Oak Leaf,3,3,3,2,9.755901661844904,2,1,Sample row 81
+2,Lettuce,Oak Leaf,3,2,2,1,9.933272129873194,3,1,Sample row 82
+4,Basil,Sweet,2,4,1,1,8.255771141898526,3,3,Sample row 83
+3,Tomato,Roma,3,4,1,2,8.818602055171803,3,2,Sample row 84
+2,Lettuce,Red Leaf Lettuce,2,2,2,2,8.64519892174586,3,1,Sample row 85
+2,Lettuce,Looseleaf,1,4,2,1,9.109203315042935,2,1,Sample row 86
+2,Lettuce,Looseleaf,2,2,2,1,9.106528355160592,3,1,Sample row 87
+3,Tomato,Grape,2,3,3,1,8.27786660311834,3,2,Sample row 88
+2,Lettuce,Looseleaf,3,4,1,2,9.516582166818727,2,1,Sample row 89
+3,Tomato,Cherry,2,4,3,2,10.0,3,2,Sample row 90
+3,Tomato,Grape,1,3,3,2,9.094620133748604,3,2,Sample row 91
+4,Basil,Basil Genovese,2,3,1,1,10.0,1,3,Sample row 92
+2,Lettuce,Looseleaf,3,3,2,2,9.51850944168064,3,1,Sample row 93
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,3,1,Sample row 94
+2,Lettuce,Looseleaf,2,3,3,1,9.294637023411521,3,1,Sample row 95
+3,Tomato,Cherry,1,3,3,2,9.298767197776721,3,2,Sample row 96
+3,Tomato,Cherry,2,3,3,1,10.0,2,2,Sample row 97
+3,Tomato,Grape,2,2,1,2,8.722052298491102,3,2,Sample row 98
+2,Lettuce,Little Gem,1,4,3,2,9.505531940637672,3,1,Sample row 99
+2,Lettuce,Red Leaf Lettuce,3,1,2,2,9.160785020100814,1,1,Sample row 100
+2,Lettuce,Little Gem,1,4,3,1,10.0,2,1,Sample row 101
+3,Tomato,Beefsteak,1,4,3,2,9.753364357995542,1,2,Sample row 102
+3,Tomato,Cherry,1,4,3,2,9.8621905897214,2,2,Sample row 103
+2,Lettuce,Crisphead,1,4,1,1,8.290331664708425,1,1,Sample row 104
+4,Basil,Basil Genovese,2,4,3,2,9.183234358053094,1,3,Sample row 105
+2,Lettuce,Oak Leaf,2,4,3,2,10.0,3,1,Sample row 106
+4,Basil,Thai,3,3,3,1,8.730690691617507,2,3,Sample row 107
+2,Lettuce,Looseleaf,1,4,2,1,9.032244330451938,3,1,Sample row 108
+2,Lettuce,Looseleaf,3,3,1,2,8.689153151193223,3,1,Sample row 109
+2,Lettuce,Little Gem,1,3,3,1,9.516236469618036,3,1,Sample row 110
+3,Tomato,Roma,2,2,2,1,8.954119672259296,1,2,Sample row 111
+3,Tomato,Cherry,3,4,2,1,9.813134916569256,2,2,Sample row 112
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,8.933764480672258,3,1,Sample row 113
+4,Basil,Thai,3,2,2,1,8.880024847197467,3,3,Sample row 114
+3,Tomato,Cherry,2,4,3,1,10.0,3,2,Sample row 115
+2,Lettuce,Looseleaf,1,3,2,2,9.682854396044204,3,1,Sample row 116
+2,Lettuce,Looseleaf,1,4,1,2,9.376684055113236,2,1,Sample row 117
+3,Tomato,Beefsteak,2,4,2,2,10.0,2,2,Sample row 118
+2,Lettuce,Looseleaf,2,4,1,2,8.608915560453637,3,1,Sample row 119
+4,Basil,Sweet,1,3,2,1,8.387097679467555,2,3,Sample row 120
+2,Lettuce,Looseleaf,2,3,2,1,8.900472656685967,3,1,Sample row 121
+3,Tomato,Beefsteak,2,4,1,1,10.0,3,2,Sample row 122
+2,Lettuce,Oak Leaf,3,3,3,1,10.0,2,1,Sample row 123
+4,Basil,Basil Genovese,3,3,3,1,9.980125881962557,3,3,Sample row 124
+3,Tomato,Grape,1,1,3,1,8.701961983784981,2,2,Sample row 125
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,9.379850451556068,1,1,Sample row 126
+4,Basil,Basil Genovese,1,2,1,1,9.891964430558756,2,3,Sample row 127
+3,Tomato,Grape,1,1,3,2,8.303215801706601,2,2,Sample row 128
+3,Tomato,Grape,2,2,2,2,8.748181918350323,2,2,Sample row 129
+3,Tomato,Grape,1,2,2,1,9.847145254286591,3,2,Sample row 130
+3,Tomato,Cherry,3,4,2,2,9.453664576451946,3,2,Sample row 131
+4,Basil,Basil Genovese,2,4,2,1,10.0,1,3,Sample row 132
+4,Basil,Basil Genovese,2,3,1,2,10.0,1,3,Sample row 133
+4,Basil,Sweet,3,4,2,1,8.467524517712082,3,3,Sample row 134
+3,Tomato,Beefsteak,1,4,2,2,10.0,2,2,Sample row 135
+4,Basil,Thai,3,1,3,1,8.87338033289454,3,3,Sample row 136
+2,Lettuce,Crisphead,1,3,3,2,8.0,1,1,Sample row 137
+2,Lettuce,Oak Leaf,2,2,3,2,9.162008893284835,2,1,Sample row 138
+2,Lettuce,Little Gem,1,3,1,2,10.0,3,1,Sample row 139
+3,Tomato,Roma,3,3,3,2,9.07118588421698,3,2,Sample row 140
+3,Tomato,Grape,1,3,2,2,9.134763278179635,3,2,Sample row 141
+2,Lettuce,Crisphead,1,4,3,2,8.0,2,1,Sample row 142
+3,Tomato,Cherry,3,3,3,1,9.564434874339623,3,2,Sample row 143
+3,Tomato,Roma,3,4,2,1,8.975261866421775,1,2,Sample row 144
+4,Basil,Sweet,3,4,2,1,8.315064597406987,1,3,Sample row 145
+2,Lettuce,Crisphead,1,3,1,2,8.19194977229043,2,1,Sample row 146
+3,Tomato,Cherry,1,3,3,1,10.0,2,2,Sample row 147
+2,Lettuce,Oak Leaf,3,3,3,2,10.0,3,1,Sample row 148
+4,Basil,Thai,3,3,3,1,8.156527311970043,3,3,Sample row 149
+2,Lettuce,Crisphead,2,4,3,2,8.25003876892073,2,1,Sample row 150
+3,Tomato,Roma,3,4,2,1,9.082406928908476,2,2,Sample row 151
+3,Tomato,Cherry,3,3,3,1,10.0,2,2,Sample row 152
+4,Basil,Sweet,3,4,2,1,8.0,1,3,Sample row 153
+3,Tomato,Roma,3,4,2,2,9.084580901937294,3,2,Sample row 154
+2,Lettuce,Crisphead,2,3,2,1,8.446056525929434,2,1,Sample row 155
+2,Lettuce,Oak Leaf,3,3,3,1,10.0,3,1,Sample row 156
+2,Lettuce,Oak Leaf,2,2,3,2,9.63799218191396,1,1,Sample row 157
+4,Basil,Sweet,3,4,3,1,8.0,3,3,Sample row 158
+3,Tomato,Grape,2,2,3,1,8.785108119512486,2,2,Sample row 159
+2,Lettuce,Looseleaf,2,2,3,1,9.09411970668751,2,1,Sample row 160
+2,Lettuce,Crisphead,2,4,1,2,8.0,1,1,Sample row 161
+3,Tomato,Beefsteak,3,3,1,2,10.0,3,2,Sample row 162
+4,Basil,Basil Genovese,3,4,1,2,9.891330608331419,2,3,Sample row 163
+2,Lettuce,Looseleaf,1,3,3,2,9.202846399866766,2,1,Sample row 164
+3,Tomato,Grape,1,2,3,1,9.718439743681062,3,2,Sample row 165
+3,Tomato,Beefsteak,1,4,2,2,10.0,1,2,Sample row 166
+2,Lettuce,Oak Leaf,3,4,3,2,10.0,2,1,Sample row 167
+3,Tomato,Cherry,3,3,3,1,10.0,2,2,Sample row 168
+2,Lettuce,Little Gem,1,4,1,1,9.695833463247325,1,1,Sample row 169
+4,Basil,Sweet,2,4,2,1,8.0,2,3,Sample row 170
+4,Basil,Sweet,3,4,2,2,8.0,1,3,Sample row 171
+2,Lettuce,Red Leaf Lettuce,1,2,1,2,8.817048456340611,3,1,Sample row 172
+4,Basil,Sweet,3,3,2,1,8.0,2,3,Sample row 173
+4,Basil,Thai,2,1,2,1,9.833910798939426,2,3,Sample row 174
+2,Lettuce,Little Gem,2,3,3,1,10.0,3,1,Sample row 175
+4,Basil,Thai,3,3,3,1,8.847607384469613,3,3,Sample row 176
+3,Tomato,Cherry,1,3,3,1,9.839405827397744,2,2,Sample row 177
+2,Lettuce,Crisphead,2,4,2,2,8.333218778598962,1,1,Sample row 178
+4,Basil,Sweet,3,4,1,1,8.0,1,3,Sample row 179
+3,Tomato,Roma,2,4,2,1,9.389538062081092,2,2,Sample row 180
+2,Lettuce,Little Gem,1,4,1,1,10.0,2,1,Sample row 181
+4,Basil,Thai,3,2,2,2,8.92246235949422,2,3,Sample row 182
+2,Lettuce,Oak Leaf,3,2,2,1,9.637722660085776,1,1,Sample row 183
+2,Lettuce,Looseleaf,1,2,2,1,8.45278271824596,3,1,Sample row 184
+2,Lettuce,Red Leaf Lettuce,2,2,2,1,8.966337372076834,3,1,Sample row 185
+2,Lettuce,Oak Leaf,2,3,2,2,9.676989745336657,2,1,Sample row 186
+2,Lettuce,Red Leaf Lettuce,1,3,1,1,8.60094367830582,3,1,Sample row 187
+3,Tomato,Cherry,2,4,3,1,10.0,2,2,Sample row 188
+2,Lettuce,Crisphead,1,3,3,1,8.272218586179724,1,1,Sample row 189
+4,Basil,Basil Genovese,1,2,1,2,10.0,2,3,Sample row 190
+2,Lettuce,Looseleaf,2,2,2,2,9.03466218735252,3,1,Sample row 191
+2,Lettuce,Crisphead,2,4,2,2,8.0,1,1,Sample row 192
+4,Basil,Sweet,3,3,1,1,8.0,3,3,Sample row 193
+4,Basil,Sweet,2,4,3,1,8.0,2,3,Sample row 194
+2,Lettuce,Looseleaf,1,3,3,1,9.437382843465322,3,1,Sample row 195
+3,Tomato,Roma,3,3,1,2,9.119276992800737,1,2,Sample row 196
+3,Tomato,Grape,1,2,1,2,8.552055664825993,2,2,Sample row 197
+4,Basil,Thai,3,1,3,2,9.089324695899556,2,3,Sample row 198
+2,Lettuce,Looseleaf,2,2,1,2,8.617285020338306,2,1,Sample row 199
+2,Lettuce,Little Gem,1,4,2,1,9.98208101086419,3,1,Sample row 200
+4,Basil,Sweet,1,4,3,1,8.004005903682014,2,3,Sample row 201
+3,Tomato,Roma,3,2,3,1,8.6211504809141,2,2,Sample row 202
+2,Lettuce,Oak Leaf,2,4,2,1,10.0,2,1,Sample row 203
+2,Lettuce,Red Leaf Lettuce,2,3,2,1,9.348495485064973,1,1,Sample row 204
+2,Lettuce,Looseleaf,1,4,3,2,8.704234135210797,2,1,Sample row 205
+2,Lettuce,Oak Leaf,3,3,3,2,10.0,3,1,Sample row 206
+4,Basil,Basil Genovese,2,2,3,2,9.888312691046186,3,3,Sample row 207
+4,Basil,Sweet,2,4,1,1,8.088509685239465,3,3,Sample row 208
+3,Tomato,Cherry,2,4,2,2,9.859302596954779,3,2,Sample row 209
+2,Lettuce,Looseleaf,3,3,1,1,8.831565606647105,3,1,Sample row 210
+3,Tomato,Grape,1,3,3,2,8.593272170542999,3,2,Sample row 211
+2,Lettuce,Red Leaf Lettuce,2,3,2,1,9.010821047311445,3,1,Sample row 212
+2,Lettuce,Red Leaf Lettuce,2,1,2,1,9.138576856050788,3,1,Sample row 213
+4,Basil,Sweet,2,4,1,2,8.0,3,3,Sample row 214
+4,Basil,Thai,3,2,2,1,9.643085336420633,2,3,Sample row 215
+3,Tomato,Cherry,1,3,3,2,10.0,3,2,Sample row 216
+4,Basil,Sweet,3,4,2,1,9.112598787778637,1,3,Sample row 217
+3,Tomato,Roma,3,3,2,1,8.87335861202048,2,2,Sample row 218
+3,Tomato,Roma,3,2,1,1,9.097501570079132,2,2,Sample row 219
+4,Basil,Basil Genovese,1,2,1,1,9.322061573553105,3,3,Sample row 220
+2,Lettuce,Little Gem,3,4,1,1,9.979556064649461,1,1,Sample row 221
+3,Tomato,Beefsteak,3,4,1,2,9.530238691770183,1,2,Sample row 222
+3,Tomato,Cherry,2,3,3,1,10.0,2,2,Sample row 223
+2,Lettuce,Little Gem,2,3,3,1,9.337818811340831,2,1,Sample row 224
+4,Basil,Thai,2,1,2,1,8.963802960248879,2,3,Sample row 225
+2,Lettuce,Crisphead,2,4,3,1,8.0,2,1,Sample row 226
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,9.435731582526255,1,1,Sample row 227
+2,Lettuce,Oak Leaf,3,3,2,2,9.708437147021396,3,1,Sample row 228
+2,Lettuce,Red Leaf Lettuce,2,2,1,1,8.890888784212143,1,1,Sample row 229
+2,Lettuce,Looseleaf,3,3,2,1,9.167606438482162,3,1,Sample row 230
+4,Basil,Thai,3,3,3,1,8.948395128528642,3,3,Sample row 231
+2,Lettuce,Little Gem,1,4,3,1,9.921098992770165,1,1,Sample row 232
+3,Tomato,Grape,1,2,1,1,8.736885453265275,3,2,Sample row 233
+3,Tomato,Beefsteak,2,3,2,1,10.0,1,2,Sample row 234
+2,Lettuce,Looseleaf,3,3,3,2,9.185294692494002,3,1,Sample row 235
+3,Tomato,Grape,1,1,1,1,8.6965481602868,2,2,Sample row 236
+2,Lettuce,Little Gem,3,3,3,1,10.0,2,1,Sample row 237
+3,Tomato,Cherry,2,4,3,2,10.0,3,2,Sample row 238
+2,Lettuce,Red Leaf Lettuce,1,1,2,1,9.576587899161165,2,1,Sample row 239
+2,Lettuce,Looseleaf,1,3,2,2,8.969243140154532,2,1,Sample row 240
+4,Basil,Thai,2,2,2,1,9.310237885848784,3,3,Sample row 241
+4,Basil,Thai,3,1,3,2,8.875505589550137,3,3,Sample row 242
+3,Tomato,Beefsteak,1,4,3,1,8.723055511174826,3,2,Sample row 243
+2,Lettuce,Red Leaf Lettuce,2,3,1,2,8.593149926951025,3,1,Sample row 244
+3,Tomato,Roma,2,4,2,1,9.785022109341044,3,2,Sample row 245
+2,Lettuce,Little Gem,3,4,3,2,10.0,1,1,Sample row 246
+3,Tomato,Roma,3,2,2,2,8.522340421729453,1,2,Sample row 247
+2,Lettuce,Crisphead,1,4,1,2,8.01211415596484,1,1,Sample row 248
+3,Tomato,Cherry,1,4,3,1,10.0,3,2,Sample row 249
+3,Tomato,Beefsteak,1,4,3,2,9.855682094728344,2,2,Sample row 250
+3,Tomato,Beefsteak,2,3,2,2,9.464249659960153,3,2,Sample row 251
+3,Tomato,Roma,2,2,3,2,9.221193519316488,3,2,Sample row 252
+4,Basil,Sweet,2,3,3,2,8.211509339231919,3,3,Sample row 253
+3,Tomato,Cherry,2,4,3,1,10.0,2,2,Sample row 254
+3,Tomato,Grape,1,3,3,1,9.12345205705922,3,2,Sample row 255
+2,Lettuce,Looseleaf,3,3,2,2,9.288313596156664,3,1,Sample row 256
+2,Lettuce,Oak Leaf,3,3,3,2,10.0,2,1,Sample row 257
+2,Lettuce,Crisphead,1,4,1,1,8.0,2,1,Sample row 258
+3,Tomato,Grape,1,1,1,2,9.504806676915186,2,2,Sample row 259
+2,Lettuce,Looseleaf,3,4,3,2,8.642634193762587,2,1,Sample row 260
+2,Lettuce,Oak Leaf,2,4,2,2,10.0,1,1,Sample row 261
+2,Lettuce,Crisphead,2,4,3,2,8.215647133800783,1,1,Sample row 262
+3,Tomato,Roma,3,4,3,1,9.012620974379228,2,2,Sample row 263
+2,Lettuce,Crisphead,1,3,1,2,8.070971266888328,2,1,Sample row 264
+3,Tomato,Cherry,3,4,2,1,9.999512571994828,3,2,Sample row 265
+4,Basil,Sweet,2,4,2,1,8.237090479042307,3,3,Sample row 266
+2,Lettuce,Crisphead,1,4,2,2,8.03567406058043,1,1,Sample row 267
+4,Basil,Basil Genovese,2,4,1,1,10.0,3,3,Sample row 268
+2,Lettuce,Crisphead,2,4,3,1,8.0,2,1,Sample row 269
+2,Lettuce,Oak Leaf,3,2,3,1,10.0,2,1,Sample row 270
+3,Tomato,Beefsteak,2,4,1,1,10.0,1,2,Sample row 271
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,9.396282100262736,3,1,Sample row 272
+3,Tomato,Roma,2,3,1,1,9.159258302121632,2,2,Sample row 273
+2,Lettuce,Looseleaf,3,2,1,2,8.609884062926225,3,1,Sample row 274
+2,Lettuce,Looseleaf,2,3,3,1,9.079375116138197,2,1,Sample row 275
+2,Lettuce,Little Gem,2,4,2,2,10.0,3,1,Sample row 276
+3,Tomato,Beefsteak,1,4,1,2,10.0,3,2,Sample row 277
+3,Tomato,Cherry,3,3,3,1,9.459731179117272,2,2,Sample row 278
+3,Tomato,Roma,2,2,2,1,9.002976969353103,2,2,Sample row 279
+2,Lettuce,Crisphead,2,4,2,1,8.429202534477133,2,1,Sample row 280
+2,Lettuce,Looseleaf,1,4,3,1,9.434685998884834,3,1,Sample row 281
+2,Lettuce,Crisphead,1,3,2,1,8.181881200671276,1,1,Sample row 282
+4,Basil,Basil Genovese,2,2,3,2,9.721890190706231,3,3,Sample row 283
+4,Basil,Sweet,2,4,1,1,8.0,3,3,Sample row 284
+2,Lettuce,Oak Leaf,3,2,3,1,10.0,1,1,Sample row 285
+4,Basil,Thai,2,1,2,1,8.653980497697887,3,3,Sample row 286
+3,Tomato,Roma,2,2,1,1,8.917459723238801,2,2,Sample row 287
+2,Lettuce,Looseleaf,1,3,2,2,8.965543899192243,3,1,Sample row 288
+2,Lettuce,Little Gem,1,3,3,1,9.907924301440277,3,1,Sample row 289
+3,Tomato,Cherry,3,3,2,1,10.0,3,2,Sample row 290
+3,Tomato,Beefsteak,1,3,3,1,10.0,2,2,Sample row 291
+3,Tomato,Grape,1,1,2,1,8.80989020913036,2,2,Sample row 292
+3,Tomato,Beefsteak,3,4,1,2,9.865513930491801,1,2,Sample row 293
+2,Lettuce,Looseleaf,1,2,3,1,9.336930150370394,3,1,Sample row 294
+4,Basil,Thai,2,3,3,1,9.038714592902537,3,3,Sample row 295
+2,Lettuce,Oak Leaf,3,4,3,2,9.503810540444151,3,1,Sample row 296
+3,Tomato,Beefsteak,1,4,2,2,9.472436023279434,1,2,Sample row 297
+2,Lettuce,Little Gem,2,4,2,1,10.0,3,1,Sample row 298
+3,Tomato,Cherry,1,4,2,2,9.332154355371157,3,2,Sample row 299
+3,Tomato,Beefsteak,1,3,2,1,9.439927952834783,3,2,Sample row 300
+2,Lettuce,Red Leaf Lettuce,2,1,1,2,9.146115185559704,1,1,Sample row 301
+2,Lettuce,Looseleaf,1,3,2,1,9.221500270112557,3,1,Sample row 302
+2,Lettuce,Red Leaf Lettuce,1,1,1,1,9.127877309722319,3,1,Sample row 303
+4,Basil,Basil Genovese,1,4,3,1,10.0,2,3,Sample row 304
+4,Basil,Thai,3,2,2,1,9.68616961027406,2,3,Sample row 305
+3,Tomato,Cherry,1,3,3,1,9.629601632206827,2,2,Sample row 306
+2,Lettuce,Red Leaf Lettuce,1,1,1,1,8.964161152686117,1,1,Sample row 307
+3,Tomato,Beefsteak,3,3,1,2,9.692171629969371,2,2,Sample row 308
+3,Tomato,Roma,3,3,1,2,8.828822886158378,2,2,Sample row 309
+4,Basil,Basil Genovese,3,2,3,2,9.517696753103246,1,3,Sample row 310
+2,Lettuce,Little Gem,1,4,2,1,10.0,1,1,Sample row 311
+4,Basil,Sweet,3,3,3,2,8.273895589000306,2,3,Sample row 312
+3,Tomato,Cherry,1,3,3,1,9.798173447718208,2,2,Sample row 313
+2,Lettuce,Looseleaf,2,4,3,2,8.607031048705151,2,1,Sample row 314
+2,Lettuce,Crisphead,1,4,2,1,8.030276939672511,2,1,Sample row 315
+4,Basil,Basil Genovese,2,4,2,1,10.0,1,3,Sample row 316
+2,Lettuce,Oak Leaf,2,4,2,2,9.64954799853521,3,1,Sample row 317
+3,Tomato,Roma,3,4,2,1,9.02379531911788,2,2,Sample row 318
+2,Lettuce,Red Leaf Lettuce,3,3,2,2,8.454215867643036,2,1,Sample row 319
+2,Lettuce,Crisphead,1,4,2,2,8.105689759881745,1,1,Sample row 320
+2,Lettuce,Red Leaf Lettuce,2,2,1,2,8.986511608354805,2,1,Sample row 321
+3,Tomato,Roma,2,2,1,1,9.034094694535224,3,2,Sample row 322
+4,Basil,Thai,2,3,3,2,8.959575392245373,3,3,Sample row 323
+3,Tomato,Roma,3,4,3,1,9.207744143216948,2,2,Sample row 324
+4,Basil,Sweet,1,4,3,2,8.130568311451963,2,3,Sample row 325
+4,Basil,Sweet,2,4,1,1,8.567024608197618,1,3,Sample row 326
+4,Basil,Thai,3,1,2,1,8.240284606571606,3,3,Sample row 327
+2,Lettuce,Oak Leaf,3,2,3,1,10.0,1,1,Sample row 328
+4,Basil,Sweet,1,4,3,2,8.288469866928551,2,3,Sample row 329
+2,Lettuce,Little Gem,1,4,1,1,9.254780738779994,3,1,Sample row 330
+2,Lettuce,Oak Leaf,3,2,3,1,9.768504087692614,3,1,Sample row 331
+4,Basil,Thai,2,3,3,2,8.270459245754035,3,3,Sample row 332
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,8.13175202150541,2,1,Sample row 333
+3,Tomato,Grape,1,3,2,2,8.878366805732268,3,2,Sample row 334
+2,Lettuce,Looseleaf,1,4,3,1,9.141383907257463,3,1,Sample row 335
+3,Tomato,Grape,1,3,3,1,9.131615529367913,2,2,Sample row 336
+3,Tomato,Roma,3,3,3,1,8.80373604256929,1,2,Sample row 337
+2,Lettuce,Looseleaf,2,4,2,1,9.338613195523754,2,1,Sample row 338
+4,Basil,Sweet,2,4,1,1,8.259710116042822,1,3,Sample row 339
+3,Tomato,Cherry,2,3,2,1,10.0,3,2,Sample row 340
+2,Lettuce,Oak Leaf,3,3,3,1,10.0,1,1,Sample row 341
+4,Basil,Sweet,3,4,2,1,8.149728739386497,2,3,Sample row 342
+2,Lettuce,Red Leaf Lettuce,1,1,1,1,9.808445547731527,3,1,Sample row 343
+3,Tomato,Beefsteak,1,3,3,2,9.961799196953534,1,2,Sample row 344
+2,Lettuce,Red Leaf Lettuce,1,1,2,2,9.12341952137101,3,1,Sample row 345
+2,Lettuce,Little Gem,3,4,1,2,9.822513151850115,2,1,Sample row 346
+4,Basil,Thai,3,3,3,2,9.320709004376099,3,3,Sample row 347
+2,Lettuce,Oak Leaf,3,2,2,2,10.0,1,1,Sample row 348
+2,Lettuce,Oak Leaf,3,2,2,2,10.0,3,1,Sample row 349
+3,Tomato,Roma,3,2,3,1,8.4381550635036,3,2,Sample row 350
+3,Tomato,Beefsteak,1,4,3,1,10.0,2,2,Sample row 351
+4,Basil,Sweet,3,3,3,1,8.0,3,3,Sample row 352
+3,Tomato,Cherry,2,4,3,1,10.0,3,2,Sample row 353
+2,Lettuce,Looseleaf,1,4,1,1,8.679461782946246,3,1,Sample row 354
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,1,1,Sample row 355
+4,Basil,Thai,2,1,3,2,8.936125055072408,2,3,Sample row 356
+3,Tomato,Beefsteak,3,4,3,1,9.88660532857625,1,2,Sample row 357
+2,Lettuce,Red Leaf Lettuce,1,3,1,1,9.243134714069942,1,1,Sample row 358
+2,Lettuce,Red Leaf Lettuce,3,1,1,1,9.179619933877014,2,1,Sample row 359
+3,Tomato,Roma,3,4,2,1,9.441328063247045,3,2,Sample row 360
+2,Lettuce,Looseleaf,2,2,1,1,9.34842159903086,2,1,Sample row 361
+3,Tomato,Beefsteak,3,4,2,1,9.926706910536137,3,2,Sample row 362
+3,Tomato,Cherry,1,4,2,1,9.680994731901949,3,2,Sample row 363
+2,Lettuce,Looseleaf,2,4,1,2,9.260924617283743,3,1,Sample row 364
+3,Tomato,Grape,2,3,1,2,8.427587863039749,2,2,Sample row 365
+3,Tomato,Roma,3,2,2,2,8.0,2,2,Sample row 366
+2,Lettuce,Looseleaf,2,3,2,2,9.126207087179894,3,1,Sample row 367
+3,Tomato,Grape,1,1,1,2,9.101514138769238,3,2,Sample row 368
+3,Tomato,Beefsteak,3,3,2,2,9.792372935295374,3,2,Sample row 369
+3,Tomato,Grape,1,3,3,2,8.861664549248784,3,2,Sample row 370
+4,Basil,Thai,3,2,3,1,9.031759897313261,3,3,Sample row 371
+2,Lettuce,Crisphead,1,4,2,2,8.0,2,1,Sample row 372
+3,Tomato,Grape,1,2,2,1,9.014089775700162,3,2,Sample row 373
+2,Lettuce,Little Gem,3,4,2,1,9.381332260471217,1,1,Sample row 374
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,8.208854834931751,2,1,Sample row 375
+2,Lettuce,Oak Leaf,3,4,2,1,9.490001730478156,1,1,Sample row 376
+4,Basil,Basil Genovese,1,2,1,1,10.0,1,3,Sample row 377
+2,Lettuce,Oak Leaf,3,4,3,1,9.716679788387532,3,1,Sample row 378
+4,Basil,Basil Genovese,2,4,2,2,10.0,1,3,Sample row 379
+2,Lettuce,Oak Leaf,2,3,2,2,9.62490453559839,2,1,Sample row 380
+2,Lettuce,Looseleaf,1,3,2,1,8.597470077046673,3,1,Sample row 381
+2,Lettuce,Looseleaf,3,2,2,1,8.781388807124687,3,1,Sample row 382
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,9.174551804374403,2,1,Sample row 383
+3,Tomato,Grape,1,3,3,1,9.046321277240935,2,2,Sample row 384
+2,Lettuce,Red Leaf Lettuce,1,1,1,2,8.30088665748855,1,1,Sample row 385
+4,Basil,Thai,2,2,3,1,9.45920884177697,3,3,Sample row 386
+3,Tomato,Beefsteak,2,3,3,2,9.037613393129298,3,2,Sample row 387
+3,Tomato,Cherry,3,4,3,1,10.0,3,2,Sample row 388
+4,Basil,Basil Genovese,1,4,1,1,10.0,2,3,Sample row 389
+3,Tomato,Cherry,2,4,3,2,9.592310166238637,3,2,Sample row 390
+4,Basil,Sweet,1,4,1,1,8.0,3,3,Sample row 391
+4,Basil,Basil Genovese,3,4,3,1,10.0,3,3,Sample row 392
+2,Lettuce,Looseleaf,2,4,1,2,8.917169411371836,3,1,Sample row 393
+3,Tomato,Cherry,2,4,3,1,10.0,2,2,Sample row 394
+2,Lettuce,Oak Leaf,2,4,2,1,9.872085642060021,3,1,Sample row 395
+2,Lettuce,Little Gem,3,3,3,2,10.0,1,1,Sample row 396
+2,Lettuce,Oak Leaf,3,4,2,2,10.0,3,1,Sample row 397
+2,Lettuce,Crisphead,2,4,3,2,8.0,1,1,Sample row 398
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,8.444515594720615,2,1,Sample row 399
+3,Tomato,Grape,1,3,3,1,8.995471431163745,3,2,Sample row 400
+3,Tomato,Grape,2,3,1,2,9.360073321910928,2,2,Sample row 401
+2,Lettuce,Red Leaf Lettuce,3,3,1,1,8.946440943327826,1,1,Sample row 402
+3,Tomato,Grape,2,3,1,1,8.432680268592147,3,2,Sample row 403
+2,Lettuce,Looseleaf,2,2,1,1,8.8405652542488,2,1,Sample row 404
+3,Tomato,Cherry,2,4,3,1,9.744647982052523,3,2,Sample row 405
+2,Lettuce,Looseleaf,3,2,2,1,9.083510276824954,3,1,Sample row 406
+2,Lettuce,Little Gem,1,4,3,1,10.0,3,1,Sample row 407
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,9.47534238355354,1,1,Sample row 408
+2,Lettuce,Oak Leaf,2,2,3,1,9.86566967600229,3,1,Sample row 409
+3,Tomato,Beefsteak,1,4,1,1,10.0,1,2,Sample row 410
+2,Lettuce,Little Gem,3,4,2,2,9.378054676235873,1,1,Sample row 411
+3,Tomato,Beefsteak,2,3,1,1,10.0,1,2,Sample row 412
+3,Tomato,Cherry,3,3,2,1,10.0,3,2,Sample row 413
+2,Lettuce,Oak Leaf,3,2,2,1,10.0,1,1,Sample row 414
+3,Tomato,Roma,2,2,2,1,8.994036738731888,3,2,Sample row 415
+2,Lettuce,Looseleaf,3,2,3,1,9.340836675101059,3,1,Sample row 416
+2,Lettuce,Little Gem,3,3,2,2,10.0,3,1,Sample row 417
+2,Lettuce,Looseleaf,3,3,1,1,8.477762957584453,2,1,Sample row 418
+2,Lettuce,Crisphead,1,4,2,2,8.0,1,1,Sample row 419
+4,Basil,Basil Genovese,3,4,3,2,10.0,1,3,Sample row 420
+2,Lettuce,Crisphead,2,3,2,2,8.13596597029804,1,1,Sample row 421
+3,Tomato,Cherry,3,3,3,2,10.0,3,2,Sample row 422
+2,Lettuce,Red Leaf Lettuce,2,2,1,1,9.416986374101995,2,1,Sample row 423
+2,Lettuce,Oak Leaf,2,3,3,1,10.0,3,1,Sample row 424
+3,Tomato,Roma,3,3,2,1,9.047293208153828,3,2,Sample row 425
+4,Basil,Basil Genovese,1,2,3,1,10.0,2,3,Sample row 426
+2,Lettuce,Crisphead,1,4,3,2,8.0,1,1,Sample row 427
+4,Basil,Sweet,3,3,2,1,8.0,2,3,Sample row 428
+3,Tomato,Cherry,2,4,3,2,9.950511574249669,2,2,Sample row 429
+2,Lettuce,Red Leaf Lettuce,3,3,1,1,8.945662513368324,3,1,Sample row 430
+3,Tomato,Roma,3,2,3,2,8.562829010262682,3,2,Sample row 431
+3,Tomato,Roma,3,3,3,2,8.391799891702004,1,2,Sample row 432
+2,Lettuce,Red Leaf Lettuce,1,2,2,1,9.04949681566919,3,1,Sample row 433
+2,Lettuce,Red Leaf Lettuce,3,3,1,1,8.841296595570993,2,1,Sample row 434
+2,Lettuce,Little Gem,2,3,1,1,9.796663934013981,3,1,Sample row 435
+2,Lettuce,Little Gem,2,4,2,1,9.645560652014144,1,1,Sample row 436
+2,Lettuce,Oak Leaf,3,4,3,2,10.0,1,1,Sample row 437
+2,Lettuce,Crisphead,1,3,1,1,8.0,1,1,Sample row 438
+2,Lettuce,Little Gem,3,3,1,1,9.670814424574575,1,1,Sample row 439
+3,Tomato,Grape,1,1,3,1,8.968195174630914,3,2,Sample row 440
+2,Lettuce,Crisphead,1,4,2,2,8.0,2,1,Sample row 441
+3,Tomato,Grape,1,1,2,1,8.713086124930205,2,2,Sample row 442
+4,Basil,Basil Genovese,1,3,1,2,10.0,1,3,Sample row 443
+3,Tomato,Grape,1,3,3,1,8.798051270017863,3,2,Sample row 444
+4,Basil,Thai,3,1,2,2,8.728921478470312,2,3,Sample row 445
+3,Tomato,Beefsteak,3,3,1,2,10.0,2,2,Sample row 446
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,8.639249038823682,2,1,Sample row 447
+4,Basil,Sweet,1,3,3,1,8.0,3,3,Sample row 448
+3,Tomato,Beefsteak,1,4,2,1,9.574148553564758,2,2,Sample row 449
+4,Basil,Sweet,1,3,2,2,8.0,3,3,Sample row 450
+2,Lettuce,Little Gem,3,4,2,1,10.0,2,1,Sample row 451
+3,Tomato,Grape,2,3,2,2,8.607499133893961,3,2,Sample row 452
+4,Basil,Sweet,3,3,1,1,8.0,2,3,Sample row 453
+3,Tomato,Roma,3,3,2,1,9.388209434022246,2,2,Sample row 454
+3,Tomato,Roma,3,3,1,1,8.419582552046215,1,2,Sample row 455
+3,Tomato,Beefsteak,1,4,2,2,9.35174335060958,3,2,Sample row 456
+3,Tomato,Grape,1,1,2,2,8.802785001101226,2,2,Sample row 457
+4,Basil,Sweet,1,4,2,1,8.0,1,3,Sample row 458
+2,Lettuce,Crisphead,1,3,3,1,8.16696229452926,1,1,Sample row 459
+4,Basil,Sweet,2,3,3,1,8.0,3,3,Sample row 460
+4,Basil,Basil Genovese,1,4,1,1,10.0,1,3,Sample row 461
+3,Tomato,Beefsteak,2,4,3,1,10.0,3,2,Sample row 462
+2,Lettuce,Red Leaf Lettuce,2,3,2,1,9.427605033176157,3,1,Sample row 463
+2,Lettuce,Red Leaf Lettuce,2,3,2,1,9.301185397786506,1,1,Sample row 464
+2,Lettuce,Oak Leaf,3,3,3,2,10.0,3,1,Sample row 465
+4,Basil,Sweet,1,3,1,1,8.202531571835308,2,3,Sample row 466
+2,Lettuce,Oak Leaf,3,3,3,1,10.0,2,1,Sample row 467
+4,Basil,Basil Genovese,2,3,1,1,10.0,1,3,Sample row 468
+3,Tomato,Roma,3,4,2,1,9.011443328838645,1,2,Sample row 469
+4,Basil,Sweet,2,3,1,2,8.0,1,3,Sample row 470
+2,Lettuce,Crisphead,1,4,1,2,8.166294823571803,1,1,Sample row 471
+4,Basil,Sweet,2,4,1,1,8.137681904588934,3,3,Sample row 472
+3,Tomato,Roma,3,2,2,2,9.494379574486352,2,2,Sample row 473
+3,Tomato,Cherry,3,4,3,1,9.926838710390403,2,2,Sample row 474
+3,Tomato,Beefsteak,3,4,2,2,10.0,1,2,Sample row 475
+4,Basil,Basil Genovese,2,2,3,1,9.627434538855839,2,3,Sample row 476
+4,Basil,Thai,3,2,2,2,9.498865130214607,3,3,Sample row 477
+3,Tomato,Grape,1,3,1,1,8.840116506741468,3,2,Sample row 478
+2,Lettuce,Red Leaf Lettuce,1,1,1,1,8.627754094697849,2,1,Sample row 479
+3,Tomato,Beefsteak,3,4,3,1,10.0,3,2,Sample row 480
+4,Basil,Thai,3,2,3,2,8.906755263073688,2,3,Sample row 481
+4,Basil,Thai,2,2,3,1,8.842510366347373,3,3,Sample row 482
+2,Lettuce,Looseleaf,3,3,3,1,9.211027930314328,2,1,Sample row 483
+3,Tomato,Roma,2,2,3,1,9.011329535254461,3,2,Sample row 484
+4,Basil,Thai,3,3,3,1,8.726848290874441,3,3,Sample row 485
+2,Lettuce,Oak Leaf,3,4,2,1,10.0,3,1,Sample row 486
+4,Basil,Sweet,2,4,2,1,8.0,2,3,Sample row 487
+3,Tomato,Beefsteak,3,4,1,2,9.327473414307976,3,2,Sample row 488
+3,Tomato,Roma,3,4,2,1,8.795909724694058,1,2,Sample row 489
+2,Lettuce,Looseleaf,3,2,2,2,8.398293603143383,2,1,Sample row 490
+3,Tomato,Grape,1,2,3,1,8.527465308655753,3,2,Sample row 491
+4,Basil,Sweet,3,4,2,1,8.0,3,3,Sample row 492
+3,Tomato,Beefsteak,2,4,3,1,9.570229557257855,1,2,Sample row 493
+3,Tomato,Beefsteak,3,4,1,2,9.736743696176369,1,2,Sample row 494
+4,Basil,Thai,3,1,2,1,9.01974404850935,3,3,Sample row 495
+2,Lettuce,Looseleaf,1,3,2,1,9.075355920479529,3,1,Sample row 496
+2,Lettuce,Crisphead,2,3,2,2,8.0,2,1,Sample row 497
+2,Lettuce,Oak Leaf,2,3,3,2,9.905187230525172,2,1,Sample row 498
+2,Lettuce,Crisphead,1,3,3,1,8.0834359311931,1,1,Sample row 499
+3,Tomato,Cherry,1,3,3,2,9.917458014665037,3,2,Sample row 500
+2,Lettuce,Crisphead,1,4,1,2,8.0,1,1,Sample row 501
+2,Lettuce,Crisphead,1,4,1,2,8.551278989663055,1,1,Sample row 502
+2,Lettuce,Red Leaf Lettuce,2,1,1,2,9.010866520170994,3,1,Sample row 503
+4,Basil,Thai,3,1,3,1,9.069433406219254,2,3,Sample row 504
+4,Basil,Basil Genovese,2,4,2,2,10.0,1,3,Sample row 505
+4,Basil,Thai,3,1,2,2,9.030753672978255,3,3,Sample row 506
+4,Basil,Thai,2,3,3,1,8.814212360154624,3,3,Sample row 507
+4,Basil,Sweet,3,4,1,1,8.151903438207537,2,3,Sample row 508
+3,Tomato,Roma,2,4,2,1,8.967031898627209,3,2,Sample row 509
+2,Lettuce,Little Gem,2,3,3,1,9.55741030281823,1,1,Sample row 510
+2,Lettuce,Looseleaf,3,2,2,1,9.055754224340374,2,1,Sample row 511
+4,Basil,Basil Genovese,2,2,1,1,10.0,2,3,Sample row 512
+3,Tomato,Grape,1,3,3,2,8.975570424983252,2,2,Sample row 513
+3,Tomato,Grape,2,1,2,1,8.08933908973191,2,2,Sample row 514
+4,Basil,Thai,3,1,3,2,8.827286126796144,3,3,Sample row 515
+3,Tomato,Grape,1,1,1,1,9.257892785822017,3,2,Sample row 516
+3,Tomato,Grape,2,2,1,1,9.103107494895433,3,2,Sample row 517
+3,Tomato,Roma,3,3,2,1,8.732796238941269,3,2,Sample row 518
+3,Tomato,Beefsteak,2,3,3,1,10.0,2,2,Sample row 519
+2,Lettuce,Little Gem,3,4,2,2,9.571353327822312,1,1,Sample row 520
+3,Tomato,Roma,2,4,1,2,9.018824900948813,3,2,Sample row 521
+2,Lettuce,Crisphead,2,4,3,1,8.0,1,1,Sample row 522
+2,Lettuce,Red Leaf Lettuce,3,3,2,1,9.095501881309021,2,1,Sample row 523
+2,Lettuce,Looseleaf,2,4,2,2,9.337592738783767,2,1,Sample row 524
+2,Lettuce,Red Leaf Lettuce,1,1,2,1,8.880246488243783,1,1,Sample row 525
+4,Basil,Sweet,1,4,1,1,8.019773842197631,1,3,Sample row 526
+2,Lettuce,Crisphead,1,4,2,2,8.0,1,1,Sample row 527
+2,Lettuce,Red Leaf Lettuce,1,1,1,1,8.596213779260085,1,1,Sample row 528
+2,Lettuce,Crisphead,2,4,3,2,8.0,2,1,Sample row 529
+4,Basil,Basil Genovese,2,4,1,1,10.0,3,3,Sample row 530
+3,Tomato,Grape,2,2,3,1,9.033107386535194,3,2,Sample row 531
+3,Tomato,Grape,2,3,1,1,8.36714958359524,3,2,Sample row 532
+4,Basil,Sweet,3,4,3,1,8.0,1,3,Sample row 533
+2,Lettuce,Looseleaf,1,4,3,2,9.490308651109538,3,1,Sample row 534
+3,Tomato,Roma,3,3,1,2,9.136659226218859,1,2,Sample row 535
+4,Basil,Thai,2,2,3,1,9.171284378628442,2,3,Sample row 536
+4,Basil,Thai,3,1,3,1,9.075284347536662,2,3,Sample row 537
+4,Basil,Sweet,2,4,1,2,8.0,2,3,Sample row 538
+3,Tomato,Cherry,1,4,3,1,10.0,2,2,Sample row 539
+3,Tomato,Beefsteak,2,4,2,2,10.0,3,2,Sample row 540
+3,Tomato,Grape,2,1,3,1,8.720417989287457,3,2,Sample row 541
+2,Lettuce,Looseleaf,1,4,2,1,9.11168319190825,2,1,Sample row 542
+2,Lettuce,Crisphead,1,3,1,1,8.946394787547785,2,1,Sample row 543
+2,Lettuce,Red Leaf Lettuce,2,2,2,1,8.67006202991403,1,1,Sample row 544
+2,Lettuce,Oak Leaf,3,2,2,1,9.977771963946607,2,1,Sample row 545
+2,Lettuce,Little Gem,2,4,1,1,10.0,3,1,Sample row 546
+2,Lettuce,Crisphead,1,3,1,1,8.237119694731987,1,1,Sample row 547
+3,Tomato,Cherry,2,4,2,2,10.0,2,2,Sample row 548
+2,Lettuce,Crisphead,1,4,3,2,8.984427236883553,1,1,Sample row 549
+3,Tomato,Beefsteak,3,4,3,2,9.702213132166058,1,2,Sample row 550
+3,Tomato,Grape,1,3,2,1,9.117264828638094,2,2,Sample row 551
+4,Basil,Thai,2,2,3,1,9.211052398699337,2,3,Sample row 552
+2,Lettuce,Looseleaf,2,2,2,1,8.348130336581322,3,1,Sample row 553
+4,Basil,Basil Genovese,3,4,3,1,9.957368171581333,3,3,Sample row 554
+4,Basil,Thai,2,3,3,2,9.254134426506218,3,3,Sample row 555
+4,Basil,Thai,2,2,3,1,9.060552498878279,2,3,Sample row 556
+2,Lettuce,Oak Leaf,2,4,2,1,9.924697791980105,2,1,Sample row 557
+2,Lettuce,Oak Leaf,3,4,3,2,10.0,3,1,Sample row 558
+2,Lettuce,Crisphead,1,3,3,1,8.0,1,1,Sample row 559
+4,Basil,Thai,3,2,2,2,9.27663771693816,3,3,Sample row 560
+3,Tomato,Roma,3,4,2,1,8.696754351469197,1,2,Sample row 561
+2,Lettuce,Little Gem,1,4,3,1,9.772757978136452,2,1,Sample row 562
+4,Basil,Thai,3,2,3,2,9.030097718261668,3,3,Sample row 563
+3,Tomato,Beefsteak,3,4,3,1,10.0,1,2,Sample row 564
+3,Tomato,Grape,1,1,3,2,9.169778618472446,3,2,Sample row 565
+2,Lettuce,Little Gem,1,4,2,2,9.676782077023343,3,1,Sample row 566
+3,Tomato,Grape,1,2,3,2,8.684122722744847,3,2,Sample row 567
+2,Lettuce,Crisphead,1,3,3,1,8.0,2,1,Sample row 568
+2,Lettuce,Oak Leaf,2,3,2,2,9.446241544355578,1,1,Sample row 569
+3,Tomato,Beefsteak,1,4,1,2,9.63719630879562,3,2,Sample row 570
+2,Lettuce,Crisphead,2,3,2,1,8.361825158778615,1,1,Sample row 571
+2,Lettuce,Looseleaf,1,4,2,1,9.379605237012345,3,1,Sample row 572
+3,Tomato,Beefsteak,3,4,3,2,10.0,1,2,Sample row 573
+2,Lettuce,Little Gem,1,4,2,1,10.0,1,1,Sample row 574
+2,Lettuce,Looseleaf,3,4,2,1,9.145728851848634,3,1,Sample row 575
+4,Basil,Sweet,1,3,2,2,8.044403441703546,1,3,Sample row 576
+2,Lettuce,Red Leaf Lettuce,3,1,1,1,8.808711772440068,1,1,Sample row 577
+3,Tomato,Cherry,2,4,3,1,10.0,3,2,Sample row 578
+2,Lettuce,Crisphead,1,4,2,1,8.24412090917235,2,1,Sample row 579
+4,Basil,Basil Genovese,2,3,2,1,10.0,1,3,Sample row 580
+3,Tomato,Grape,1,2,3,2,9.407730555815844,2,2,Sample row 581
+2,Lettuce,Little Gem,1,4,3,2,9.822409798259851,3,1,Sample row 582
+2,Lettuce,Crisphead,1,4,1,2,8.0,2,1,Sample row 583
+3,Tomato,Cherry,2,4,3,1,10.0,3,2,Sample row 584
+2,Lettuce,Little Gem,2,4,3,1,10.0,1,1,Sample row 585
+4,Basil,Sweet,1,3,2,1,8.173642247831076,3,3,Sample row 586
+4,Basil,Sweet,3,4,1,2,8.782035186169189,2,3,Sample row 587
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,9.399088648330498,1,1,Sample row 588
+4,Basil,Basil Genovese,1,4,2,1,9.223184009481932,1,3,Sample row 589
+2,Lettuce,Oak Leaf,3,3,2,1,9.684261101636633,3,1,Sample row 590
+2,Lettuce,Looseleaf,1,3,1,1,8.827960710844993,2,1,Sample row 591
+2,Lettuce,Crisphead,2,3,3,1,8.367324512052162,1,1,Sample row 592
+2,Lettuce,Looseleaf,1,4,2,1,8.280833542313648,3,1,Sample row 593
+3,Tomato,Roma,2,2,2,1,8.938271917328734,3,2,Sample row 594
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,9.228039217225385,2,1,Sample row 595
+2,Lettuce,Oak Leaf,3,4,3,1,9.585185396813689,3,1,Sample row 596
+2,Lettuce,Oak Leaf,2,3,3,2,10.0,1,1,Sample row 597
+3,Tomato,Roma,3,3,3,2,8.876707237767581,3,2,Sample row 598
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,1,1,Sample row 599
+4,Basil,Sweet,2,3,1,2,8.0,3,3,Sample row 600
+2,Lettuce,Looseleaf,1,4,3,2,8.875855943964114,2,1,Sample row 601
+4,Basil,Sweet,3,3,1,1,8.01492085855321,3,3,Sample row 602
+2,Lettuce,Crisphead,2,3,3,2,8.0,2,1,Sample row 603
+3,Tomato,Cherry,1,4,3,1,9.43691765175551,3,2,Sample row 604
+2,Lettuce,Oak Leaf,3,3,3,2,9.313704040535663,3,1,Sample row 605
+3,Tomato,Cherry,1,3,2,2,9.689387661340245,3,2,Sample row 606
+4,Basil,Thai,3,1,2,1,8.774527112364742,3,3,Sample row 607
+4,Basil,Basil Genovese,2,3,2,1,10.0,3,3,Sample row 608
+2,Lettuce,Crisphead,2,4,2,2,8.0,1,1,Sample row 609
+4,Basil,Basil Genovese,1,2,1,2,9.16973156517777,2,3,Sample row 610
+3,Tomato,Roma,3,2,1,1,8.404027485837341,2,2,Sample row 611
+2,Lettuce,Little Gem,3,4,3,1,9.739255971446026,2,1,Sample row 612
+2,Lettuce,Crisphead,1,4,2,2,8.0,2,1,Sample row 613
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,9.035327877107305,1,1,Sample row 614
+2,Lettuce,Red Leaf Lettuce,1,1,1,2,8.9941071466933,3,1,Sample row 615
+4,Basil,Sweet,1,4,1,1,8.0,2,3,Sample row 616
+4,Basil,Thai,3,3,3,2,8.655914325319603,3,3,Sample row 617
+2,Lettuce,Oak Leaf,3,2,2,2,10.0,3,1,Sample row 618
+3,Tomato,Beefsteak,2,4,2,2,10.0,1,2,Sample row 619
+3,Tomato,Grape,1,1,1,1,9.26913805505081,3,2,Sample row 620
+3,Tomato,Cherry,3,4,2,2,10.0,2,2,Sample row 621
+3,Tomato,Beefsteak,3,3,2,2,10.0,2,2,Sample row 622
+3,Tomato,Grape,1,3,1,1,8.559205426652854,2,2,Sample row 623
+2,Lettuce,Crisphead,2,4,1,1,8.0,1,1,Sample row 624
+4,Basil,Sweet,1,4,1,1,8.231681656300681,2,3,Sample row 625
+4,Basil,Basil Genovese,2,2,3,1,10.0,1,3,Sample row 626
+2,Lettuce,Little Gem,3,4,3,1,9.28893315096794,2,1,Sample row 627
+3,Tomato,Beefsteak,2,4,3,2,10.0,1,2,Sample row 628
+4,Basil,Thai,3,1,3,1,8.964895816394806,3,3,Sample row 629
+4,Basil,Basil Genovese,2,2,2,1,10.0,2,3,Sample row 630
+4,Basil,Basil Genovese,1,2,2,2,10.0,2,3,Sample row 631
+3,Tomato,Cherry,1,4,2,2,10.0,2,2,Sample row 632
+2,Lettuce,Oak Leaf,3,2,3,2,9.808174473364312,3,1,Sample row 633
+3,Tomato,Roma,3,4,1,1,9.353033924584194,1,2,Sample row 634
+4,Basil,Thai,2,3,3,1,9.532595158457935,3,3,Sample row 635
+2,Lettuce,Oak Leaf,3,4,3,1,9.789488715954349,2,1,Sample row 636
+3,Tomato,Grape,1,2,2,1,9.043309005043987,3,2,Sample row 637
+3,Tomato,Beefsteak,2,4,3,2,10.0,3,2,Sample row 638
+2,Lettuce,Looseleaf,2,2,3,2,8.925171098352516,3,1,Sample row 639
+2,Lettuce,Crisphead,2,4,1,2,8.0,1,1,Sample row 640
+3,Tomato,Beefsteak,2,4,2,1,10.0,1,2,Sample row 641
+2,Lettuce,Looseleaf,2,4,3,1,8.938761187150037,3,1,Sample row 642
+4,Basil,Thai,2,3,2,2,8.432326205609426,3,3,Sample row 643
+2,Lettuce,Red Leaf Lettuce,2,3,2,1,9.142704929366314,3,1,Sample row 644
+4,Basil,Thai,3,2,3,2,8.829510253714687,3,3,Sample row 645
+2,Lettuce,Looseleaf,1,3,2,2,9.17492583650353,2,1,Sample row 646
+2,Lettuce,Little Gem,2,3,3,2,9.270240096162043,3,1,Sample row 647
+2,Lettuce,Crisphead,2,3,1,1,8.293848831770989,1,1,Sample row 648
+2,Lettuce,Red Leaf Lettuce,3,2,2,2,9.01612034850199,3,1,Sample row 649
+4,Basil,Thai,3,2,2,1,8.67046183921957,3,3,Sample row 650
+2,Lettuce,Looseleaf,2,4,2,1,9.164276230867271,3,1,Sample row 651
+3,Tomato,Grape,1,3,1,1,9.064020155545046,3,2,Sample row 652
+3,Tomato,Roma,3,4,2,1,8.662678684467965,2,2,Sample row 653
+3,Tomato,Beefsteak,1,3,3,2,10.0,1,2,Sample row 654
+4,Basil,Basil Genovese,3,4,2,1,10.0,3,3,Sample row 655
+4,Basil,Basil Genovese,3,3,3,2,10.0,3,3,Sample row 656
+2,Lettuce,Oak Leaf,3,2,3,1,10.0,2,1,Sample row 657
+2,Lettuce,Red Leaf Lettuce,3,1,1,2,9.10041189140241,3,1,Sample row 658
+2,Lettuce,Red Leaf Lettuce,2,2,1,2,9.493960945056848,1,1,Sample row 659
+3,Tomato,Grape,1,3,2,1,8.685877460200869,2,2,Sample row 660
+3,Tomato,Roma,3,3,3,1,8.534192961585278,1,2,Sample row 661
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,8.862720895477901,2,1,Sample row 662
+3,Tomato,Cherry,2,3,3,1,10.0,3,2,Sample row 663
+4,Basil,Basil Genovese,3,4,3,1,9.760917869445189,2,3,Sample row 664
+3,Tomato,Roma,3,2,1,1,8.945703404086792,2,2,Sample row 665
+4,Basil,Basil Genovese,3,3,1,2,9.985148166472312,3,3,Sample row 666
+3,Tomato,Cherry,2,3,3,1,10.0,3,2,Sample row 667
+2,Lettuce,Oak Leaf,3,3,3,1,10.0,1,1,Sample row 668
+3,Tomato,Roma,2,4,2,2,8.795184042875546,3,2,Sample row 669
+3,Tomato,Grape,1,1,2,2,8.665107150492124,3,2,Sample row 670
+2,Lettuce,Little Gem,2,4,3,1,9.820227308749782,1,1,Sample row 671
+3,Tomato,Roma,3,4,3,1,8.335764925035079,1,2,Sample row 672
+2,Lettuce,Little Gem,3,4,1,1,9.794928626341946,2,1,Sample row 673
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,9.157435364294788,2,1,Sample row 674
+2,Lettuce,Crisphead,1,4,2,2,8.0,1,1,Sample row 675
+4,Basil,Thai,3,1,2,1,8.905018227473896,3,3,Sample row 676
+4,Basil,Thai,2,3,2,1,9.502592343680622,3,3,Sample row 677
+3,Tomato,Roma,2,3,2,2,9.127920570763477,1,2,Sample row 678
+2,Lettuce,Crisphead,2,3,2,2,8.158898471006436,1,1,Sample row 679
+3,Tomato,Roma,2,2,3,2,8.758459560596819,2,2,Sample row 680
+2,Lettuce,Oak Leaf,2,4,2,2,9.916080145487243,2,1,Sample row 681
+4,Basil,Sweet,1,3,3,1,8.0,3,3,Sample row 682
+3,Tomato,Roma,3,3,3,2,9.334021915182094,3,2,Sample row 683
+3,Tomato,Roma,3,3,2,1,8.698306175640319,2,2,Sample row 684
+3,Tomato,Beefsteak,1,4,1,1,10.0,1,2,Sample row 685
+3,Tomato,Roma,3,2,3,1,8.0,3,2,Sample row 686
+2,Lettuce,Crisphead,1,3,3,1,8.24728637951424,2,1,Sample row 687
+2,Lettuce,Oak Leaf,3,3,3,1,10.0,2,1,Sample row 688
+2,Lettuce,Looseleaf,1,3,1,1,8.619887906438048,2,1,Sample row 689
+2,Lettuce,Looseleaf,2,2,2,1,9.06287633827302,2,1,Sample row 690
+2,Lettuce,Oak Leaf,3,4,3,1,9.940657249504845,3,1,Sample row 691
+3,Tomato,Roma,3,4,1,1,8.544322900442774,3,2,Sample row 692
+4,Basil,Basil Genovese,3,2,2,1,9.859025970612816,2,3,Sample row 693
+3,Tomato,Roma,3,4,3,1,9.48722482234099,3,2,Sample row 694
+3,Tomato,Beefsteak,1,4,2,2,9.378271326403823,1,2,Sample row 695
+3,Tomato,Beefsteak,1,4,3,2,9.83554716277315,1,2,Sample row 696
+2,Lettuce,Little Gem,1,3,3,1,10.0,3,1,Sample row 697
+3,Tomato,Cherry,1,4,3,1,10.0,2,2,Sample row 698
+2,Lettuce,Crisphead,1,3,3,2,8.262551892131317,1,1,Sample row 699
+3,Tomato,Beefsteak,1,4,3,2,9.813268166010992,3,2,Sample row 700
+2,Lettuce,Little Gem,2,3,1,2,9.362527380326377,3,1,Sample row 701
+2,Lettuce,Looseleaf,1,4,2,1,9.338703885372816,3,1,Sample row 702
+4,Basil,Basil Genovese,3,3,2,2,9.850352472392757,2,3,Sample row 703
+3,Tomato,Roma,3,3,1,1,9.162923870958197,3,2,Sample row 704
+3,Tomato,Roma,3,4,1,2,9.175379901417863,1,2,Sample row 705
+4,Basil,Thai,2,2,2,1,9.003780729699605,3,3,Sample row 706
+3,Tomato,Beefsteak,2,3,2,1,10.0,3,2,Sample row 707
+3,Tomato,Roma,3,2,3,1,9.385129738244029,2,2,Sample row 708
+2,Lettuce,Oak Leaf,3,2,3,2,9.909867580381572,2,1,Sample row 709
+2,Lettuce,Oak Leaf,2,3,2,1,10.0,2,1,Sample row 710
+4,Basil,Thai,3,2,3,1,9.038045753484694,3,3,Sample row 711
+4,Basil,Basil Genovese,2,4,2,1,9.518384833949398,1,3,Sample row 712
+4,Basil,Thai,2,1,2,1,8.813171421119277,3,3,Sample row 713
+3,Tomato,Roma,2,2,1,1,9.272954364382972,1,2,Sample row 714
+2,Lettuce,Crisphead,1,4,2,1,8.104621353404452,1,1,Sample row 715
+3,Tomato,Cherry,3,4,2,2,9.959306674141372,2,2,Sample row 716
+4,Basil,Thai,3,2,3,1,9.872874452004796,3,3,Sample row 717
+3,Tomato,Grape,1,2,3,1,8.651508420605367,2,2,Sample row 718
+3,Tomato,Roma,3,2,2,1,9.080735305833219,3,2,Sample row 719
+3,Tomato,Cherry,3,4,3,2,10.0,3,2,Sample row 720
+3,Tomato,Beefsteak,1,4,3,2,9.634158026510534,2,2,Sample row 721
+4,Basil,Thai,2,2,3,1,9.341594417602918,3,3,Sample row 722
+2,Lettuce,Crisphead,1,4,1,1,8.085189620740188,2,1,Sample row 723
+2,Lettuce,Crisphead,2,4,3,2,8.044157818750842,1,1,Sample row 724
+2,Lettuce,Looseleaf,3,3,1,1,9.221503913245051,3,1,Sample row 725
+2,Lettuce,Red Leaf Lettuce,2,2,1,1,8.55991613375652,3,1,Sample row 726
+3,Tomato,Roma,2,4,2,2,9.200284847065547,3,2,Sample row 727
+4,Basil,Basil Genovese,2,4,1,2,9.336733952518241,1,3,Sample row 728
+3,Tomato,Beefsteak,1,3,3,2,9.811982172095304,1,2,Sample row 729
+4,Basil,Sweet,1,4,1,2,8.31282956107741,2,3,Sample row 730
+3,Tomato,Roma,3,2,3,1,9.106213415285835,3,2,Sample row 731
+2,Lettuce,Looseleaf,3,2,1,1,8.88364511298108,3,1,Sample row 732
+2,Lettuce,Oak Leaf,3,4,2,1,9.767889187277133,1,1,Sample row 733
+3,Tomato,Beefsteak,3,4,1,2,10.0,2,2,Sample row 734
+4,Basil,Sweet,2,4,1,2,8.0,1,3,Sample row 735
+4,Basil,Sweet,1,3,2,1,8.014413007122211,2,3,Sample row 736
+2,Lettuce,Crisphead,2,4,2,2,8.190356951439263,2,1,Sample row 737
+3,Tomato,Grape,2,1,3,1,8.217737575735466,3,2,Sample row 738
+4,Basil,Basil Genovese,1,4,1,2,10.0,2,3,Sample row 739
+3,Tomato,Grape,1,2,1,2,9.078501289795923,3,2,Sample row 740
+2,Lettuce,Oak Leaf,3,3,3,2,10.0,3,1,Sample row 741
+4,Basil,Thai,3,3,3,1,8.890926198117597,3,3,Sample row 742
+2,Lettuce,Looseleaf,1,4,3,2,9.36973495511081,2,1,Sample row 743
+3,Tomato,Beefsteak,2,4,1,1,10.0,3,2,Sample row 744
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,9.442805980920914,1,1,Sample row 745
+4,Basil,Basil Genovese,3,2,1,1,10.0,3,3,Sample row 746
+3,Tomato,Cherry,3,4,2,2,10.0,3,2,Sample row 747
+2,Lettuce,Oak Leaf,2,3,2,1,9.885158290080021,1,1,Sample row 748
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,9.185928130007403,2,1,Sample row 749
+2,Lettuce,Red Leaf Lettuce,1,2,1,2,8.555818634799065,3,1,Sample row 750
+3,Tomato,Beefsteak,2,4,3,2,10.0,1,2,Sample row 751
+2,Lettuce,Red Leaf Lettuce,1,1,2,1,9.710990057672475,3,1,Sample row 752
+4,Basil,Thai,2,1,2,1,8.989239658708815,3,3,Sample row 753
+2,Lettuce,Oak Leaf,3,4,3,1,9.725509521879687,2,1,Sample row 754
+2,Lettuce,Crisphead,1,4,3,2,8.0,1,1,Sample row 755
+3,Tomato,Cherry,1,4,3,1,9.537522574924155,3,2,Sample row 756
+4,Basil,Thai,3,2,3,1,9.555101340835954,2,3,Sample row 757
+3,Tomato,Roma,2,2,2,2,9.56959046881264,2,2,Sample row 758
+2,Lettuce,Looseleaf,3,2,2,1,8.731738358030816,3,1,Sample row 759
+3,Tomato,Beefsteak,1,3,3,1,9.883057743316892,2,2,Sample row 760
+3,Tomato,Roma,3,2,3,1,8.45825850854103,3,2,Sample row 761
+2,Lettuce,Little Gem,3,4,2,1,10.0,2,1,Sample row 762
+4,Basil,Basil Genovese,1,2,1,1,9.876364707860336,1,3,Sample row 763
+2,Lettuce,Crisphead,2,4,3,2,8.0,1,1,Sample row 764
+3,Tomato,Cherry,2,4,3,2,9.284345107948313,3,2,Sample row 765
+2,Lettuce,Red Leaf Lettuce,3,1,1,2,8.733231424136964,1,1,Sample row 766
+2,Lettuce,Crisphead,1,4,1,1,8.257506676098057,1,1,Sample row 767
+2,Lettuce,Oak Leaf,2,2,3,2,9.965057896826593,3,1,Sample row 768
+2,Lettuce,Little Gem,3,4,1,2,10.0,2,1,Sample row 769
+2,Lettuce,Little Gem,3,3,1,2,9.707802096529974,1,1,Sample row 770
+3,Tomato,Beefsteak,2,3,2,2,9.688568603728056,2,2,Sample row 771
+4,Basil,Basil Genovese,3,4,1,2,10.0,1,3,Sample row 772
+4,Basil,Sweet,1,4,1,2,8.348550553530327,2,3,Sample row 773
+3,Tomato,Grape,1,1,2,1,8.842088624966205,2,2,Sample row 774
+3,Tomato,Grape,2,1,2,1,8.764853291083577,3,2,Sample row 775
+3,Tomato,Grape,1,1,3,1,9.865133176619414,3,2,Sample row 776
+3,Tomato,Roma,2,2,3,1,9.08977219245524,2,2,Sample row 777
+3,Tomato,Beefsteak,1,4,3,1,10.0,1,2,Sample row 778
+2,Lettuce,Red Leaf Lettuce,2,1,2,1,9.443668246281367,3,1,Sample row 779
+2,Lettuce,Crisphead,1,4,1,1,8.0,1,1,Sample row 780
+4,Basil,Basil Genovese,1,3,1,1,10.0,1,3,Sample row 781
+4,Basil,Thai,2,3,3,1,8.593393324372979,2,3,Sample row 782
+2,Lettuce,Looseleaf,3,4,1,1,9.433356105521447,3,1,Sample row 783
+2,Lettuce,Little Gem,3,3,1,1,10.0,1,1,Sample row 784
+4,Basil,Basil Genovese,2,2,3,1,10.0,3,3,Sample row 785
+3,Tomato,Roma,3,3,3,1,9.273413421828309,1,2,Sample row 786
+3,Tomato,Grape,1,3,1,1,9.265423561425424,3,2,Sample row 787
+4,Basil,Basil Genovese,1,4,2,2,10.0,1,3,Sample row 788
+4,Basil,Sweet,1,4,3,1,8.100551766362727,3,3,Sample row 789
+3,Tomato,Roma,2,2,1,1,8.711554247531183,1,2,Sample row 790
+3,Tomato,Cherry,3,3,3,2,10.0,3,2,Sample row 791
+3,Tomato,Roma,2,3,1,1,8.985060916320384,3,2,Sample row 792
+2,Lettuce,Crisphead,2,4,3,2,8.233946189850103,1,1,Sample row 793
+4,Basil,Thai,3,1,2,1,8.81572265621936,2,3,Sample row 794
+4,Basil,Sweet,1,4,2,1,8.188101848979567,3,3,Sample row 795
+4,Basil,Sweet,2,4,1,2,8.0,3,3,Sample row 796
+3,Tomato,Beefsteak,1,4,1,1,10.0,1,2,Sample row 797
+3,Tomato,Roma,3,2,3,1,9.08370224962171,3,2,Sample row 798
+4,Basil,Basil Genovese,3,4,3,1,9.953090472716722,1,3,Sample row 799
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,8.907782962437338,1,1,Sample row 800
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,9.19133346141577,1,1,Sample row 801
+2,Lettuce,Oak Leaf,2,2,3,2,10.0,1,1,Sample row 802
+4,Basil,Sweet,2,4,3,2,8.0,1,3,Sample row 803
+4,Basil,Thai,3,1,3,1,9.013759573108503,3,3,Sample row 804
+2,Lettuce,Crisphead,1,3,3,2,8.06199194050176,1,1,Sample row 805
+4,Basil,Sweet,2,4,1,1,8.0,3,3,Sample row 806
+4,Basil,Basil Genovese,1,2,2,1,9.521220202916348,1,3,Sample row 807
+2,Lettuce,Looseleaf,3,2,1,1,8.523282209201572,3,1,Sample row 808
+2,Lettuce,Little Gem,1,4,1,2,9.586791981086279,3,1,Sample row 809
+2,Lettuce,Crisphead,1,4,3,1,8.0,1,1,Sample row 810
+3,Tomato,Grape,2,2,3,1,9.407223535007265,3,2,Sample row 811
+2,Lettuce,Red Leaf Lettuce,2,1,1,2,8.880004371481558,1,1,Sample row 812
+3,Tomato,Cherry,1,3,2,1,9.808079061747243,2,2,Sample row 813
+4,Basil,Thai,3,1,3,1,8.64118728194454,3,3,Sample row 814
+2,Lettuce,Looseleaf,2,3,2,1,9.422891988918176,3,1,Sample row 815
+3,Tomato,Roma,3,2,2,1,9.029879983560907,3,2,Sample row 816
+4,Basil,Sweet,2,4,2,1,8.0,1,3,Sample row 817
+3,Tomato,Cherry,1,4,2,2,9.545697051550489,3,2,Sample row 818
+2,Lettuce,Red Leaf Lettuce,1,3,1,1,9.52845473909211,1,1,Sample row 819
+2,Lettuce,Crisphead,1,3,3,2,8.191027815947484,2,1,Sample row 820
+4,Basil,Basil Genovese,2,3,1,1,9.596942263307215,1,3,Sample row 821
+4,Basil,Thai,2,1,2,2,9.09038616544903,2,3,Sample row 822
+4,Basil,Sweet,2,4,3,1,8.0,3,3,Sample row 823
+2,Lettuce,Oak Leaf,3,4,3,1,9.984343473034246,3,1,Sample row 824
+3,Tomato,Roma,2,2,3,1,9.119701210097357,1,2,Sample row 825
+2,Lettuce,Little Gem,1,4,2,1,9.881899586062838,2,1,Sample row 826
+3,Tomato,Roma,3,4,1,2,9.564168667113622,2,2,Sample row 827
+3,Tomato,Grape,2,2,1,1,8.986374779830307,2,2,Sample row 828
+3,Tomato,Cherry,3,4,3,1,9.88581471143166,3,2,Sample row 829
+2,Lettuce,Crisphead,1,4,1,2,8.0,1,1,Sample row 830
+2,Lettuce,Little Gem,1,3,2,1,9.860097980298583,2,1,Sample row 831
+4,Basil,Sweet,2,4,3,1,8.456579793990443,3,3,Sample row 832
+2,Lettuce,Oak Leaf,3,2,3,2,10.0,2,1,Sample row 833
+3,Tomato,Grape,1,2,3,1,9.097070462902074,3,2,Sample row 834
+2,Lettuce,Red Leaf Lettuce,2,1,2,1,9.217130337875975,1,1,Sample row 835
+2,Lettuce,Little Gem,1,4,2,2,10.0,2,1,Sample row 836
+3,Tomato,Beefsteak,3,4,2,1,10.0,3,2,Sample row 837
+2,Lettuce,Looseleaf,3,3,3,1,9.24640527601258,3,1,Sample row 838
+3,Tomato,Roma,3,4,2,2,9.226664892026847,3,2,Sample row 839
+2,Lettuce,Looseleaf,1,4,1,1,9.302102758546448,3,1,Sample row 840
+3,Tomato,Beefsteak,1,3,3,2,10.0,3,2,Sample row 841
+3,Tomato,Grape,1,1,3,1,9.27259040099236,3,2,Sample row 842
+3,Tomato,Roma,3,3,2,1,9.022447880832354,3,2,Sample row 843
+4,Basil,Basil Genovese,3,3,2,1,9.987862262493493,1,3,Sample row 844
+3,Tomato,Grape,1,3,2,2,8.901520502833005,2,2,Sample row 845
+3,Tomato,Roma,2,3,1,1,8.430185225117077,1,2,Sample row 846
+2,Lettuce,Little Gem,3,4,1,1,10.0,3,1,Sample row 847
+3,Tomato,Cherry,2,3,3,1,10.0,3,2,Sample row 848
+2,Lettuce,Red Leaf Lettuce,2,3,1,2,9.147112990421645,3,1,Sample row 849
+3,Tomato,Cherry,3,4,3,1,9.053663811974332,3,2,Sample row 850
+3,Tomato,Cherry,1,4,2,1,9.643145422141394,3,2,Sample row 851
+3,Tomato,Cherry,1,4,2,1,10.0,3,2,Sample row 852
+4,Basil,Basil Genovese,1,2,1,2,10.0,2,3,Sample row 853
+2,Lettuce,Looseleaf,2,2,3,2,8.910692538742492,3,1,Sample row 854
+4,Basil,Sweet,3,3,3,2,8.0,2,3,Sample row 855
+2,Lettuce,Little Gem,1,3,3,1,9.66224554632717,3,1,Sample row 856
+2,Lettuce,Oak Leaf,3,2,2,1,10.0,3,1,Sample row 857
+3,Tomato,Cherry,3,4,2,1,9.991801964279714,2,2,Sample row 858
+2,Lettuce,Looseleaf,3,2,2,1,8.62420415554877,2,1,Sample row 859
+4,Basil,Basil Genovese,3,4,2,1,10.0,2,3,Sample row 860
+3,Tomato,Cherry,2,4,3,2,9.349615068260613,3,2,Sample row 861
+3,Tomato,Cherry,3,3,3,1,9.75043352140804,3,2,Sample row 862
+2,Lettuce,Red Leaf Lettuce,3,1,2,2,9.248381652973256,2,1,Sample row 863
+2,Lettuce,Oak Leaf,3,2,3,1,10.0,3,1,Sample row 864
+3,Tomato,Beefsteak,2,3,2,2,9.231685688717228,1,2,Sample row 865
+3,Tomato,Roma,3,3,1,1,8.612957686246759,3,2,Sample row 866
+3,Tomato,Grape,2,2,2,1,9.047810799054446,3,2,Sample row 867
+4,Basil,Sweet,2,4,1,1,8.372509265186514,2,3,Sample row 868
+2,Lettuce,Little Gem,2,4,2,1,10.0,3,1,Sample row 869
+3,Tomato,Cherry,1,4,3,1,9.438230407348627,3,2,Sample row 870
+2,Lettuce,Oak Leaf,3,3,3,2,9.552261109738657,3,1,Sample row 871
+4,Basil,Thai,2,1,3,2,8.900565348123726,3,3,Sample row 872
+3,Tomato,Beefsteak,3,4,1,2,10.0,2,2,Sample row 873
+4,Basil,Sweet,2,4,1,2,8.0,1,3,Sample row 874
+4,Basil,Sweet,2,4,1,2,8.0,1,3,Sample row 875
+2,Lettuce,Little Gem,1,4,3,1,10.0,3,1,Sample row 876
+3,Tomato,Grape,1,3,1,1,8.92028205904653,2,2,Sample row 877
+3,Tomato,Grape,1,2,3,1,8.539739813061786,2,2,Sample row 878
+3,Tomato,Beefsteak,2,4,2,2,10.0,3,2,Sample row 879
+2,Lettuce,Oak Leaf,3,3,3,1,9.459145019064934,2,1,Sample row 880
+2,Lettuce,Looseleaf,2,2,1,1,8.541816731664206,3,1,Sample row 881
+3,Tomato,Roma,3,3,2,1,9.398284869290016,2,2,Sample row 882
+3,Tomato,Beefsteak,2,3,3,2,10.0,1,2,Sample row 883
+2,Lettuce,Crisphead,2,4,3,1,8.256517995103136,1,1,Sample row 884
+2,Lettuce,Oak Leaf,2,2,3,2,9.575671097429096,1,1,Sample row 885
+4,Basil,Thai,3,1,2,1,9.504284409301492,3,3,Sample row 886
+3,Tomato,Cherry,1,4,3,1,9.918993620808923,2,2,Sample row 887
+3,Tomato,Beefsteak,3,4,2,2,10.0,3,2,Sample row 888
+4,Basil,Thai,3,3,3,1,8.936569137908654,3,3,Sample row 889
+2,Lettuce,Red Leaf Lettuce,1,2,2,1,9.178747782224729,1,1,Sample row 890
+3,Tomato,Cherry,1,3,2,1,10.0,3,2,Sample row 891
+2,Lettuce,Oak Leaf,3,4,2,1,10.0,1,1,Sample row 892
+4,Basil,Sweet,1,4,3,2,8.0,1,3,Sample row 893
+2,Lettuce,Oak Leaf,2,3,2,1,10.0,1,1,Sample row 894
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,9.546415286611769,3,1,Sample row 895
+3,Tomato,Roma,3,3,2,1,9.164937660246062,1,2,Sample row 896
+2,Lettuce,Crisphead,2,4,2,1,8.302082358763817,1,1,Sample row 897
+2,Lettuce,Looseleaf,3,3,3,1,8.946088339198447,3,1,Sample row 898
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,1,1,Sample row 899
+4,Basil,Basil Genovese,3,3,2,2,9.740062400854596,2,3,Sample row 900
+2,Lettuce,Crisphead,1,4,3,1,8.32439956975179,1,1,Sample row 901
+3,Tomato,Roma,3,3,1,2,9.203419584197988,1,2,Sample row 902
+3,Tomato,Beefsteak,1,4,1,2,9.560380822496187,3,2,Sample row 903
+2,Lettuce,Oak Leaf,3,2,2,1,10.0,3,1,Sample row 904
+4,Basil,Sweet,1,4,1,1,8.253997794161553,1,3,Sample row 905
+4,Basil,Thai,2,2,2,2,8.984246975879438,3,3,Sample row 906
+3,Tomato,Roma,2,2,1,2,9.065118495278266,3,2,Sample row 907
+2,Lettuce,Oak Leaf,3,3,2,1,10.0,2,1,Sample row 908
+2,Lettuce,Red Leaf Lettuce,1,3,1,1,9.711317958648618,2,1,Sample row 909
+4,Basil,Thai,3,3,2,1,8.808548347704251,3,3,Sample row 910
+4,Basil,Basil Genovese,3,3,1,2,10.0,2,3,Sample row 911
+4,Basil,Thai,2,1,3,1,8.800102429974093,2,3,Sample row 912
+3,Tomato,Grape,1,1,1,2,9.846231937640756,2,2,Sample row 913
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,9.282135075880047,2,1,Sample row 914
+2,Lettuce,Oak Leaf,3,3,2,2,9.986381487824824,2,1,Sample row 915
+4,Basil,Sweet,2,3,1,1,8.0,1,3,Sample row 916
+2,Lettuce,Little Gem,2,4,3,1,10.0,1,1,Sample row 917
+4,Basil,Sweet,3,4,1,1,8.0,1,3,Sample row 918
+2,Lettuce,Oak Leaf,3,4,3,2,10.0,3,1,Sample row 919
+2,Lettuce,Oak Leaf,3,4,3,1,9.675872685877328,3,1,Sample row 920
+4,Basil,Thai,3,2,3,1,9.416710237603771,3,3,Sample row 921
+3,Tomato,Beefsteak,2,3,2,2,9.548238712079534,2,2,Sample row 922
+2,Lettuce,Looseleaf,2,4,3,2,8.528878535254254,3,1,Sample row 923
+3,Tomato,Beefsteak,1,4,3,1,9.773406428004433,3,2,Sample row 924
+2,Lettuce,Oak Leaf,3,3,3,1,9.86243147184489,2,1,Sample row 925
+3,Tomato,Grape,2,1,1,1,9.08984307466508,3,2,Sample row 926
+4,Basil,Basil Genovese,2,3,1,1,10.0,1,3,Sample row 927
+4,Basil,Basil Genovese,2,2,1,1,10.0,3,3,Sample row 928
+4,Basil,Thai,3,3,2,1,9.110161206956356,2,3,Sample row 929
+3,Tomato,Grape,1,3,2,1,8.614802133439447,3,2,Sample row 930
+2,Lettuce,Red Leaf Lettuce,2,2,1,1,9.184344314736602,1,1,Sample row 931
+2,Lettuce,Oak Leaf,2,2,3,1,10.0,1,1,Sample row 932
+2,Lettuce,Crisphead,1,4,1,2,8.027885458743647,2,1,Sample row 933
+2,Lettuce,Oak Leaf,3,2,3,1,9.843098579224518,2,1,Sample row 934
+2,Lettuce,Red Leaf Lettuce,3,2,2,1,9.149618364742294,3,1,Sample row 935
+2,Lettuce,Red Leaf Lettuce,2,2,2,1,8.970037445790599,1,1,Sample row 936
+2,Lettuce,Looseleaf,3,3,1,1,8.723585371956327,3,1,Sample row 937
+3,Tomato,Cherry,1,4,3,2,9.570630942906927,3,2,Sample row 938
+3,Tomato,Roma,2,4,2,1,8.726583140848549,3,2,Sample row 939
+3,Tomato,Grape,1,1,1,2,9.20893106405811,2,2,Sample row 940
+2,Lettuce,Looseleaf,2,3,2,1,9.23386924524517,3,1,Sample row 941
+2,Lettuce,Little Gem,1,3,1,1,9.698760934892416,1,1,Sample row 942
+3,Tomato,Roma,2,2,1,1,9.098299022053933,1,2,Sample row 943
+4,Basil,Basil Genovese,2,3,3,1,10.0,3,3,Sample row 944
+4,Basil,Thai,2,3,3,1,9.22133166739803,2,3,Sample row 945
+2,Lettuce,Crisphead,1,4,2,1,8.245472793420689,1,1,Sample row 946
+4,Basil,Basil Genovese,3,3,3,1,9.843828157478459,2,3,Sample row 947
+3,Tomato,Roma,2,3,3,1,8.834071834321774,2,2,Sample row 948
+2,Lettuce,Looseleaf,1,4,3,1,9.221131644724174,3,1,Sample row 949
+3,Tomato,Cherry,2,4,3,1,10.0,3,2,Sample row 950
+2,Lettuce,Little Gem,2,4,3,2,9.778864508821027,1,1,Sample row 951
+3,Tomato,Cherry,1,4,3,2,9.826146354022203,3,2,Sample row 952
+2,Lettuce,Little Gem,2,3,3,2,9.55485068542469,2,1,Sample row 953
+3,Tomato,Beefsteak,3,4,1,1,10.0,1,2,Sample row 954
+3,Tomato,Roma,2,4,2,2,9.40941116334493,2,2,Sample row 955
+2,Lettuce,Crisphead,1,4,3,1,8.262648244041252,1,1,Sample row 956
+3,Tomato,Cherry,1,3,3,2,10.0,2,2,Sample row 957
+2,Lettuce,Little Gem,2,3,3,1,10.0,1,1,Sample row 958
+2,Lettuce,Little Gem,1,3,2,2,9.351651979753866,2,1,Sample row 959
+4,Basil,Thai,2,1,2,2,8.574520271034814,2,3,Sample row 960
+3,Tomato,Beefsteak,2,3,1,1,9.82749586826146,3,2,Sample row 961
+4,Basil,Basil Genovese,2,3,3,1,10.0,3,3,Sample row 962
+4,Basil,Thai,3,1,3,1,8.419141106585759,2,3,Sample row 963
+2,Lettuce,Looseleaf,3,4,3,1,8.888312990806458,2,1,Sample row 964
+4,Basil,Thai,3,2,3,2,9.344020672261617,3,3,Sample row 965
+4,Basil,Sweet,2,4,1,1,8.0,2,3,Sample row 966
+3,Tomato,Roma,2,3,1,2,8.815601381404488,3,2,Sample row 967
+2,Lettuce,Oak Leaf,3,2,3,1,9.743797223483,3,1,Sample row 968
+3,Tomato,Cherry,3,4,3,2,9.89489210961729,3,2,Sample row 969
+2,Lettuce,Little Gem,2,4,3,1,9.926248357323134,2,1,Sample row 970
+2,Lettuce,Oak Leaf,2,3,3,2,10.0,2,1,Sample row 971
+4,Basil,Basil Genovese,2,3,1,2,10.0,3,3,Sample row 972
+2,Lettuce,Crisphead,2,3,1,1,8.098632992039244,1,1,Sample row 973
+3,Tomato,Grape,2,1,1,1,8.940644769625948,3,2,Sample row 974
+4,Basil,Basil Genovese,2,2,2,2,10.0,1,3,Sample row 975
+2,Lettuce,Little Gem,1,4,2,1,10.0,2,1,Sample row 976
+4,Basil,Basil Genovese,1,3,1,2,9.74029530128859,1,3,Sample row 977
+2,Lettuce,Crisphead,1,4,1,1,8.0,2,1,Sample row 978
+3,Tomato,Grape,1,3,3,2,9.138183944901131,2,2,Sample row 979
+2,Lettuce,Red Leaf Lettuce,3,2,2,2,9.57495700567817,3,1,Sample row 980
+2,Lettuce,Little Gem,2,3,3,1,10.0,3,1,Sample row 981
+2,Lettuce,Little Gem,2,4,1,1,9.640760541059683,1,1,Sample row 982
+4,Basil,Sweet,1,4,2,1,8.140612121761912,1,3,Sample row 983
+2,Lettuce,Oak Leaf,3,2,2,1,10.0,3,1,Sample row 984
+4,Basil,Sweet,2,4,1,1,8.43252401254795,1,3,Sample row 985
+4,Basil,Thai,2,2,2,2,8.855238165039454,3,3,Sample row 986
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,8.505268936721572,2,1,Sample row 987
+2,Lettuce,Little Gem,2,3,1,1,9.44052551379535,1,1,Sample row 988
+2,Lettuce,Little Gem,3,4,3,2,10.0,3,1,Sample row 989
+3,Tomato,Grape,1,3,1,1,8.91912911203518,2,2,Sample row 990
+3,Tomato,Grape,1,3,2,2,8.633255923395563,3,2,Sample row 991
+3,Tomato,Beefsteak,3,3,2,2,10.0,3,2,Sample row 992
+2,Lettuce,Crisphead,1,4,1,1,8.0,1,1,Sample row 993
+2,Lettuce,Red Leaf Lettuce,1,1,1,1,9.13831059998542,1,1,Sample row 994
+2,Lettuce,Oak Leaf,3,3,2,1,10.0,2,1,Sample row 995
+3,Tomato,Beefsteak,1,4,2,2,9.502383275833509,1,2,Sample row 996
+4,Basil,Thai,2,3,2,1,9.264338121591635,2,3,Sample row 997
+3,Tomato,Grape,2,1,3,1,9.073027353655679,3,2,Sample row 998
+3,Tomato,Beefsteak,2,4,3,2,10.0,2,2,Sample row 999
+4,Basil,Basil Genovese,2,2,2,2,10.0,1,3,Sample row 1000
+3,Tomato,Beefsteak,1,4,3,2,10.0,2,2,Sample row 1001
+4,Basil,Thai,3,2,3,2,8.745551969657429,2,3,Sample row 1002
+4,Basil,Basil Genovese,2,3,1,1,10.0,1,3,Sample row 1003
+2,Lettuce,Little Gem,3,4,3,1,9.779869125773528,3,1,Sample row 1004
+3,Tomato,Cherry,2,4,3,1,10.0,3,2,Sample row 1005
+2,Lettuce,Crisphead,2,3,2,2,8.0,2,1,Sample row 1006
+3,Tomato,Grape,2,3,1,1,8.452703208509899,3,2,Sample row 1007
+2,Lettuce,Looseleaf,3,3,1,2,8.766081571075855,3,1,Sample row 1008
+4,Basil,Thai,2,3,3,1,9.260516756062387,3,3,Sample row 1009
+4,Basil,Sweet,1,3,1,2,8.0,2,3,Sample row 1010
+3,Tomato,Cherry,2,3,2,2,9.606609883149698,3,2,Sample row 1011
+2,Lettuce,Red Leaf Lettuce,1,1,2,1,9.099204502510624,1,1,Sample row 1012
+4,Basil,Thai,3,1,3,1,9.210663477012254,3,3,Sample row 1013
+3,Tomato,Grape,1,2,1,2,8.772638701641808,3,2,Sample row 1014
+3,Tomato,Cherry,1,3,2,1,10.0,2,2,Sample row 1015
+2,Lettuce,Looseleaf,2,3,3,1,8.888690398167526,3,1,Sample row 1016
+3,Tomato,Beefsteak,2,4,2,2,10.0,1,2,Sample row 1017
+3,Tomato,Grape,1,3,3,1,9.059834373265627,3,2,Sample row 1018
+3,Tomato,Cherry,2,3,2,1,9.887657055865697,3,2,Sample row 1019
+3,Tomato,Beefsteak,2,4,3,1,9.52519005217131,1,2,Sample row 1020
+2,Lettuce,Red Leaf Lettuce,3,3,1,1,8.774661595109624,2,1,Sample row 1021
+3,Tomato,Roma,3,3,3,1,8.571493806485208,2,2,Sample row 1022
+3,Tomato,Beefsteak,1,3,2,2,9.746399160134231,2,2,Sample row 1023
+3,Tomato,Roma,3,3,3,2,8.757384568850144,2,2,Sample row 1024
+2,Lettuce,Looseleaf,2,2,2,1,8.989025854763224,2,1,Sample row 1025
+2,Lettuce,Little Gem,3,4,3,1,9.942156210492147,3,1,Sample row 1026
+2,Lettuce,Little Gem,2,4,1,1,10.0,2,1,Sample row 1027
+3,Tomato,Cherry,1,3,2,1,10.0,3,2,Sample row 1028
+2,Lettuce,Little Gem,2,4,1,1,10.0,2,1,Sample row 1029
+3,Tomato,Cherry,2,4,3,1,10.0,2,2,Sample row 1030
+2,Lettuce,Little Gem,1,4,2,1,10.0,1,1,Sample row 1031
+3,Tomato,Beefsteak,1,4,3,1,9.967100429019926,2,2,Sample row 1032
+2,Lettuce,Little Gem,1,4,1,2,9.943897470011944,2,1,Sample row 1033
+3,Tomato,Beefsteak,2,4,3,1,9.085731470588232,3,2,Sample row 1034
+2,Lettuce,Crisphead,1,4,3,1,8.387687068819316,1,1,Sample row 1035
+3,Tomato,Roma,3,4,2,2,9.359166383837403,3,2,Sample row 1036
+4,Basil,Basil Genovese,1,4,3,1,9.84553992713651,2,3,Sample row 1037
+4,Basil,Sweet,3,4,1,2,8.0,1,3,Sample row 1038
+4,Basil,Sweet,2,3,1,1,8.19262078549171,3,3,Sample row 1039
+3,Tomato,Beefsteak,3,4,1,2,10.0,2,2,Sample row 1040
+2,Lettuce,Looseleaf,3,4,1,2,8.876912217136319,2,1,Sample row 1041
+2,Lettuce,Little Gem,3,4,1,1,10.0,2,1,Sample row 1042
+4,Basil,Thai,3,1,2,2,8.775025750625746,2,3,Sample row 1043
+3,Tomato,Grape,1,3,3,1,9.394430100124305,3,2,Sample row 1044
+2,Lettuce,Crisphead,1,4,2,1,8.0,1,1,Sample row 1045
+2,Lettuce,Red Leaf Lettuce,1,1,2,1,9.261396383722003,3,1,Sample row 1046
+2,Lettuce,Crisphead,1,4,2,2,8.0,1,1,Sample row 1047
+3,Tomato,Roma,3,4,2,2,9.12242013620027,1,2,Sample row 1048
+2,Lettuce,Red Leaf Lettuce,1,3,2,2,9.484005283664256,1,1,Sample row 1049
+2,Lettuce,Red Leaf Lettuce,3,3,1,1,8.94886008894191,1,1,Sample row 1050
+4,Basil,Basil Genovese,3,3,2,1,9.866781303526773,2,3,Sample row 1051
+4,Basil,Sweet,3,3,2,1,8.698049973138374,2,3,Sample row 1052
+3,Tomato,Cherry,1,4,3,1,10.0,2,2,Sample row 1053
+3,Tomato,Beefsteak,3,3,2,1,9.804104905097565,1,2,Sample row 1054
+3,Tomato,Cherry,2,3,3,2,10.0,2,2,Sample row 1055
+3,Tomato,Roma,3,3,3,2,8.529085115723486,1,2,Sample row 1056
+3,Tomato,Grape,2,2,1,1,8.641508182974398,3,2,Sample row 1057
+3,Tomato,Grape,1,1,2,1,9.212468702169692,3,2,Sample row 1058
+2,Lettuce,Little Gem,3,4,3,1,9.738831836255033,2,1,Sample row 1059
+3,Tomato,Grape,2,1,1,2,9.11781829731957,2,2,Sample row 1060
+4,Basil,Sweet,3,4,1,1,8.02772526673145,3,3,Sample row 1061
+4,Basil,Sweet,2,3,2,2,8.134516885759693,1,3,Sample row 1062
+4,Basil,Sweet,1,4,3,2,8.74258624477308,1,3,Sample row 1063
+4,Basil,Thai,3,1,2,1,8.64883891337341,2,3,Sample row 1064
+4,Basil,Basil Genovese,2,3,3,1,9.4262135330874,2,3,Sample row 1065
+2,Lettuce,Oak Leaf,3,4,3,1,9.303791350045955,3,1,Sample row 1066
+2,Lettuce,Crisphead,2,3,3,1,8.0,1,1,Sample row 1067
+2,Lettuce,Oak Leaf,2,3,3,1,9.879762498411006,2,1,Sample row 1068
+2,Lettuce,Little Gem,2,3,2,2,9.953423245296056,3,1,Sample row 1069
+4,Basil,Basil Genovese,3,2,1,1,10.0,2,3,Sample row 1070
+4,Basil,Basil Genovese,3,2,3,2,10.0,2,3,Sample row 1071
+4,Basil,Thai,3,1,3,2,8.758729161723931,2,3,Sample row 1072
+4,Basil,Thai,3,1,2,1,8.766068860845163,3,3,Sample row 1073
+2,Lettuce,Oak Leaf,3,4,2,1,9.663651280326487,3,1,Sample row 1074
+4,Basil,Thai,3,1,3,2,9.071521690523134,2,3,Sample row 1075
+4,Basil,Sweet,1,4,2,1,8.010897198530742,3,3,Sample row 1076
+2,Lettuce,Little Gem,1,4,2,1,9.632992924310344,1,1,Sample row 1077
+2,Lettuce,Red Leaf Lettuce,3,3,2,1,9.075370327651061,3,1,Sample row 1078
+3,Tomato,Cherry,3,4,2,2,9.906301210533384,2,2,Sample row 1079
+3,Tomato,Beefsteak,1,4,3,1,9.723312942596978,3,2,Sample row 1080
+3,Tomato,Roma,2,4,2,1,9.528897798225698,3,2,Sample row 1081
+4,Basil,Basil Genovese,2,4,2,2,9.836623784184768,3,3,Sample row 1082
+2,Lettuce,Red Leaf Lettuce,2,3,1,1,8.72023223748626,1,1,Sample row 1083
+2,Lettuce,Little Gem,1,4,1,1,9.55506279403066,2,1,Sample row 1084
+4,Basil,Sweet,2,3,1,1,8.137803749760039,3,3,Sample row 1085
+3,Tomato,Grape,2,1,1,2,8.867600173922527,3,2,Sample row 1086
+2,Lettuce,Crisphead,1,3,2,1,8.279250720097744,2,1,Sample row 1087
+3,Tomato,Roma,2,3,1,2,8.750054117729983,3,2,Sample row 1088
+3,Tomato,Roma,2,2,3,1,8.845350476197495,2,2,Sample row 1089
+2,Lettuce,Little Gem,2,4,2,1,10.0,1,1,Sample row 1090
+2,Lettuce,Red Leaf Lettuce,1,3,2,2,9.587149307456393,3,1,Sample row 1091
+3,Tomato,Roma,2,3,1,2,8.747173874396415,2,2,Sample row 1092
+3,Tomato,Roma,3,3,2,1,9.090863971766124,3,2,Sample row 1093
+3,Tomato,Cherry,2,4,2,2,10.0,3,2,Sample row 1094
+3,Tomato,Beefsteak,1,4,3,2,10.0,2,2,Sample row 1095
+2,Lettuce,Crisphead,1,4,2,1,8.0,1,1,Sample row 1096
+3,Tomato,Roma,3,2,1,1,9.035050019361027,2,2,Sample row 1097
+3,Tomato,Roma,2,3,1,1,8.845134470002495,1,2,Sample row 1098
+4,Basil,Sweet,1,4,3,2,8.0,3,3,Sample row 1099
+3,Tomato,Grape,1,1,2,2,9.35754035309352,3,2,Sample row 1100
+2,Lettuce,Crisphead,1,4,1,2,8.0,1,1,Sample row 1101
+2,Lettuce,Looseleaf,3,4,3,1,9.392624452844606,2,1,Sample row 1102
+3,Tomato,Grape,1,2,2,1,9.125460851728368,3,2,Sample row 1103
+2,Lettuce,Looseleaf,3,3,3,1,9.181686049284888,3,1,Sample row 1104
+2,Lettuce,Crisphead,1,3,2,2,8.0,1,1,Sample row 1105
+2,Lettuce,Crisphead,1,4,3,2,8.0,1,1,Sample row 1106
+2,Lettuce,Red Leaf Lettuce,1,1,2,1,9.118648078666189,1,1,Sample row 1107
+3,Tomato,Beefsteak,1,4,2,2,10.0,3,2,Sample row 1108
+2,Lettuce,Looseleaf,3,4,1,1,9.257650491791368,3,1,Sample row 1109
+4,Basil,Sweet,2,3,2,1,8.62002824887036,2,3,Sample row 1110
+3,Tomato,Beefsteak,3,4,3,2,9.95367901432488,2,2,Sample row 1111
+4,Basil,Thai,3,3,2,1,9.109388969893903,3,3,Sample row 1112
+2,Lettuce,Crisphead,2,3,1,2,8.0,1,1,Sample row 1113
+4,Basil,Sweet,2,4,3,1,8.558959750947844,3,3,Sample row 1114
+2,Lettuce,Little Gem,1,3,2,2,9.676892206590132,2,1,Sample row 1115
+2,Lettuce,Oak Leaf,3,2,3,1,9.837455863269087,1,1,Sample row 1116
+4,Basil,Basil Genovese,2,4,2,1,9.83704462714399,1,3,Sample row 1117
+4,Basil,Basil Genovese,2,4,1,1,10.0,3,3,Sample row 1118
+4,Basil,Basil Genovese,2,4,2,2,9.405832191668658,3,3,Sample row 1119
+3,Tomato,Beefsteak,1,3,1,2,9.736789947138455,2,2,Sample row 1120
+3,Tomato,Beefsteak,3,4,1,2,10.0,1,2,Sample row 1121
+4,Basil,Sweet,3,4,3,1,8.2678698876477,3,3,Sample row 1122
+2,Lettuce,Little Gem,3,4,3,2,10.0,1,1,Sample row 1123
+3,Tomato,Grape,2,2,1,1,8.477060682498427,3,2,Sample row 1124
+3,Tomato,Roma,3,2,1,1,9.132286919111925,2,2,Sample row 1125
+2,Lettuce,Looseleaf,2,4,1,1,9.28632453264607,2,1,Sample row 1126
+3,Tomato,Grape,1,1,2,1,8.244612618038225,2,2,Sample row 1127
+2,Lettuce,Oak Leaf,2,2,3,1,9.622792274683459,1,1,Sample row 1128
+3,Tomato,Cherry,3,3,2,1,10.0,3,2,Sample row 1129
+2,Lettuce,Looseleaf,3,4,3,1,9.142148039146903,3,1,Sample row 1130
+2,Lettuce,Red Leaf Lettuce,3,2,2,2,8.906271899213687,1,1,Sample row 1131
+4,Basil,Thai,3,1,2,1,8.981318804450021,3,3,Sample row 1132
+2,Lettuce,Oak Leaf,2,3,3,2,10.0,2,1,Sample row 1133
+2,Lettuce,Looseleaf,3,4,1,2,8.714046972240272,3,1,Sample row 1134
+4,Basil,Thai,2,1,3,2,9.310389215079722,2,3,Sample row 1135
+3,Tomato,Beefsteak,1,4,3,2,9.819181333308842,3,2,Sample row 1136
+3,Tomato,Grape,2,3,3,1,8.985328101065186,3,2,Sample row 1137
+3,Tomato,Cherry,3,3,3,1,9.775644429404354,3,2,Sample row 1138
+4,Basil,Thai,3,3,3,1,8.887915740194499,2,3,Sample row 1139
+2,Lettuce,Looseleaf,3,4,2,1,8.660563677858361,2,1,Sample row 1140
+2,Lettuce,Little Gem,2,4,2,1,9.246671962001,3,1,Sample row 1141
+2,Lettuce,Red Leaf Lettuce,2,2,2,2,9.379963291040921,1,1,Sample row 1142
+4,Basil,Thai,2,3,2,1,9.5605499822634,3,3,Sample row 1143
+3,Tomato,Cherry,1,3,3,2,10.0,3,2,Sample row 1144
+3,Tomato,Roma,2,3,1,1,8.737958894320515,2,2,Sample row 1145
+3,Tomato,Beefsteak,2,3,1,2,9.944135566367764,3,2,Sample row 1146
+4,Basil,Sweet,3,4,1,1,8.27487010513601,2,3,Sample row 1147
+4,Basil,Thai,2,2,2,1,9.026224477498179,2,3,Sample row 1148
+2,Lettuce,Looseleaf,2,3,1,1,9.066048837193927,2,1,Sample row 1149
+4,Basil,Sweet,1,4,2,1,8.101546664481065,3,3,Sample row 1150
+4,Basil,Sweet,1,4,1,1,8.128217939126921,1,3,Sample row 1151
+3,Tomato,Cherry,1,4,2,1,10.0,3,2,Sample row 1152
+2,Lettuce,Oak Leaf,2,4,2,2,9.661622267591888,2,1,Sample row 1153
+3,Tomato,Roma,3,3,1,2,8.893667624715627,1,2,Sample row 1154
+4,Basil,Basil Genovese,3,3,3,1,10.0,1,3,Sample row 1155
+3,Tomato,Cherry,1,3,3,2,10.0,3,2,Sample row 1156
+2,Lettuce,Looseleaf,1,3,2,1,9.27702462622969,3,1,Sample row 1157
+4,Basil,Sweet,2,4,3,2,8.225451918003193,1,3,Sample row 1158
+3,Tomato,Cherry,1,4,2,2,10.0,2,2,Sample row 1159
+3,Tomato,Grape,1,1,1,1,9.224753533304742,2,2,Sample row 1160
+4,Basil,Basil Genovese,3,4,3,2,9.964094918826998,1,3,Sample row 1161
+2,Lettuce,Red Leaf Lettuce,3,3,2,1,9.108980595192582,2,1,Sample row 1162
+2,Lettuce,Crisphead,1,4,3,2,8.0,2,1,Sample row 1163
+3,Tomato,Grape,1,2,3,2,8.876416284003769,3,2,Sample row 1164
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,8.896674152507769,2,1,Sample row 1165
+4,Basil,Thai,3,2,3,2,8.402676942783003,3,3,Sample row 1166
+4,Basil,Thai,3,1,2,2,9.541063767922527,2,3,Sample row 1167
+3,Tomato,Roma,3,3,1,1,9.127245462771441,2,2,Sample row 1168
+3,Tomato,Cherry,1,3,3,1,10.0,3,2,Sample row 1169
+2,Lettuce,Little Gem,1,4,2,1,10.0,2,1,Sample row 1170
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,9.066374174657836,2,1,Sample row 1171
+4,Basil,Sweet,2,4,1,2,8.0,2,3,Sample row 1172
+2,Lettuce,Crisphead,1,3,2,2,8.0,1,1,Sample row 1173
+2,Lettuce,Red Leaf Lettuce,3,1,1,1,8.649041695747995,1,1,Sample row 1174
+2,Lettuce,Red Leaf Lettuce,3,3,2,1,8.98532870623883,1,1,Sample row 1175
+2,Lettuce,Crisphead,1,4,1,1,8.135993088447725,1,1,Sample row 1176
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,8.63833187640384,1,1,Sample row 1177
+3,Tomato,Roma,3,3,3,2,8.587773581304695,1,2,Sample row 1178
+2,Lettuce,Oak Leaf,3,2,3,1,9.634630878893686,2,1,Sample row 1179
+2,Lettuce,Oak Leaf,3,3,3,1,9.785260104248797,3,1,Sample row 1180
+4,Basil,Thai,3,1,3,2,8.707616898903186,3,3,Sample row 1181
+4,Basil,Basil Genovese,2,2,2,2,9.917312628581708,1,3,Sample row 1182
+2,Lettuce,Looseleaf,2,4,1,1,8.843178043050212,3,1,Sample row 1183
+2,Lettuce,Crisphead,1,4,1,1,8.024673680157408,1,1,Sample row 1184
+4,Basil,Basil Genovese,1,3,2,1,9.87448742626148,1,3,Sample row 1185
+4,Basil,Basil Genovese,2,3,1,1,10.0,3,3,Sample row 1186
+2,Lettuce,Oak Leaf,3,3,3,2,9.72454930578461,3,1,Sample row 1187
+3,Tomato,Grape,2,2,1,1,9.195376501441638,3,2,Sample row 1188
+4,Basil,Basil Genovese,1,4,1,2,10.0,3,3,Sample row 1189
+2,Lettuce,Oak Leaf,2,4,2,1,10.0,2,1,Sample row 1190
+3,Tomato,Roma,3,3,2,1,8.77280690742661,1,2,Sample row 1191
+2,Lettuce,Crisphead,1,4,3,2,8.0,2,1,Sample row 1192
+3,Tomato,Grape,1,2,2,1,9.092861188027294,3,2,Sample row 1193
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,3,1,Sample row 1194
+2,Lettuce,Little Gem,1,3,1,2,10.0,2,1,Sample row 1195
+4,Basil,Thai,3,2,3,1,9.253863422101318,2,3,Sample row 1196
+2,Lettuce,Red Leaf Lettuce,3,3,1,1,8.717638811994043,2,1,Sample row 1197
+4,Basil,Sweet,2,4,3,2,8.38829846621722,3,3,Sample row 1198
+2,Lettuce,Looseleaf,1,2,3,1,9.30400367820687,3,1,Sample row 1199
+3,Tomato,Grape,2,3,1,1,8.039035147257918,2,2,Sample row 1200
+4,Basil,Basil Genovese,1,2,3,1,10.0,2,3,Sample row 1201
+3,Tomato,Grape,1,1,2,1,9.113698080478866,2,2,Sample row 1202
+2,Lettuce,Looseleaf,2,3,1,2,9.784643230003844,3,1,Sample row 1203
+2,Lettuce,Red Leaf Lettuce,3,1,2,1,8.726600127701028,1,1,Sample row 1204
+2,Lettuce,Looseleaf,3,3,2,2,8.905264185629708,3,1,Sample row 1205
+3,Tomato,Roma,2,4,2,1,8.93420031446912,3,2,Sample row 1206
+4,Basil,Sweet,3,4,2,2,8.0,1,3,Sample row 1207
+2,Lettuce,Red Leaf Lettuce,1,1,1,2,9.17684363057647,2,1,Sample row 1208
+3,Tomato,Roma,2,3,3,1,9.058872032488939,2,2,Sample row 1209
+2,Lettuce,Crisphead,1,4,1,2,8.062710121110307,2,1,Sample row 1210
+4,Basil,Thai,3,2,2,2,9.421985600817184,3,3,Sample row 1211
+2,Lettuce,Red Leaf Lettuce,2,3,2,1,8.475661380423183,3,1,Sample row 1212
+2,Lettuce,Looseleaf,3,4,2,1,9.64351456223163,3,1,Sample row 1213
+4,Basil,Sweet,1,4,2,1,8.250252033847751,1,3,Sample row 1214
+2,Lettuce,Oak Leaf,3,2,2,2,10.0,2,1,Sample row 1215
+3,Tomato,Grape,2,3,2,1,9.109607962566322,2,2,Sample row 1216
+4,Basil,Thai,3,1,3,2,9.004168855687022,3,3,Sample row 1217
+3,Tomato,Roma,2,2,3,1,8.0,1,2,Sample row 1218
+2,Lettuce,Oak Leaf,3,2,3,2,9.691748727750996,3,1,Sample row 1219
+2,Lettuce,Little Gem,3,4,3,1,9.843387726627732,3,1,Sample row 1220
+2,Lettuce,Looseleaf,2,4,2,1,9.189936721296116,2,1,Sample row 1221
+3,Tomato,Roma,3,3,2,1,8.535061678087912,2,2,Sample row 1222
+3,Tomato,Beefsteak,2,3,3,2,9.976968837624735,1,2,Sample row 1223
+4,Basil,Thai,3,2,3,1,8.98608321900014,2,3,Sample row 1224
+3,Tomato,Beefsteak,1,4,2,2,9.948449090262905,3,2,Sample row 1225
+3,Tomato,Roma,2,3,3,1,8.764689446787855,1,2,Sample row 1226
+3,Tomato,Beefsteak,3,4,2,2,9.772352841564382,3,2,Sample row 1227
+3,Tomato,Cherry,3,4,3,1,9.338551569339458,3,2,Sample row 1228
+2,Lettuce,Crisphead,2,4,1,2,8.0,2,1,Sample row 1229
+4,Basil,Sweet,1,4,3,1,8.0,1,3,Sample row 1230
+3,Tomato,Grape,2,1,1,2,8.64902750530231,2,2,Sample row 1231
+3,Tomato,Roma,2,2,1,1,9.303861872904333,1,2,Sample row 1232
+2,Lettuce,Little Gem,1,4,1,1,10.0,2,1,Sample row 1233
+4,Basil,Basil Genovese,1,2,1,2,9.383299917048735,3,3,Sample row 1234
+2,Lettuce,Red Leaf Lettuce,2,1,1,1,8.774688401156812,1,1,Sample row 1235
+2,Lettuce,Crisphead,2,3,3,2,8.208350121118313,1,1,Sample row 1236
+4,Basil,Basil Genovese,1,2,1,1,10.0,1,3,Sample row 1237
+3,Tomato,Roma,2,2,3,1,9.03349338215869,1,2,Sample row 1238
+2,Lettuce,Red Leaf Lettuce,3,1,2,1,8.580346362619746,2,1,Sample row 1239
+2,Lettuce,Crisphead,1,4,1,2,8.202439369305894,1,1,Sample row 1240
+3,Tomato,Roma,3,3,1,1,9.095200387409117,2,2,Sample row 1241
+3,Tomato,Beefsteak,1,4,1,2,9.877929561579544,2,2,Sample row 1242
+3,Tomato,Grape,1,3,3,2,9.412768233401723,3,2,Sample row 1243
+3,Tomato,Beefsteak,2,3,1,2,9.708241440925537,3,2,Sample row 1244
+2,Lettuce,Little Gem,1,4,2,2,10.0,2,1,Sample row 1245
+4,Basil,Sweet,2,4,3,1,8.024706351396068,3,3,Sample row 1246
+3,Tomato,Cherry,2,3,3,1,10.0,3,2,Sample row 1247
+3,Tomato,Cherry,1,4,3,1,9.966804387575024,2,2,Sample row 1248
+4,Basil,Thai,3,1,2,2,8.619092272430859,3,3,Sample row 1249
+2,Lettuce,Oak Leaf,2,3,3,2,9.982029999579261,1,1,Sample row 1250
+4,Basil,Sweet,3,3,1,1,8.289778393606522,1,3,Sample row 1251
+3,Tomato,Roma,3,3,1,1,9.392895954552271,3,2,Sample row 1252
+4,Basil,Basil Genovese,3,4,1,1,10.0,3,3,Sample row 1253
+4,Basil,Thai,3,2,3,2,9.187705501272896,2,3,Sample row 1254
+3,Tomato,Roma,2,2,2,2,8.41512932030654,2,2,Sample row 1255
+3,Tomato,Roma,2,3,1,2,8.817432881924644,1,2,Sample row 1256
+3,Tomato,Cherry,1,3,3,1,10.0,3,2,Sample row 1257
+2,Lettuce,Little Gem,2,4,1,1,10.0,2,1,Sample row 1258
+2,Lettuce,Red Leaf Lettuce,2,1,1,2,8.362314619651173,2,1,Sample row 1259
+3,Tomato,Beefsteak,1,4,2,2,9.256246456283945,1,2,Sample row 1260
+4,Basil,Thai,3,3,2,1,9.219301736426852,3,3,Sample row 1261
+2,Lettuce,Red Leaf Lettuce,1,3,2,1,9.044042619327291,2,1,Sample row 1262
+4,Basil,Sweet,2,4,3,2,8.118857418139314,1,3,Sample row 1263
+2,Lettuce,Little Gem,3,4,2,1,9.041415997069834,2,1,Sample row 1264
+2,Lettuce,Little Gem,2,3,3,2,10.0,2,1,Sample row 1265
+4,Basil,Sweet,3,3,2,2,8.068536435758512,1,3,Sample row 1266
+4,Basil,Thai,3,3,3,1,9.146824045308401,3,3,Sample row 1267
+4,Basil,Basil Genovese,1,3,2,2,10.0,3,3,Sample row 1268
+3,Tomato,Cherry,2,4,3,1,9.762945720276539,3,2,Sample row 1269
+2,Lettuce,Little Gem,3,3,2,2,10.0,3,1,Sample row 1270
+2,Lettuce,Red Leaf Lettuce,2,3,1,1,8.895179938222935,1,1,Sample row 1271
+2,Lettuce,Crisphead,1,4,2,2,8.0,1,1,Sample row 1272
+2,Lettuce,Looseleaf,1,4,3,1,9.105714404285113,3,1,Sample row 1273
+4,Basil,Sweet,1,4,1,1,8.586051088838353,2,3,Sample row 1274
+3,Tomato,Roma,2,2,1,2,8.821345702882452,1,2,Sample row 1275
+3,Tomato,Grape,1,1,2,1,9.382737105875693,2,2,Sample row 1276
+2,Lettuce,Crisphead,1,3,3,1,8.0,2,1,Sample row 1277
+3,Tomato,Beefsteak,3,4,1,1,9.339793275205817,2,2,Sample row 1278
+4,Basil,Sweet,2,4,1,1,8.0,1,3,Sample row 1279
+3,Tomato,Cherry,1,4,3,1,9.73009303326502,3,2,Sample row 1280
+4,Basil,Sweet,3,4,3,1,8.0,1,3,Sample row 1281
+3,Tomato,Beefsteak,2,3,3,2,10.0,2,2,Sample row 1282
+2,Lettuce,Oak Leaf,2,4,2,1,9.998950124785312,3,1,Sample row 1283
+3,Tomato,Grape,2,3,1,2,9.383303928459409,2,2,Sample row 1284
+2,Lettuce,Oak Leaf,2,3,2,1,9.904533283315136,2,1,Sample row 1285
+3,Tomato,Cherry,2,4,3,1,9.633050325112915,2,2,Sample row 1286
+2,Lettuce,Red Leaf Lettuce,1,1,2,1,8.896651834547981,1,1,Sample row 1287
+3,Tomato,Cherry,3,3,3,2,9.763053378335742,3,2,Sample row 1288
+3,Tomato,Grape,1,1,3,1,9.669825114023949,3,2,Sample row 1289
+3,Tomato,Grape,1,1,2,2,9.145396590602722,3,2,Sample row 1290
+4,Basil,Sweet,1,4,1,2,8.0,1,3,Sample row 1291
+2,Lettuce,Red Leaf Lettuce,1,2,1,2,9.248596206764912,1,1,Sample row 1292
+2,Lettuce,Looseleaf,1,4,1,2,8.4973162035905,3,1,Sample row 1293
+2,Lettuce,Looseleaf,3,4,3,1,8.530927065239133,3,1,Sample row 1294
+2,Lettuce,Oak Leaf,3,3,2,1,10.0,1,1,Sample row 1295
+3,Tomato,Cherry,1,4,3,2,9.692785377064999,2,2,Sample row 1296
+3,Tomato,Cherry,2,4,3,2,10.0,2,2,Sample row 1297
+2,Lettuce,Red Leaf Lettuce,1,1,1,2,8.90897321119075,3,1,Sample row 1298
+2,Lettuce,Oak Leaf,3,2,3,2,10.0,3,1,Sample row 1299
+3,Tomato,Grape,1,2,1,2,9.281159978268493,3,2,Sample row 1300
+2,Lettuce,Crisphead,1,4,1,1,8.0599342886102,1,1,Sample row 1301
+4,Basil,Sweet,2,4,2,1,8.0,2,3,Sample row 1302
+3,Tomato,Roma,2,4,3,1,9.092198841578256,2,2,Sample row 1303
+2,Lettuce,Red Leaf Lettuce,1,1,2,1,9.004568873986404,3,1,Sample row 1304
+4,Basil,Sweet,2,4,2,2,8.144717840419503,2,3,Sample row 1305
+4,Basil,Sweet,2,3,2,1,8.0,1,3,Sample row 1306
+4,Basil,Thai,3,1,2,2,8.411367985180313,2,3,Sample row 1307
+2,Lettuce,Looseleaf,3,2,2,1,9.00075217814969,3,1,Sample row 1308
+3,Tomato,Beefsteak,3,4,3,2,10.0,2,2,Sample row 1309
+4,Basil,Sweet,2,4,3,2,8.0,1,3,Sample row 1310
+4,Basil,Basil Genovese,3,2,1,2,9.981365720476322,3,3,Sample row 1311
+4,Basil,Sweet,1,4,1,1,8.0,3,3,Sample row 1312
+4,Basil,Thai,2,2,3,2,9.355713120889245,2,3,Sample row 1313
+3,Tomato,Roma,3,3,3,2,8.84881421852113,3,2,Sample row 1314
+2,Lettuce,Crisphead,2,4,1,1,8.740470440521877,1,1,Sample row 1315
+3,Tomato,Grape,1,1,2,2,8.765834206539163,3,2,Sample row 1316
+2,Lettuce,Looseleaf,1,3,2,1,9.13485625531094,3,1,Sample row 1317
+4,Basil,Sweet,1,4,1,1,8.0,2,3,Sample row 1318
+2,Lettuce,Crisphead,1,4,2,1,8.17898964866103,1,1,Sample row 1319
+2,Lettuce,Little Gem,3,3,2,2,10.0,1,1,Sample row 1320
+4,Basil,Basil Genovese,2,4,3,1,9.923129096828905,1,3,Sample row 1321
+3,Tomato,Roma,2,4,2,1,8.584130458807882,3,2,Sample row 1322
+2,Lettuce,Looseleaf,2,3,3,1,8.649816010544912,3,1,Sample row 1323
+3,Tomato,Cherry,1,4,3,1,10.0,3,2,Sample row 1324
+3,Tomato,Grape,1,1,3,1,8.750101715967862,2,2,Sample row 1325
+3,Tomato,Grape,1,2,3,2,9.210542500820372,3,2,Sample row 1326
+2,Lettuce,Red Leaf Lettuce,1,3,2,2,9.13722174080431,3,1,Sample row 1327
+4,Basil,Basil Genovese,1,3,3,1,9.90364177567328,3,3,Sample row 1328
+3,Tomato,Beefsteak,2,4,3,1,9.44474017440673,3,2,Sample row 1329
+2,Lettuce,Crisphead,1,4,2,1,8.0,2,1,Sample row 1330
+2,Lettuce,Little Gem,1,4,1,2,9.935036172817533,3,1,Sample row 1331
+3,Tomato,Cherry,3,3,3,1,10.0,3,2,Sample row 1332
+2,Lettuce,Little Gem,1,4,1,1,9.91931210453847,3,1,Sample row 1333
+3,Tomato,Beefsteak,2,3,2,2,9.966029305944051,3,2,Sample row 1334
+3,Tomato,Grape,2,1,1,1,9.274817307355367,3,2,Sample row 1335
+4,Basil,Basil Genovese,3,4,3,2,9.479385082316735,1,3,Sample row 1336
+2,Lettuce,Little Gem,3,4,1,1,10.0,1,1,Sample row 1337
+2,Lettuce,Crisphead,2,3,2,2,8.0,1,1,Sample row 1338
+2,Lettuce,Little Gem,2,3,2,1,10.0,2,1,Sample row 1339
+2,Lettuce,Crisphead,1,4,3,1,8.0,1,1,Sample row 1340
+2,Lettuce,Crisphead,1,4,2,2,8.0,1,1,Sample row 1341
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,8.651817466999336,1,1,Sample row 1342
+3,Tomato,Roma,3,4,1,1,8.669288633839209,3,2,Sample row 1343
+3,Tomato,Beefsteak,1,4,3,1,10.0,2,2,Sample row 1344
+2,Lettuce,Looseleaf,3,3,1,1,9.03584798375162,3,1,Sample row 1345
+4,Basil,Sweet,2,4,3,1,8.21684782214394,1,3,Sample row 1346
+2,Lettuce,Looseleaf,2,4,3,1,9.345899541085931,3,1,Sample row 1347
+2,Lettuce,Looseleaf,2,2,2,1,9.047116802712909,3,1,Sample row 1348
+2,Lettuce,Crisphead,1,4,3,1,8.0,1,1,Sample row 1349
+3,Tomato,Cherry,1,3,3,2,9.990749515840756,2,2,Sample row 1350
+2,Lettuce,Red Leaf Lettuce,3,1,2,1,8.323962362769322,3,1,Sample row 1351
+3,Tomato,Cherry,1,3,3,1,9.77078652554151,3,2,Sample row 1352
+3,Tomato,Beefsteak,2,3,1,1,10.0,2,2,Sample row 1353
+4,Basil,Thai,2,3,3,1,9.135669020030162,3,3,Sample row 1354
+2,Lettuce,Little Gem,2,4,1,1,10.0,1,1,Sample row 1355
+3,Tomato,Beefsteak,1,3,1,2,10.0,3,2,Sample row 1356
+2,Lettuce,Crisphead,2,3,3,2,8.042434190636966,1,1,Sample row 1357
+3,Tomato,Grape,1,2,2,1,8.584743207632606,2,2,Sample row 1358
+4,Basil,Basil Genovese,1,4,3,1,9.802318827114151,1,3,Sample row 1359
+2,Lettuce,Looseleaf,2,3,2,1,8.930160455637106,3,1,Sample row 1360
+2,Lettuce,Looseleaf,1,3,2,2,8.97985058315811,3,1,Sample row 1361
+2,Lettuce,Crisphead,2,4,3,2,8.048168611822554,1,1,Sample row 1362
+3,Tomato,Beefsteak,3,4,1,2,10.0,2,2,Sample row 1363
+4,Basil,Thai,2,2,3,1,9.623663679052724,2,3,Sample row 1364
+2,Lettuce,Crisphead,1,3,1,2,8.0,1,1,Sample row 1365
+3,Tomato,Beefsteak,2,4,1,2,9.88918201822835,2,2,Sample row 1366
+3,Tomato,Cherry,2,4,3,1,9.76649732018107,3,2,Sample row 1367
+3,Tomato,Beefsteak,2,3,2,2,10.0,1,2,Sample row 1368
+2,Lettuce,Oak Leaf,3,3,2,1,9.90637061732966,1,1,Sample row 1369
+3,Tomato,Beefsteak,2,4,2,1,9.776301409021972,1,2,Sample row 1370
+3,Tomato,Cherry,3,3,2,2,10.0,3,2,Sample row 1371
+2,Lettuce,Looseleaf,1,2,3,2,8.382920042018124,3,1,Sample row 1372
+3,Tomato,Cherry,3,4,3,2,9.536801100632879,3,2,Sample row 1373
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,8.445160882087283,2,1,Sample row 1374
+3,Tomato,Grape,1,1,3,1,9.272025787759643,3,2,Sample row 1375
+3,Tomato,Cherry,2,3,3,1,10.0,2,2,Sample row 1376
+3,Tomato,Grape,1,3,3,1,8.909445764764397,3,2,Sample row 1377
+4,Basil,Sweet,1,3,2,1,8.0,1,3,Sample row 1378
+2,Lettuce,Crisphead,2,4,1,2,8.0,1,1,Sample row 1379
+2,Lettuce,Crisphead,1,3,3,1,8.0,1,1,Sample row 1380
+2,Lettuce,Crisphead,1,4,3,2,8.0,1,1,Sample row 1381
+4,Basil,Thai,2,3,2,1,9.113119158900547,3,3,Sample row 1382
+4,Basil,Basil Genovese,1,4,2,1,10.0,3,3,Sample row 1383
+2,Lettuce,Little Gem,1,3,3,1,9.439203845427151,3,1,Sample row 1384
+3,Tomato,Grape,2,2,3,1,8.9301155702895,3,2,Sample row 1385
+4,Basil,Sweet,3,4,3,1,8.0,3,3,Sample row 1386
+2,Lettuce,Little Gem,1,4,2,2,10.0,2,1,Sample row 1387
+3,Tomato,Beefsteak,3,3,2,2,9.627897951445602,1,2,Sample row 1388
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,2,1,Sample row 1389
+3,Tomato,Roma,3,4,2,1,8.89599934196945,1,2,Sample row 1390
+3,Tomato,Cherry,3,4,3,1,10.0,3,2,Sample row 1391
+3,Tomato,Cherry,2,4,3,1,10.0,3,2,Sample row 1392
+3,Tomato,Cherry,3,4,2,2,10.0,3,2,Sample row 1393
+4,Basil,Thai,2,1,3,1,9.668076625459939,3,3,Sample row 1394
+4,Basil,Sweet,1,4,2,1,8.0,1,3,Sample row 1395
+2,Lettuce,Looseleaf,2,4,1,2,9.27431591858923,3,1,Sample row 1396
+3,Tomato,Beefsteak,3,3,1,2,10.0,1,2,Sample row 1397
+3,Tomato,Grape,1,3,2,1,8.618269008970751,2,2,Sample row 1398
+3,Tomato,Cherry,3,4,2,1,9.820291804532811,3,2,Sample row 1399
+2,Lettuce,Oak Leaf,3,2,3,1,10.0,3,1,Sample row 1400
+2,Lettuce,Little Gem,2,3,2,2,9.460624451224511,1,1,Sample row 1401
+4,Basil,Basil Genovese,1,4,2,1,10.0,1,3,Sample row 1402
+2,Lettuce,Looseleaf,2,4,2,1,9.237441006353821,3,1,Sample row 1403
+4,Basil,Sweet,1,4,3,2,8.0,3,3,Sample row 1404
+4,Basil,Basil Genovese,3,4,2,1,9.92031282978496,1,3,Sample row 1405
+2,Lettuce,Looseleaf,1,2,1,2,8.984792277921876,3,1,Sample row 1406
+3,Tomato,Beefsteak,3,4,2,2,9.687000942341282,3,2,Sample row 1407
+3,Tomato,Roma,3,4,2,1,9.046399398463478,2,2,Sample row 1408
+3,Tomato,Beefsteak,3,4,1,2,9.977193433650758,2,2,Sample row 1409
+2,Lettuce,Red Leaf Lettuce,2,3,2,1,9.118122598586593,2,1,Sample row 1410
+3,Tomato,Grape,1,3,2,2,9.196184896345496,2,2,Sample row 1411
+3,Tomato,Beefsteak,1,4,3,1,10.0,3,2,Sample row 1412
+2,Lettuce,Looseleaf,1,2,2,1,9.568674763964928,3,1,Sample row 1413
+2,Lettuce,Oak Leaf,2,3,3,2,9.729381709104993,3,1,Sample row 1414
+2,Lettuce,Red Leaf Lettuce,3,1,1,2,8.956483512702885,1,1,Sample row 1415
+3,Tomato,Beefsteak,2,3,2,2,9.452664858037327,3,2,Sample row 1416
+4,Basil,Basil Genovese,1,3,2,1,10.0,3,3,Sample row 1417
+2,Lettuce,Crisphead,2,4,3,2,8.135623546735061,1,1,Sample row 1418
+3,Tomato,Roma,3,2,3,1,8.806790806144202,1,2,Sample row 1419
+3,Tomato,Grape,2,1,1,1,8.934410272683605,2,2,Sample row 1420
+4,Basil,Sweet,3,4,3,2,8.327138722013716,2,3,Sample row 1421
+2,Lettuce,Red Leaf Lettuce,3,1,1,1,8.934122117547824,1,1,Sample row 1422
+2,Lettuce,Looseleaf,3,4,3,2,9.591437917154355,2,1,Sample row 1423
+4,Basil,Thai,3,3,3,1,8.969214332156588,3,3,Sample row 1424
+2,Lettuce,Oak Leaf,3,2,3,2,10.0,3,1,Sample row 1425
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,8.760923537476845,1,1,Sample row 1426
+2,Lettuce,Red Leaf Lettuce,3,1,2,1,8.962476090866717,1,1,Sample row 1427
+2,Lettuce,Crisphead,2,3,3,1,8.88724746113494,1,1,Sample row 1428
+2,Lettuce,Oak Leaf,2,4,3,1,9.830285002527408,1,1,Sample row 1429
+3,Tomato,Grape,1,1,3,1,9.341298141303257,3,2,Sample row 1430
+4,Basil,Basil Genovese,2,4,2,2,9.301432344858073,2,3,Sample row 1431
+3,Tomato,Beefsteak,2,4,3,2,9.996972980895716,3,2,Sample row 1432
+4,Basil,Thai,2,3,3,1,9.12736045133755,2,3,Sample row 1433
+3,Tomato,Grape,2,3,2,1,9.242152407817972,3,2,Sample row 1434
+2,Lettuce,Red Leaf Lettuce,3,3,2,1,8.469786957476174,2,1,Sample row 1435
+3,Tomato,Roma,2,2,3,2,9.137695531813183,3,2,Sample row 1436
+4,Basil,Basil Genovese,3,4,2,2,9.808144306304705,3,3,Sample row 1437
+2,Lettuce,Red Leaf Lettuce,1,1,1,2,9.002584740945615,3,1,Sample row 1438
+3,Tomato,Beefsteak,2,4,3,2,9.907479705957016,2,2,Sample row 1439
+4,Basil,Thai,3,3,3,2,9.111158211791087,3,3,Sample row 1440
+3,Tomato,Beefsteak,2,4,3,2,9.805670919540429,3,2,Sample row 1441
+2,Lettuce,Red Leaf Lettuce,1,2,2,2,8.885150008748669,2,1,Sample row 1442
+3,Tomato,Beefsteak,3,4,3,2,10.0,2,2,Sample row 1443
+2,Lettuce,Oak Leaf,2,3,2,1,9.867092418252629,2,1,Sample row 1444
+3,Tomato,Roma,3,2,3,1,9.536419762337594,3,2,Sample row 1445
+3,Tomato,Cherry,2,4,2,1,10.0,3,2,Sample row 1446
+2,Lettuce,Red Leaf Lettuce,2,2,2,1,9.230618704568306,3,1,Sample row 1447
+4,Basil,Basil Genovese,1,3,2,1,9.785868290789072,2,3,Sample row 1448
+4,Basil,Thai,3,3,3,2,9.209591960429623,3,3,Sample row 1449
+2,Lettuce,Crisphead,1,4,1,2,8.354484796818381,1,1,Sample row 1450
+2,Lettuce,Looseleaf,2,2,3,2,9.303513634939204,3,1,Sample row 1451
+3,Tomato,Grape,1,3,3,2,8.472069314433854,3,2,Sample row 1452
+2,Lettuce,Looseleaf,1,4,1,1,9.362730984895643,2,1,Sample row 1453
+4,Basil,Thai,3,2,3,1,9.00586274817511,3,3,Sample row 1454
+3,Tomato,Cherry,2,4,2,1,9.401336182649354,3,2,Sample row 1455
+4,Basil,Sweet,3,4,1,1,8.0,3,3,Sample row 1456
+2,Lettuce,Looseleaf,1,2,1,1,8.88235638908078,3,1,Sample row 1457
+3,Tomato,Roma,2,3,1,1,8.376393625314615,1,2,Sample row 1458
+3,Tomato,Roma,3,3,1,1,9.204233782141669,3,2,Sample row 1459
+2,Lettuce,Oak Leaf,2,2,2,1,9.363434780806628,3,1,Sample row 1460
+2,Lettuce,Red Leaf Lettuce,2,2,1,1,9.135847923157863,1,1,Sample row 1461
+3,Tomato,Grape,2,3,1,1,8.694665212097172,3,2,Sample row 1462
+2,Lettuce,Crisphead,1,4,3,2,8.112626979166974,1,1,Sample row 1463
+2,Lettuce,Crisphead,1,3,3,2,8.0,1,1,Sample row 1464
+2,Lettuce,Oak Leaf,3,3,2,2,9.82950946636083,1,1,Sample row 1465
+4,Basil,Basil Genovese,2,2,3,1,10.0,2,3,Sample row 1466
+3,Tomato,Roma,2,4,1,2,9.888469130299782,3,2,Sample row 1467
+3,Tomato,Roma,3,3,1,1,9.458650325291032,1,2,Sample row 1468
+3,Tomato,Beefsteak,3,4,3,2,9.58564624807601,3,2,Sample row 1469
+3,Tomato,Roma,3,4,1,1,9.187597481723829,3,2,Sample row 1470
+2,Lettuce,Crisphead,1,4,1,2,8.394313622020217,2,1,Sample row 1471
+3,Tomato,Beefsteak,3,3,1,1,9.65233550564636,3,2,Sample row 1472
+4,Basil,Thai,2,2,2,1,9.07187448878801,2,3,Sample row 1473
+2,Lettuce,Little Gem,1,4,2,1,9.512059454686305,2,1,Sample row 1474
+2,Lettuce,Oak Leaf,3,3,3,2,9.867967514066304,1,1,Sample row 1475
+4,Basil,Thai,2,2,2,1,8.64613855965386,2,3,Sample row 1476
+3,Tomato,Roma,3,4,2,2,9.30918984912635,2,2,Sample row 1477
+3,Tomato,Roma,3,4,1,1,8.905839330508769,2,2,Sample row 1478
+4,Basil,Basil Genovese,2,2,1,1,9.53474544697737,3,3,Sample row 1479
+4,Basil,Thai,2,1,2,2,9.177681619111052,3,3,Sample row 1480
+4,Basil,Sweet,3,3,1,1,8.0,3,3,Sample row 1481
+2,Lettuce,Red Leaf Lettuce,2,2,2,1,8.716046282824637,2,1,Sample row 1482
+3,Tomato,Grape,1,2,3,1,8.730262259114742,3,2,Sample row 1483
+3,Tomato,Grape,2,2,2,2,8.902143096268865,2,2,Sample row 1484
+4,Basil,Thai,3,1,3,1,9.256448829969274,3,3,Sample row 1485
+3,Tomato,Beefsteak,3,4,2,2,9.987152481533352,1,2,Sample row 1486
+3,Tomato,Roma,3,4,2,1,8.490880341037364,1,2,Sample row 1487
+3,Tomato,Grape,2,2,3,2,8.992528753325304,3,2,Sample row 1488
+4,Basil,Basil Genovese,2,4,3,1,10.0,3,3,Sample row 1489
+3,Tomato,Roma,3,2,1,1,9.168922424809521,2,2,Sample row 1490
+3,Tomato,Roma,2,2,2,1,9.463657937969538,2,2,Sample row 1491
+2,Lettuce,Red Leaf Lettuce,3,1,2,1,9.856730963757517,3,1,Sample row 1492
+4,Basil,Sweet,1,3,2,1,8.388696959102468,1,3,Sample row 1493
+4,Basil,Sweet,1,4,3,1,8.405377934078585,3,3,Sample row 1494
+3,Tomato,Cherry,3,4,3,2,9.979050960806452,2,2,Sample row 1495
+2,Lettuce,Looseleaf,3,2,3,2,9.691211879875075,2,1,Sample row 1496
+3,Tomato,Roma,3,2,1,1,9.59707909754807,2,2,Sample row 1497
+2,Lettuce,Crisphead,1,3,1,2,8.0089860587803,2,1,Sample row 1498
+3,Tomato,Cherry,3,3,2,2,10.0,2,2,Sample row 1499
+2,Lettuce,Red Leaf Lettuce,2,3,1,2,8.94325292267463,3,1,Sample row 1500
+4,Basil,Basil Genovese,2,3,1,1,10.0,1,3,Sample row 1501
+3,Tomato,Grape,1,1,2,1,9.568574246084864,3,2,Sample row 1502
+2,Lettuce,Crisphead,1,4,1,2,8.184806537893083,1,1,Sample row 1503
+2,Lettuce,Oak Leaf,3,2,3,2,10.0,2,1,Sample row 1504
+2,Lettuce,Crisphead,1,4,2,2,8.948691369096235,1,1,Sample row 1505
+2,Lettuce,Crisphead,1,4,1,1,8.0,1,1,Sample row 1506
+2,Lettuce,Red Leaf Lettuce,3,1,1,1,9.185127441435265,1,1,Sample row 1507
+2,Lettuce,Looseleaf,3,2,2,2,8.445524281394851,3,1,Sample row 1508
+4,Basil,Thai,2,1,3,1,9.085874232000346,2,3,Sample row 1509
+2,Lettuce,Looseleaf,2,3,1,2,9.232125404089773,2,1,Sample row 1510
+3,Tomato,Roma,3,2,1,2,9.295170712173743,2,2,Sample row 1511
+3,Tomato,Grape,1,1,1,1,8.204387829457605,3,2,Sample row 1512
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,1,1,Sample row 1513
+2,Lettuce,Little Gem,2,4,1,1,10.0,2,1,Sample row 1514
+3,Tomato,Roma,3,2,3,2,8.509058262908919,2,2,Sample row 1515
+2,Lettuce,Oak Leaf,3,2,2,1,10.0,2,1,Sample row 1516
+3,Tomato,Beefsteak,1,4,2,2,10.0,1,2,Sample row 1517
+3,Tomato,Roma,3,2,3,1,8.982305037450876,2,2,Sample row 1518
+3,Tomato,Roma,3,3,1,1,8.802422492035209,1,2,Sample row 1519
+2,Lettuce,Looseleaf,3,2,2,2,9.524447096477614,2,1,Sample row 1520
+3,Tomato,Roma,2,4,1,2,8.132435218734708,2,2,Sample row 1521
+2,Lettuce,Looseleaf,1,2,2,1,9.063335985097396,3,1,Sample row 1522
+2,Lettuce,Crisphead,1,4,1,1,8.085056146471867,2,1,Sample row 1523
+4,Basil,Thai,2,1,3,2,9.07836244747382,2,3,Sample row 1524
+4,Basil,Basil Genovese,1,3,2,1,10.0,2,3,Sample row 1525
+2,Lettuce,Red Leaf Lettuce,3,3,1,2,8.0,3,1,Sample row 1526
+4,Basil,Basil Genovese,3,2,3,1,9.934034306369252,2,3,Sample row 1527
+4,Basil,Thai,3,1,2,1,9.26716859663606,3,3,Sample row 1528
+2,Lettuce,Crisphead,1,3,3,1,8.35907624605308,2,1,Sample row 1529
+4,Basil,Sweet,2,3,2,1,8.0,3,3,Sample row 1530
+3,Tomato,Beefsteak,2,4,2,2,10.0,2,2,Sample row 1531
+3,Tomato,Beefsteak,3,4,2,2,9.774685535158692,2,2,Sample row 1532
+4,Basil,Basil Genovese,2,2,3,1,10.0,3,3,Sample row 1533
+4,Basil,Sweet,2,4,2,1,8.0,1,3,Sample row 1534
+2,Lettuce,Red Leaf Lettuce,3,2,1,2,9.265098336317633,1,1,Sample row 1535
+2,Lettuce,Little Gem,3,3,1,2,9.529339338789256,2,1,Sample row 1536
+2,Lettuce,Little Gem,3,3,1,2,9.813228012794228,1,1,Sample row 1537
+4,Basil,Basil Genovese,1,2,2,1,9.859650532419165,3,3,Sample row 1538
+4,Basil,Sweet,2,4,3,1,8.22557993103877,2,3,Sample row 1539
+2,Lettuce,Crisphead,1,4,3,2,8.38541738668272,1,1,Sample row 1540
+4,Basil,Sweet,1,3,3,1,8.174657910251211,1,3,Sample row 1541
+4,Basil,Thai,2,1,2,1,9.251746332922112,3,3,Sample row 1542
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,8.533748985507923,2,1,Sample row 1543
+2,Lettuce,Crisphead,1,3,1,2,8.0,1,1,Sample row 1544
+4,Basil,Thai,3,1,2,1,8.49276548177204,3,3,Sample row 1545
+3,Tomato,Cherry,3,4,3,2,9.614560112716068,3,2,Sample row 1546
+3,Tomato,Cherry,2,3,2,1,10.0,3,2,Sample row 1547
+2,Lettuce,Looseleaf,3,3,2,2,8.548732680909318,3,1,Sample row 1548
+3,Tomato,Cherry,1,3,3,1,10.0,2,2,Sample row 1549
+2,Lettuce,Crisphead,2,4,3,2,8.0,1,1,Sample row 1550
+2,Lettuce,Oak Leaf,3,2,2,1,10.0,2,1,Sample row 1551
+2,Lettuce,Crisphead,2,4,3,2,8.85609251400331,1,1,Sample row 1552
+4,Basil,Sweet,2,4,1,1,8.0,3,3,Sample row 1553
+3,Tomato,Beefsteak,1,4,3,2,10.0,2,2,Sample row 1554
+2,Lettuce,Oak Leaf,2,2,3,1,9.84712155396226,1,1,Sample row 1555
+4,Basil,Basil Genovese,2,2,1,1,9.907472007270309,2,3,Sample row 1556
+2,Lettuce,Little Gem,1,4,3,1,10.0,1,1,Sample row 1557
+2,Lettuce,Oak Leaf,3,3,2,1,9.950377298829862,3,1,Sample row 1558
+4,Basil,Basil Genovese,2,3,1,2,10.0,3,3,Sample row 1559
+4,Basil,Basil Genovese,2,2,3,1,9.952234200842577,2,3,Sample row 1560
+3,Tomato,Roma,3,4,3,2,9.686701982344786,3,2,Sample row 1561
+3,Tomato,Beefsteak,1,3,3,1,9.819890406250549,3,2,Sample row 1562
+4,Basil,Basil Genovese,1,3,3,2,9.775428646301695,1,3,Sample row 1563
+2,Lettuce,Red Leaf Lettuce,3,3,1,1,9.61722230869591,3,1,Sample row 1564
+2,Lettuce,Little Gem,2,3,3,2,9.637974780467205,1,1,Sample row 1565
+2,Lettuce,Little Gem,3,4,1,1,10.0,3,1,Sample row 1566
+2,Lettuce,Little Gem,2,4,3,2,10.0,2,1,Sample row 1567
+4,Basil,Sweet,1,3,2,2,8.46414517451284,3,3,Sample row 1568
+3,Tomato,Beefsteak,2,4,1,2,10.0,3,2,Sample row 1569
+2,Lettuce,Crisphead,1,3,1,2,8.0,1,1,Sample row 1570
+2,Lettuce,Crisphead,1,4,2,2,8.012755304039208,2,1,Sample row 1571
+2,Lettuce,Crisphead,1,4,2,2,8.353390008481588,1,1,Sample row 1572
+3,Tomato,Roma,3,4,3,1,9.60003311212481,3,2,Sample row 1573
+2,Lettuce,Red Leaf Lettuce,1,3,1,2,8.53577796618273,3,1,Sample row 1574
+3,Tomato,Roma,3,4,3,2,8.840496246205822,3,2,Sample row 1575
+2,Lettuce,Looseleaf,3,3,2,2,8.737961192014964,2,1,Sample row 1576
+2,Lettuce,Looseleaf,2,4,2,1,9.050808373138954,3,1,Sample row 1577
+4,Basil,Sweet,2,4,1,2,8.49376699900927,3,3,Sample row 1578
+3,Tomato,Beefsteak,2,3,1,2,9.781073371836484,2,2,Sample row 1579
+2,Lettuce,Crisphead,2,3,3,2,8.266402692432212,1,1,Sample row 1580
+2,Lettuce,Red Leaf Lettuce,1,3,2,1,9.316422732255091,1,1,Sample row 1581
+3,Tomato,Roma,3,2,3,1,9.007177997405718,2,2,Sample row 1582
+3,Tomato,Beefsteak,1,3,3,2,9.989491793267035,1,2,Sample row 1583
+4,Basil,Sweet,3,4,1,1,8.003600354568116,1,3,Sample row 1584
+4,Basil,Sweet,1,3,1,1,8.0,2,3,Sample row 1585
+3,Tomato,Cherry,3,4,2,1,9.63714560363446,3,2,Sample row 1586
+4,Basil,Thai,2,1,2,1,8.830374533634503,2,3,Sample row 1587
+2,Lettuce,Looseleaf,1,2,3,1,8.701418500967694,3,1,Sample row 1588
+3,Tomato,Cherry,2,3,2,1,9.906330527286373,2,2,Sample row 1589
+3,Tomato,Roma,3,3,3,1,9.076803985516976,2,2,Sample row 1590
+2,Lettuce,Looseleaf,2,2,1,1,8.60996362143225,3,1,Sample row 1591
+2,Lettuce,Looseleaf,2,3,2,2,8.887292079976653,3,1,Sample row 1592
+2,Lettuce,Crisphead,1,4,1,1,8.150081126241869,1,1,Sample row 1593
+2,Lettuce,Looseleaf,2,4,1,2,9.13070412362545,3,1,Sample row 1594
+2,Lettuce,Crisphead,1,4,3,2,8.0,1,1,Sample row 1595
+2,Lettuce,Looseleaf,2,4,1,2,9.341238745551948,3,1,Sample row 1596
+3,Tomato,Grape,1,3,3,1,9.217854366365813,3,2,Sample row 1597
+4,Basil,Thai,2,1,2,1,9.4314812912441,3,3,Sample row 1598
+2,Lettuce,Little Gem,3,4,3,1,9.808743179858203,1,1,Sample row 1599
+4,Basil,Sweet,2,4,1,1,8.0,3,3,Sample row 1600
+3,Tomato,Grape,1,1,3,2,9.343081819052932,3,2,Sample row 1601
+4,Basil,Sweet,1,3,3,1,8.0,3,3,Sample row 1602
+2,Lettuce,Little Gem,2,4,3,1,9.433678073670775,1,1,Sample row 1603
+3,Tomato,Beefsteak,3,4,3,2,10.0,2,2,Sample row 1604
+4,Basil,Basil Genovese,3,4,2,1,10.0,1,3,Sample row 1605
+2,Lettuce,Crisphead,1,4,1,2,8.0,1,1,Sample row 1606
+2,Lettuce,Looseleaf,2,4,3,2,8.519878554773161,3,1,Sample row 1607
+3,Tomato,Grape,2,3,1,1,9.097937092756693,3,2,Sample row 1608
+2,Lettuce,Crisphead,2,4,1,2,8.355366138533649,1,1,Sample row 1609
+3,Tomato,Roma,2,2,3,1,8.913051877210139,1,2,Sample row 1610
+2,Lettuce,Crisphead,1,3,2,1,8.132768708199483,1,1,Sample row 1611
+2,Lettuce,Little Gem,1,3,2,1,9.914534578314417,3,1,Sample row 1612
+2,Lettuce,Oak Leaf,2,4,3,1,9.655117698575541,1,1,Sample row 1613
+4,Basil,Thai,3,3,3,1,9.224501544656801,2,3,Sample row 1614
+2,Lettuce,Oak Leaf,3,2,2,1,10.0,2,1,Sample row 1615
+4,Basil,Thai,3,3,2,1,9.282483990479237,2,3,Sample row 1616
+2,Lettuce,Oak Leaf,3,3,2,2,10.0,1,1,Sample row 1617
+2,Lettuce,Looseleaf,3,2,1,1,9.012147123499743,2,1,Sample row 1618
+2,Lettuce,Oak Leaf,2,2,2,1,9.648517915854429,3,1,Sample row 1619
+4,Basil,Basil Genovese,1,3,2,1,10.0,1,3,Sample row 1620
+4,Basil,Sweet,2,3,2,2,8.050155409026694,3,3,Sample row 1621
+2,Lettuce,Oak Leaf,2,2,3,2,9.979855868136928,2,1,Sample row 1622
+2,Lettuce,Little Gem,3,4,1,1,9.590118505003808,2,1,Sample row 1623
+4,Basil,Sweet,1,3,3,1,8.0,1,3,Sample row 1624
+4,Basil,Sweet,1,4,1,1,8.0,2,3,Sample row 1625
+3,Tomato,Grape,1,2,3,1,8.911369954083893,2,2,Sample row 1626
+3,Tomato,Cherry,2,3,2,1,10.0,3,2,Sample row 1627
+4,Basil,Sweet,3,4,2,2,8.0,2,3,Sample row 1628
+4,Basil,Basil Genovese,3,2,3,1,9.912837852919669,2,3,Sample row 1629
+2,Lettuce,Crisphead,1,4,2,1,8.315953364123544,1,1,Sample row 1630
+4,Basil,Sweet,3,4,3,1,8.0,3,3,Sample row 1631
+4,Basil,Sweet,2,4,3,1,8.661755561635422,1,3,Sample row 1632
+3,Tomato,Grape,1,2,1,1,8.06459434622321,3,2,Sample row 1633
+2,Lettuce,Crisphead,1,4,1,2,8.337637787957267,2,1,Sample row 1634
+2,Lettuce,Crisphead,2,4,3,2,8.434748516519653,1,1,Sample row 1635
+4,Basil,Thai,2,2,2,1,8.929030725517663,3,3,Sample row 1636
+4,Basil,Thai,2,3,2,1,9.315226478999405,2,3,Sample row 1637
+2,Lettuce,Little Gem,1,4,3,1,10.0,1,1,Sample row 1638
+2,Lettuce,Crisphead,1,4,3,2,8.011636280720632,1,1,Sample row 1639
+2,Lettuce,Looseleaf,1,2,3,2,8.841256947943034,2,1,Sample row 1640
+2,Lettuce,Oak Leaf,3,4,2,1,9.88734455143352,1,1,Sample row 1641
+2,Lettuce,Red Leaf Lettuce,1,1,1,1,9.045164815005533,2,1,Sample row 1642
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,2,1,Sample row 1643
+2,Lettuce,Red Leaf Lettuce,3,2,2,1,9.027286489111015,1,1,Sample row 1644
+3,Tomato,Beefsteak,2,3,3,2,10.0,1,2,Sample row 1645
+4,Basil,Sweet,3,3,3,1,8.057302789270306,2,3,Sample row 1646
+3,Tomato,Grape,2,2,1,2,8.983299043640349,3,2,Sample row 1647
+2,Lettuce,Looseleaf,1,2,1,1,8.92460070628009,2,1,Sample row 1648
+2,Lettuce,Oak Leaf,2,4,3,1,10.0,3,1,Sample row 1649
+3,Tomato,Roma,3,2,2,2,8.731215598190946,2,2,Sample row 1650
+4,Basil,Basil Genovese,3,3,3,1,9.616856264539194,2,3,Sample row 1651
+3,Tomato,Grape,2,1,1,2,8.985738774763982,3,2,Sample row 1652
+3,Tomato,Grape,2,3,3,2,9.437888318809263,3,2,Sample row 1653
+4,Basil,Thai,3,1,3,1,9.057074572776445,2,3,Sample row 1654
+3,Tomato,Cherry,2,4,3,1,9.77329532492259,2,2,Sample row 1655
+4,Basil,Sweet,3,4,1,1,8.144715652586926,2,3,Sample row 1656
+2,Lettuce,Looseleaf,3,3,2,1,8.598456727988488,3,1,Sample row 1657
+2,Lettuce,Crisphead,1,3,3,2,8.37284778009472,2,1,Sample row 1658
+3,Tomato,Cherry,2,4,3,2,10.0,2,2,Sample row 1659
+4,Basil,Thai,3,2,3,1,9.44487515480105,2,3,Sample row 1660
+3,Tomato,Cherry,1,4,3,1,10.0,3,2,Sample row 1661
+2,Lettuce,Crisphead,1,4,3,1,8.0,1,1,Sample row 1662
+4,Basil,Thai,3,2,2,1,8.454553952099094,3,3,Sample row 1663
+3,Tomato,Cherry,1,3,2,1,9.848290634577747,3,2,Sample row 1664
+2,Lettuce,Little Gem,2,3,2,1,9.008014326078374,3,1,Sample row 1665
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,8.90958787495511,2,1,Sample row 1666
+2,Lettuce,Little Gem,2,4,2,1,10.0,1,1,Sample row 1667
+2,Lettuce,Little Gem,2,3,1,1,9.997397278674043,1,1,Sample row 1668
+2,Lettuce,Little Gem,2,4,3,1,10.0,2,1,Sample row 1669
+2,Lettuce,Oak Leaf,3,3,2,1,9.8700146755844,3,1,Sample row 1670
+4,Basil,Thai,3,1,3,1,9.520621702272873,2,3,Sample row 1671
+2,Lettuce,Looseleaf,2,2,1,2,9.204961974633424,2,1,Sample row 1672
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,8.317836500878727,2,1,Sample row 1673
+2,Lettuce,Looseleaf,3,2,1,1,8.950398666559659,2,1,Sample row 1674
+3,Tomato,Beefsteak,3,4,2,2,9.77354418231699,1,2,Sample row 1675
+2,Lettuce,Crisphead,2,3,2,2,8.275213283902053,1,1,Sample row 1676
+2,Lettuce,Crisphead,1,4,3,2,8.0,2,1,Sample row 1677
+4,Basil,Basil Genovese,2,2,3,1,10.0,2,3,Sample row 1678
+2,Lettuce,Crisphead,1,3,2,1,8.251939793325981,1,1,Sample row 1679
+4,Basil,Thai,3,1,3,1,9.218274734864078,3,3,Sample row 1680
+2,Lettuce,Little Gem,2,3,2,1,9.978633205001183,3,1,Sample row 1681
+2,Lettuce,Little Gem,2,4,2,1,10.0,1,1,Sample row 1682
+2,Lettuce,Looseleaf,2,2,2,1,8.950900674290791,3,1,Sample row 1683
+2,Lettuce,Oak Leaf,3,3,3,2,10.0,1,1,Sample row 1684
+3,Tomato,Beefsteak,2,3,2,1,9.912248380547204,2,2,Sample row 1685
+4,Basil,Sweet,1,3,2,2,8.0,1,3,Sample row 1686
+2,Lettuce,Crisphead,1,3,2,2,8.0,1,1,Sample row 1687
+2,Lettuce,Crisphead,2,4,2,1,8.245547915179165,2,1,Sample row 1688
+4,Basil,Thai,3,3,2,1,8.634629525537147,2,3,Sample row 1689
+2,Lettuce,Looseleaf,1,4,2,1,9.033619998691105,2,1,Sample row 1690
+3,Tomato,Beefsteak,1,3,1,1,9.833954891621955,3,2,Sample row 1691
+4,Basil,Sweet,3,3,2,1,8.481217699013788,1,3,Sample row 1692
+2,Lettuce,Red Leaf Lettuce,2,3,1,1,8.366344003474591,3,1,Sample row 1693
+2,Lettuce,Looseleaf,3,4,2,1,8.965873869879134,3,1,Sample row 1694
+4,Basil,Basil Genovese,3,2,2,2,10.0,1,3,Sample row 1695
+2,Lettuce,Oak Leaf,3,3,3,2,10.0,3,1,Sample row 1696
+3,Tomato,Roma,3,2,3,1,8.775150662102048,2,2,Sample row 1697
+4,Basil,Basil Genovese,1,3,1,1,10.0,2,3,Sample row 1698
+2,Lettuce,Red Leaf Lettuce,3,2,2,2,8.515556800547014,2,1,Sample row 1699
+3,Tomato,Cherry,2,3,2,1,10.0,3,2,Sample row 1700
+2,Lettuce,Oak Leaf,2,3,2,1,9.913111263578738,1,1,Sample row 1701
+4,Basil,Basil Genovese,3,3,1,1,9.82563265179797,1,3,Sample row 1702
+2,Lettuce,Crisphead,1,3,2,2,8.0,1,1,Sample row 1703
+3,Tomato,Grape,1,2,3,1,8.536229128511126,3,2,Sample row 1704
+2,Lettuce,Looseleaf,2,2,1,1,8.828431360282693,3,1,Sample row 1705
+4,Basil,Thai,2,3,3,2,9.416683646734475,2,3,Sample row 1706
+4,Basil,Thai,3,2,3,1,8.652957390598857,3,3,Sample row 1707
+3,Tomato,Grape,2,3,2,2,8.330864694086973,2,2,Sample row 1708
+3,Tomato,Cherry,2,3,3,1,9.795185573215667,2,2,Sample row 1709
+4,Basil,Basil Genovese,1,2,1,1,10.0,1,3,Sample row 1710
+3,Tomato,Beefsteak,1,4,2,2,10.0,3,2,Sample row 1711
+4,Basil,Basil Genovese,2,4,3,2,10.0,1,3,Sample row 1712
+3,Tomato,Beefsteak,3,3,3,2,9.792136634865493,3,2,Sample row 1713
+3,Tomato,Beefsteak,2,4,3,1,9.727639000502746,2,2,Sample row 1714
+3,Tomato,Cherry,3,3,3,2,10.0,3,2,Sample row 1715
+2,Lettuce,Little Gem,2,3,1,2,9.99458523300712,2,1,Sample row 1716
+2,Lettuce,Looseleaf,3,3,2,1,8.72058282744141,3,1,Sample row 1717
+2,Lettuce,Oak Leaf,2,3,2,1,9.841149049576035,3,1,Sample row 1718
+2,Lettuce,Little Gem,3,4,1,1,10.0,3,1,Sample row 1719
+2,Lettuce,Crisphead,2,4,2,1,8.0,2,1,Sample row 1720
+4,Basil,Thai,3,2,2,2,9.618948864979846,2,3,Sample row 1721
+4,Basil,Sweet,2,4,2,1,8.0104127606306,2,3,Sample row 1722
+4,Basil,Basil Genovese,3,4,3,2,9.730455171075759,3,3,Sample row 1723
+4,Basil,Thai,3,3,3,2,9.404209858753989,3,3,Sample row 1724
+4,Basil,Thai,3,2,3,1,8.871923895533499,3,3,Sample row 1725
+4,Basil,Sweet,2,3,2,1,8.0,3,3,Sample row 1726
+2,Lettuce,Red Leaf Lettuce,1,3,1,1,9.124492683739799,2,1,Sample row 1727
+4,Basil,Sweet,2,3,2,2,8.672315287730108,1,3,Sample row 1728
+4,Basil,Basil Genovese,2,4,3,2,10.0,2,3,Sample row 1729
+4,Basil,Thai,3,1,3,2,9.214052777757281,2,3,Sample row 1730
+4,Basil,Thai,2,3,3,1,8.734355297602415,3,3,Sample row 1731
+2,Lettuce,Little Gem,3,4,1,1,9.838302449176009,3,1,Sample row 1732
+4,Basil,Sweet,2,3,2,2,8.015465742235856,1,3,Sample row 1733
+3,Tomato,Roma,2,4,1,1,8.784275031357211,1,2,Sample row 1734
+2,Lettuce,Crisphead,1,4,3,1,8.370691531072865,2,1,Sample row 1735
+3,Tomato,Roma,3,4,3,1,8.104812091758099,3,2,Sample row 1736
+2,Lettuce,Looseleaf,3,3,2,1,9.071979824208215,3,1,Sample row 1737
+3,Tomato,Grape,1,3,3,1,9.005036392603282,2,2,Sample row 1738
+3,Tomato,Roma,3,3,1,2,8.963771973049596,3,2,Sample row 1739
+2,Lettuce,Red Leaf Lettuce,3,3,1,2,8.979116031803814,3,1,Sample row 1740
+3,Tomato,Roma,2,3,1,1,8.068312131994935,2,2,Sample row 1741
+3,Tomato,Roma,3,4,2,2,9.660569331189581,2,2,Sample row 1742
+2,Lettuce,Little Gem,1,4,2,2,10.0,3,1,Sample row 1743
+3,Tomato,Beefsteak,1,3,1,2,10.0,1,2,Sample row 1744
+3,Tomato,Roma,3,2,1,2,9.026707383797167,3,2,Sample row 1745
+2,Lettuce,Oak Leaf,3,2,3,1,10.0,1,1,Sample row 1746
+2,Lettuce,Looseleaf,3,4,3,1,9.405580301221905,3,1,Sample row 1747
+2,Lettuce,Red Leaf Lettuce,2,2,1,2,9.26591494055635,3,1,Sample row 1748
+3,Tomato,Roma,3,4,2,1,9.042428464291275,1,2,Sample row 1749
+2,Lettuce,Crisphead,2,4,1,2,8.0,1,1,Sample row 1750
+3,Tomato,Cherry,1,4,2,1,9.639319574164338,2,2,Sample row 1751
+2,Lettuce,Red Leaf Lettuce,2,1,2,2,8.868931338679964,3,1,Sample row 1752
+2,Lettuce,Red Leaf Lettuce,2,1,2,1,8.702430128237948,2,1,Sample row 1753
+3,Tomato,Beefsteak,1,4,2,1,9.638276563988859,3,2,Sample row 1754
+4,Basil,Basil Genovese,1,3,3,1,9.74340858405109,1,3,Sample row 1755
+4,Basil,Basil Genovese,3,2,3,1,9.640871299674039,3,3,Sample row 1756
+4,Basil,Sweet,2,4,3,1,8.220648850793058,3,3,Sample row 1757
+2,Lettuce,Looseleaf,1,4,1,1,8.429627368330497,3,1,Sample row 1758
+3,Tomato,Roma,3,3,3,2,8.883535155584545,3,2,Sample row 1759
+3,Tomato,Beefsteak,2,3,2,1,9.929925516632125,1,2,Sample row 1760
+4,Basil,Thai,3,3,2,2,8.527963520269115,3,3,Sample row 1761
+4,Basil,Basil Genovese,1,3,1,2,9.509492098296537,2,3,Sample row 1762
+2,Lettuce,Looseleaf,2,3,1,2,9.504376872384006,3,1,Sample row 1763
+3,Tomato,Grape,2,1,2,2,8.93261570066686,3,2,Sample row 1764
+3,Tomato,Beefsteak,2,4,3,2,9.803674849692337,1,2,Sample row 1765
+4,Basil,Basil Genovese,2,3,1,1,10.0,3,3,Sample row 1766
+2,Lettuce,Oak Leaf,2,4,3,2,10.0,1,1,Sample row 1767
+4,Basil,Thai,3,2,2,2,8.928168739821922,3,3,Sample row 1768
+4,Basil,Sweet,1,4,2,1,8.0,1,3,Sample row 1769
+3,Tomato,Roma,2,3,1,1,8.922833896094788,3,2,Sample row 1770
+3,Tomato,Beefsteak,2,4,3,1,10.0,3,2,Sample row 1771
+4,Basil,Basil Genovese,3,3,3,1,10.0,2,3,Sample row 1772
+2,Lettuce,Red Leaf Lettuce,3,1,1,1,9.505487638740833,2,1,Sample row 1773
+2,Lettuce,Little Gem,3,4,2,2,10.0,3,1,Sample row 1774
+2,Lettuce,Red Leaf Lettuce,3,3,2,1,8.84354668903085,1,1,Sample row 1775
+4,Basil,Sweet,2,4,2,1,8.0,2,3,Sample row 1776
+2,Lettuce,Little Gem,3,3,2,1,9.815266798774037,3,1,Sample row 1777
+3,Tomato,Cherry,2,4,2,1,10.0,3,2,Sample row 1778
+2,Lettuce,Looseleaf,3,2,2,2,9.02663306762288,3,1,Sample row 1779
+2,Lettuce,Red Leaf Lettuce,1,3,2,2,8.748284586412971,3,1,Sample row 1780
+3,Tomato,Cherry,1,4,3,1,9.438203379489554,3,2,Sample row 1781
+2,Lettuce,Oak Leaf,2,2,3,2,9.490874644499664,1,1,Sample row 1782
+2,Lettuce,Crisphead,1,4,2,2,8.053158519151252,1,1,Sample row 1783
+3,Tomato,Grape,1,1,2,1,8.717510267775538,3,2,Sample row 1784
+3,Tomato,Beefsteak,1,4,3,1,9.789866149879277,3,2,Sample row 1785
+2,Lettuce,Looseleaf,2,3,2,2,9.522048280757069,2,1,Sample row 1786
+4,Basil,Thai,3,3,3,1,9.17731206838781,3,3,Sample row 1787
+4,Basil,Thai,2,2,3,1,8.858025078620507,3,3,Sample row 1788
+4,Basil,Sweet,2,4,2,1,8.0,3,3,Sample row 1789
+4,Basil,Thai,3,3,3,2,9.40257831547411,2,3,Sample row 1790
+2,Lettuce,Crisphead,1,4,1,1,8.049383383756748,1,1,Sample row 1791
+3,Tomato,Roma,3,4,1,2,9.349084604297229,1,2,Sample row 1792
+4,Basil,Thai,2,3,3,2,9.687622431959081,2,3,Sample row 1793
+4,Basil,Basil Genovese,1,3,2,2,9.798979562032974,2,3,Sample row 1794
+4,Basil,Sweet,2,4,2,2,8.0,2,3,Sample row 1795
+4,Basil,Sweet,2,3,1,1,8.153533858595953,3,3,Sample row 1796
+2,Lettuce,Little Gem,2,4,3,1,10.0,3,1,Sample row 1797
+4,Basil,Thai,3,3,3,1,9.01707548676212,3,3,Sample row 1798
+2,Lettuce,Crisphead,2,4,2,2,8.0,1,1,Sample row 1799
+2,Lettuce,Crisphead,1,4,3,2,8.363700341019463,2,1,Sample row 1800
+4,Basil,Basil Genovese,3,3,3,2,9.969420055327392,2,3,Sample row 1801
+4,Basil,Basil Genovese,2,2,1,2,9.985248615200558,1,3,Sample row 1802
+2,Lettuce,Red Leaf Lettuce,3,3,1,1,8.808627552207522,3,1,Sample row 1803
+2,Lettuce,Red Leaf Lettuce,1,3,1,2,8.984201916820505,3,1,Sample row 1804
+2,Lettuce,Little Gem,2,4,2,1,9.534691864868158,2,1,Sample row 1805
+2,Lettuce,Looseleaf,3,2,1,2,8.951893552487407,2,1,Sample row 1806
+2,Lettuce,Looseleaf,3,2,3,1,9.196448184240426,3,1,Sample row 1807
+2,Lettuce,Crisphead,1,4,1,1,8.065129012791605,1,1,Sample row 1808
+2,Lettuce,Looseleaf,3,4,1,1,8.599389916774614,3,1,Sample row 1809
+3,Tomato,Beefsteak,3,3,1,2,10.0,3,2,Sample row 1810
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,3,1,Sample row 1811
+2,Lettuce,Red Leaf Lettuce,2,3,1,1,8.811640424208058,1,1,Sample row 1812
+4,Basil,Basil Genovese,1,2,2,1,9.851838157851219,2,3,Sample row 1813
+2,Lettuce,Looseleaf,2,4,2,1,8.804709797008833,2,1,Sample row 1814
+4,Basil,Thai,3,1,3,1,9.294940521392043,3,3,Sample row 1815
+2,Lettuce,Oak Leaf,2,4,2,1,9.846071452678707,2,1,Sample row 1816
+4,Basil,Basil Genovese,3,3,2,1,10.0,3,3,Sample row 1817
+2,Lettuce,Looseleaf,1,3,2,1,9.047158315231144,2,1,Sample row 1818
+3,Tomato,Cherry,2,3,3,1,10.0,3,2,Sample row 1819
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,1,1,Sample row 1820
+2,Lettuce,Looseleaf,2,3,1,1,9.270792161884568,3,1,Sample row 1821
+2,Lettuce,Red Leaf Lettuce,1,3,1,1,9.62675295853841,2,1,Sample row 1822
+3,Tomato,Roma,2,2,1,1,8.829055920377062,1,2,Sample row 1823
+3,Tomato,Roma,3,4,2,1,8.962374945949247,2,2,Sample row 1824
+4,Basil,Basil Genovese,3,2,1,1,10.0,1,3,Sample row 1825
+3,Tomato,Roma,3,4,3,2,9.211027607440274,3,2,Sample row 1826
+3,Tomato,Cherry,1,3,2,2,9.799601671932567,2,2,Sample row 1827
+3,Tomato,Cherry,3,4,3,1,9.66083163333357,2,2,Sample row 1828
+4,Basil,Thai,3,1,3,1,8.934150060201667,3,3,Sample row 1829
+2,Lettuce,Little Gem,1,4,3,1,10.0,2,1,Sample row 1830
+3,Tomato,Roma,3,3,2,1,8.714760742666893,3,2,Sample row 1831
+3,Tomato,Roma,2,2,3,1,9.013941118878098,2,2,Sample row 1832
+3,Tomato,Cherry,1,4,2,2,9.854577567516282,2,2,Sample row 1833
+2,Lettuce,Looseleaf,1,2,3,2,8.870000855306877,3,1,Sample row 1834
+3,Tomato,Cherry,2,4,2,1,10.0,3,2,Sample row 1835
+4,Basil,Sweet,2,4,1,1,8.0,1,3,Sample row 1836
+2,Lettuce,Oak Leaf,3,4,2,1,10.0,3,1,Sample row 1837
+4,Basil,Thai,3,2,2,2,9.371886730708471,3,3,Sample row 1838
+3,Tomato,Grape,1,1,2,1,9.409673982699363,3,2,Sample row 1839
+3,Tomato,Cherry,1,3,3,2,9.8986174075611,3,2,Sample row 1840
+2,Lettuce,Looseleaf,1,3,1,1,8.180407435700245,2,1,Sample row 1841
+2,Lettuce,Looseleaf,3,3,1,2,9.149432363776215,3,1,Sample row 1842
+2,Lettuce,Crisphead,1,4,3,2,8.0,2,1,Sample row 1843
+3,Tomato,Grape,2,2,1,2,8.892896456916118,2,2,Sample row 1844
+4,Basil,Sweet,1,4,2,1,8.0,1,3,Sample row 1845
+2,Lettuce,Red Leaf Lettuce,3,3,2,2,8.852909735804918,3,1,Sample row 1846
+3,Tomato,Grape,1,3,2,2,9.215582478001826,3,2,Sample row 1847
+3,Tomato,Roma,2,3,1,1,9.235254242370248,2,2,Sample row 1848
+3,Tomato,Grape,2,1,2,1,8.79353957075577,3,2,Sample row 1849
+4,Basil,Thai,2,2,3,1,9.403403902615487,3,3,Sample row 1850
+3,Tomato,Grape,1,2,3,1,9.014968647857787,3,2,Sample row 1851
+3,Tomato,Grape,1,1,1,2,9.538948020285586,3,2,Sample row 1852
+2,Lettuce,Red Leaf Lettuce,1,3,2,1,8.70216987166595,2,1,Sample row 1853
+2,Lettuce,Red Leaf Lettuce,2,2,1,1,9.09460323134774,2,1,Sample row 1854
+2,Lettuce,Red Leaf Lettuce,2,2,2,1,9.024942650452498,2,1,Sample row 1855
+2,Lettuce,Oak Leaf,3,3,2,1,9.95849434391131,3,1,Sample row 1856
+4,Basil,Thai,2,2,2,1,8.364833387963682,2,3,Sample row 1857
+3,Tomato,Cherry,3,3,3,1,9.902025260829001,2,2,Sample row 1858
+3,Tomato,Grape,2,3,1,2,9.061869387379065,3,2,Sample row 1859
+3,Tomato,Cherry,1,3,3,1,9.940564037366725,3,2,Sample row 1860
+2,Lettuce,Red Leaf Lettuce,2,3,1,1,8.605198877044765,3,1,Sample row 1861
+3,Tomato,Grape,2,3,2,1,9.485702444384824,3,2,Sample row 1862
+3,Tomato,Grape,1,1,1,2,9.401360611907394,3,2,Sample row 1863
+4,Basil,Basil Genovese,2,2,3,1,10.0,3,3,Sample row 1864
+3,Tomato,Beefsteak,1,4,1,2,9.641967525136751,2,2,Sample row 1865
+4,Basil,Sweet,1,3,1,1,8.233473397683733,1,3,Sample row 1866
+3,Tomato,Grape,2,3,2,2,8.34991460819978,2,2,Sample row 1867
+4,Basil,Basil Genovese,1,2,2,2,10.0,1,3,Sample row 1868
+3,Tomato,Grape,2,2,2,1,9.019994664708745,3,2,Sample row 1869
+2,Lettuce,Oak Leaf,2,3,3,1,9.873643547845798,2,1,Sample row 1870
+2,Lettuce,Crisphead,2,4,2,2,8.0,1,1,Sample row 1871
+2,Lettuce,Crisphead,1,3,1,2,8.027684937191038,1,1,Sample row 1872
+3,Tomato,Roma,3,4,1,1,9.226751286120278,1,2,Sample row 1873
+4,Basil,Thai,3,1,2,1,8.693358408905302,2,3,Sample row 1874
+2,Lettuce,Crisphead,2,4,3,1,8.0,1,1,Sample row 1875
+2,Lettuce,Little Gem,2,3,1,2,9.722431178354299,3,1,Sample row 1876
+3,Tomato,Beefsteak,2,3,3,2,9.943430982591307,3,2,Sample row 1877
+2,Lettuce,Looseleaf,3,3,1,1,8.96826963849199,3,1,Sample row 1878
+4,Basil,Sweet,3,4,3,1,8.133687061719684,1,3,Sample row 1879
+4,Basil,Basil Genovese,2,2,1,2,10.0,3,3,Sample row 1880
+4,Basil,Thai,3,2,3,2,9.06445144051905,3,3,Sample row 1881
+3,Tomato,Beefsteak,3,4,2,1,10.0,2,2,Sample row 1882
+3,Tomato,Beefsteak,3,4,3,1,9.030894372487474,3,2,Sample row 1883
+4,Basil,Sweet,3,4,1,1,8.0,3,3,Sample row 1884
+2,Lettuce,Red Leaf Lettuce,2,1,2,1,8.920159686399526,3,1,Sample row 1885
+3,Tomato,Cherry,2,4,3,1,10.0,3,2,Sample row 1886
+2,Lettuce,Looseleaf,1,3,1,2,9.072341525373607,3,1,Sample row 1887
+2,Lettuce,Little Gem,3,3,3,1,9.941690592322633,2,1,Sample row 1888
+4,Basil,Thai,3,2,2,1,9.505566354780582,3,3,Sample row 1889
+4,Basil,Sweet,3,4,1,1,8.37759221999098,3,3,Sample row 1890
+3,Tomato,Grape,1,3,2,1,8.698454391692767,2,2,Sample row 1891
+3,Tomato,Roma,3,4,1,1,8.961681681637526,3,2,Sample row 1892
+3,Tomato,Roma,3,4,3,1,9.396760825302099,2,2,Sample row 1893
+3,Tomato,Grape,1,3,2,2,9.26716693933457,3,2,Sample row 1894
+3,Tomato,Cherry,2,3,2,2,10.0,3,2,Sample row 1895
+3,Tomato,Beefsteak,3,4,3,1,10.0,1,2,Sample row 1896
+2,Lettuce,Red Leaf Lettuce,2,3,1,2,9.042056326682665,3,1,Sample row 1897
+3,Tomato,Cherry,2,4,2,1,10.0,2,2,Sample row 1898
+2,Lettuce,Oak Leaf,3,4,3,1,9.778662885102726,1,1,Sample row 1899
+4,Basil,Basil Genovese,2,2,3,2,9.64196219182216,2,3,Sample row 1900
+3,Tomato,Cherry,1,4,3,2,10.0,3,2,Sample row 1901
+3,Tomato,Cherry,2,4,3,1,9.862711233652346,3,2,Sample row 1902
+4,Basil,Basil Genovese,3,3,2,1,9.9264097868793,2,3,Sample row 1903
+2,Lettuce,Crisphead,1,4,3,1,8.0,2,1,Sample row 1904
+2,Lettuce,Red Leaf Lettuce,3,2,2,1,8.905303579470353,2,1,Sample row 1905
+4,Basil,Basil Genovese,1,4,3,2,10.0,2,3,Sample row 1906
+3,Tomato,Beefsteak,2,4,2,1,9.786538664431175,1,2,Sample row 1907
+3,Tomato,Roma,3,4,1,1,8.719617347682597,1,2,Sample row 1908
+2,Lettuce,Crisphead,1,4,3,1,8.0,1,1,Sample row 1909
+4,Basil,Sweet,1,3,2,2,8.0,2,3,Sample row 1910
+2,Lettuce,Little Gem,2,4,2,1,9.473970619463465,1,1,Sample row 1911
+3,Tomato,Roma,3,3,2,1,9.166425816603159,2,2,Sample row 1912
+3,Tomato,Grape,1,1,1,1,9.14730765688533,2,2,Sample row 1913
+2,Lettuce,Little Gem,2,3,3,2,9.771382482819796,3,1,Sample row 1914
+3,Tomato,Cherry,1,4,3,1,10.0,2,2,Sample row 1915
+4,Basil,Basil Genovese,3,4,2,2,9.931433748752458,1,3,Sample row 1916
+4,Basil,Sweet,2,4,1,2,8.0,2,3,Sample row 1917
+2,Lettuce,Looseleaf,2,3,1,1,8.921084787854916,3,1,Sample row 1918
+3,Tomato,Roma,3,2,2,1,9.23974932546839,1,2,Sample row 1919
+3,Tomato,Roma,3,4,2,1,9.056951557261481,3,2,Sample row 1920
+2,Lettuce,Oak Leaf,3,4,3,1,10.0,2,1,Sample row 1921
+2,Lettuce,Little Gem,1,4,3,1,9.876151792695552,3,1,Sample row 1922
+2,Lettuce,Oak Leaf,3,3,3,2,10.0,2,1,Sample row 1923
+3,Tomato,Beefsteak,1,4,1,1,10.0,2,2,Sample row 1924
+4,Basil,Thai,3,3,3,2,8.93255933086961,2,3,Sample row 1925
+3,Tomato,Cherry,2,3,2,2,9.99311893452022,3,2,Sample row 1926
+2,Lettuce,Crisphead,2,4,3,2,8.0,1,1,Sample row 1927
+4,Basil,Basil Genovese,1,4,3,1,9.659613508365855,3,3,Sample row 1928
+3,Tomato,Cherry,1,4,3,1,10.0,2,2,Sample row 1929
+2,Lettuce,Little Gem,3,3,1,1,9.544616926214042,2,1,Sample row 1930
+2,Lettuce,Crisphead,1,4,3,2,8.323854847389352,2,1,Sample row 1931
+3,Tomato,Grape,1,3,1,1,8.9975150833318,3,2,Sample row 1932
+4,Basil,Thai,2,3,3,2,8.592018531033,3,3,Sample row 1933
+2,Lettuce,Little Gem,1,4,3,1,9.858213189894293,2,1,Sample row 1934
+4,Basil,Sweet,1,4,3,2,8.0,2,3,Sample row 1935
+2,Lettuce,Looseleaf,1,4,3,1,9.480639299574166,3,1,Sample row 1936
+2,Lettuce,Crisphead,2,4,1,2,8.115261206180902,1,1,Sample row 1937
+3,Tomato,Grape,2,2,1,2,8.409561816487011,3,2,Sample row 1938
+2,Lettuce,Little Gem,2,4,2,1,9.354426052166138,3,1,Sample row 1939
+3,Tomato,Grape,1,2,2,2,8.984758700722288,2,2,Sample row 1940
+3,Tomato,Roma,3,3,1,2,9.083880543795635,3,2,Sample row 1941
+2,Lettuce,Red Leaf Lettuce,3,2,1,1,8.711706408200033,3,1,Sample row 1942
+2,Lettuce,Red Leaf Lettuce,1,2,2,1,9.481064925596645,2,1,Sample row 1943
+2,Lettuce,Crisphead,1,3,3,2,8.0,2,1,Sample row 1944
+4,Basil,Sweet,3,4,1,2,8.0,1,3,Sample row 1945
+3,Tomato,Grape,1,1,1,1,9.080770478234347,3,2,Sample row 1946
+3,Tomato,Cherry,1,3,3,1,9.695598923186283,3,2,Sample row 1947
+2,Lettuce,Oak Leaf,3,4,3,1,9.75692027392558,1,1,Sample row 1948
+2,Lettuce,Crisphead,1,3,1,2,8.431844861302901,2,1,Sample row 1949
+4,Basil,Basil Genovese,2,4,1,2,9.551109379603604,1,3,Sample row 1950
+2,Lettuce,Crisphead,1,4,1,2,8.0,1,1,Sample row 1951
+4,Basil,Thai,2,3,2,2,8.347469380785615,2,3,Sample row 1952
+3,Tomato,Cherry,2,4,2,1,10.0,3,2,Sample row 1953
+2,Lettuce,Little Gem,3,4,3,1,9.835460010480894,1,1,Sample row 1954
+2,Lettuce,Looseleaf,1,4,3,1,9.332113418379228,2,1,Sample row 1955
+4,Basil,Basil Genovese,1,3,1,1,10.0,3,3,Sample row 1956
+2,Lettuce,Little Gem,2,4,3,1,9.89433037495408,1,1,Sample row 1957
+4,Basil,Thai,3,3,3,1,8.593136870136153,3,3,Sample row 1958
+4,Basil,Basil Genovese,3,4,1,1,10.0,2,3,Sample row 1959
+4,Basil,Basil Genovese,3,3,2,1,9.595004972992129,3,3,Sample row 1960
+2,Lettuce,Red Leaf Lettuce,2,3,2,1,8.511365281292592,2,1,Sample row 1961
+4,Basil,Sweet,3,3,1,2,8.0,2,3,Sample row 1962
+4,Basil,Sweet,3,4,3,2,8.521373331776719,3,3,Sample row 1963
+4,Basil,Basil Genovese,3,2,2,1,9.954957016509354,2,3,Sample row 1964
+4,Basil,Thai,3,3,3,1,8.657923783107467,3,3,Sample row 1965
+2,Lettuce,Crisphead,1,4,2,1,8.1966455463835,1,1,Sample row 1966
+4,Basil,Basil Genovese,1,2,2,2,10.0,1,3,Sample row 1967
+2,Lettuce,Crisphead,1,3,1,1,8.217803357120431,1,1,Sample row 1968
+2,Lettuce,Little Gem,1,3,2,2,10.0,1,1,Sample row 1969
+3,Tomato,Roma,3,2,1,2,8.900936986695156,3,2,Sample row 1970
+4,Basil,Thai,2,2,3,2,8.322333723909178,3,3,Sample row 1971
+2,Lettuce,Crisphead,2,3,1,2,8.16769347628708,2,1,Sample row 1972
+2,Lettuce,Red Leaf Lettuce,2,2,1,1,8.494432230596487,1,1,Sample row 1973
+3,Tomato,Grape,1,1,1,1,8.810839533389935,3,2,Sample row 1974
+3,Tomato,Cherry,1,3,3,2,9.611905516549456,3,2,Sample row 1975
+4,Basil,Basil Genovese,1,3,1,1,10.0,2,3,Sample row 1976
+3,Tomato,Cherry,2,4,2,1,9.917773846799216,3,2,Sample row 1977
+4,Basil,Basil Genovese,3,3,3,1,10.0,3,3,Sample row 1978
+3,Tomato,Grape,1,1,3,1,8.457553974203762,3,2,Sample row 1979
+3,Tomato,Beefsteak,3,4,1,2,9.58115495884542,3,2,Sample row 1980
+4,Basil,Thai,3,2,3,1,8.685545836636072,3,3,Sample row 1981
+2,Lettuce,Crisphead,1,4,3,2,8.339556515692093,1,1,Sample row 1982
+2,Lettuce,Red Leaf Lettuce,1,2,1,1,9.300917422678628,1,1,Sample row 1983
+4,Basil,Sweet,2,3,3,2,8.13199636950886,1,3,Sample row 1984
+4,Basil,Basil Genovese,3,2,3,1,10.0,2,3,Sample row 1985
+2,Lettuce,Red Leaf Lettuce,3,1,1,1,8.63730854917593,3,1,Sample row 1986
+2,Lettuce,Looseleaf,3,2,2,1,9.348518041082237,2,1,Sample row 1987
+3,Tomato,Roma,3,2,3,1,8.997124756854229,1,2,Sample row 1988
+3,Tomato,Beefsteak,1,4,1,1,9.848786161171226,3,2,Sample row 1989
+3,Tomato,Cherry,1,4,3,2,10.0,3,2,Sample row 1990
+2,Lettuce,Crisphead,2,4,2,1,8.439746619850172,1,1,Sample row 1991
+2,Lettuce,Looseleaf,2,4,1,1,8.164885484672576,2,1,Sample row 1992
+4,Basil,Basil Genovese,2,2,2,2,10.0,1,3,Sample row 1993
+3,Tomato,Roma,2,2,2,1,9.206725077998906,3,2,Sample row 1994
+3,Tomato,Cherry,3,4,2,2,9.407603764249938,3,2,Sample row 1995
+2,Lettuce,Crisphead,1,4,3,2,8.004690650376313,1,1,Sample row 1996
+4,Basil,Sweet,3,4,3,2,8.0,3,3,Sample row 1997
+2,Lettuce,Little Gem,2,4,1,2,9.982999978920255,3,1,Sample row 1998
+2,Lettuce,Looseleaf,2,2,1,1,8.979174815099642,3,1,Sample row 1999
