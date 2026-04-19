@@ -42,8 +42,7 @@ Crop-variety-prediction/
 │   └── Datathon.ipynb       # Main analysis and modeling
 └── scripts/
     ├── generate_sample_data.py   # Builds synthetic CSVs under data/ for a runnable demo
-    ├── patch_notebook.py         # One-off notebook path cleanup (historical)
-    └── update_notebook_ml.py     # ML cell definitions (optional maintainer helper)
+    └── maintain.py               # Rewrite canonical notebook cells (see below)
 ```
 
 ## Data
@@ -55,6 +54,18 @@ Crop-variety-prediction/
 - **Original Datathon data:** If you have the competition files, replace the contents of `data/` with those CSVs (same filenames expected by the notebook: `Plant.csv`, `PlantVariety.csv`, lookups, etc.). Metrics and plots will then reflect the real dataset.
 
 The notebook resolves `data/` whether you start Jupyter from the **repository root** or the **`notebooks/`** folder (see first code cell).
+
+### Maintainer tools
+
+`scripts/maintain.py` overwrites selected cells in `notebooks/Datathon.ipynb` when you want the canonical versions back (for example after manual edits):
+
+```bash
+python scripts/maintain.py merge-cell   # join cell: variety on Plant.csv vs lookup merge
+python scripts/maintain.py ml-cells     # encoding + Random Forest / GridSearch / confusion matrix
+python scripts/maintain.py --help
+```
+
+Re-run the notebook afterward so outputs stay in sync.
 
 ## Technologies
 

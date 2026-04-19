@@ -1,11 +1,52 @@
-"""Update ML cells in notebooks/Datathon.ipynb (variety target, GridSearch, confusion matrix)."""
+"""Maintain notebooks/Datathon.ipynb: rewrite specific cells without hand-editing JSON.
+
+Examples:
+  python scripts/maintain.py merge-cell   # join step when Plant.csv includes PlantVarietyName
+  python scripts/maintain.py ml-cells      # variety target, GridSearchCV, confusion matrix cells
+"""
 from __future__ import annotations
 
+import argparse
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 NB = ROOT / "notebooks" / "Datathon.ipynb"
+
+MERGE_CELL = """# Join the dataframes
+joins = (
+    df_plant
+    .merge(df_Ph[["PHRangeID", "PHRange", "SoilType"]], on="PHRangeID", how="left")
+    .merge(
+        df_Hard_new[["UnifiedZone", "TemperatureStartRange", "TemperatureEndRange"]],
+        left_on="ZoneID",
+        right_on="UnifiedZone",
+        how="left",
+    )
+    .merge(df_PlantType[["PlantTypeID", "PlantType"]], on="PlantTypeID", how="left")
+    .merge(df_Soil[["SoilTextureID", "SoilTexture"]], on="SoilTextureID", how="left")
+    .merge(df_Hum[["HumidityID", "Classification"]], on="HumidityID", how="left")
+    .merge(
+        df_OrgMat[["OrganicMatterID", "OrganicMatterContent"]],
+        on="OrganicMatterID",
+        how="left",
+    )
+    .merge(
+        df_Saline[["SalinityLevelID", "SalinityLevel", "Classification"]],
+        on="SalinityLevelID",
+        how="left",
+        suffixes=("", "_Salinity"),
+    )
+)
+if "PlantVarietyName" not in df_plant.columns:
+    result = joins.merge(df_Var[["PlantID", "PlantVarietyName"]], on="PlantID", how="left")
+else:
+    result = joins
+
+result = result.drop(columns=["PlantDescription"])
+
+print(result.head())
+"""
 
 CELL_14 = """from sklearn.preprocessing import LabelEncoder
 
@@ -107,20 +148,52 @@ def _lines(src: str) -> list[str]:
     return [line + "\n" for line in src.splitlines()]
 
 
-def main() -> None:
+def _clear_outputs(nb: dict) -> None:
+    for c in nb["cells"]:
+        c["execution_count"] = None
+        if c.get("cell_type") == "code":
+            c["outputs"] = []
+
+
+def cmd_merge_cell() -> None:
+    nb = json.loads(NB.read_text(encoding="utf-8"))
+    nb["cells"][3]["source"] = _lines(MERGE_CELL)
+    _clear_outputs(nb)
+    NB.write_text(json.dumps(nb, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Updated merge cell (index 3) in {NB}")
+
+
+def cmd_ml_cells() -> None:
     nb = json.loads(NB.read_text(encoding="utf-8"))
     cells = nb["cells"]
     cells[14]["source"] = _lines(CELL_14)
     cells[15]["source"] = _lines(CELL_15)
     cells[17]["source"] = _lines(CELL_17)
-
-    for c in cells:
-        c["execution_count"] = None
-        if c.get("cell_type") == "code":
-            c["outputs"] = []
-
+    _clear_outputs(nb)
     NB.write_text(json.dumps(nb, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Updated ML cells in {NB}")
+    print(f"Updated ML cells (14, 15, 17) in {NB}")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Rewrite canonical cells in notebooks/Datathon.ipynb."
+    )
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    p_merge = sub.add_parser(
+        "merge-cell",
+        help="Set join cell to skip PlantVariety merge when variety is on Plant.csv",
+    )
+    p_merge.set_defaults(_run=lambda: cmd_merge_cell())
+
+    p_ml = sub.add_parser(
+        "ml-cells",
+        help="Set variety encoding + RandomForest/GridSearch/confusion-matrix cells",
+    )
+    p_ml.set_defaults(_run=lambda: cmd_ml_cells())
+
+    args = parser.parse_args()
+    args._run()
 
 
 if __name__ == "__main__":
