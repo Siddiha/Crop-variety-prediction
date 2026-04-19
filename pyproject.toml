@@ -1,0 +1,13 @@
+[project]
+name = "crop-variety-prediction"
+version = "0.1.0"
+description = "Random Forest classifier to predict crop variety from soil and climate features"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {email = "FathimaSiddka62@gmail.com"},
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
