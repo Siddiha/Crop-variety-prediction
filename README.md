@@ -2,8 +2,6 @@
 
 Machine learning project that recommends plant varieties from growing conditions—soil, climate zone, humidity, salinity, organic matter, and related factors. Choosing varieties that fit local conditions supports higher yields, lower risk, and more efficient use of water and inputs.
 
-**Recognition:** Developed for a Datathon; the team placed **2nd runner-up**. [View the digital badge](https://badgr.com/public/assertions/rpl3BidYQJKToosP9B4jLg?identity__email=ogupta@horizon.csueastbay.edu).
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -38,9 +36,9 @@ The notebook reads CSV files from a `data/` folder at the **repository root** (p
 
 ## Technologies
 
-- Python  
-- pandas, NumPy  
-- Matplotlib, Seaborn  
+- Python
+- pandas, NumPy
+- Matplotlib, Seaborn
 - scikit-learn (Random Forest, `GridSearchCV`)
 
 ## Setup
@@ -58,7 +56,7 @@ cd Crop-variety-prediction
 python -m venv .venv
 ```
 
-- **Windows (PowerShell):** `.venv\Scripts\Activate.ps1`  
+- **Windows (PowerShell):** `.venv\Scripts\Activate.ps1`
 - **macOS / Linux:** `source .venv/bin/activate`
 
 **3. Install dependencies**
@@ -80,10 +78,10 @@ Alternatively, open `notebooks/Datathon.ipynb` from JupyterLab or VS Code; if im
 
 ## How it works
 
-1. **Load & explore** — Read lookup tables and the main plant table; exploratory analysis on distributions and relationships.  
-2. **Preprocess** — Handle missing values, encode categoricals, normalize or scale where needed.  
-3. **Feature engineering** — Merge lookups (zone, soil, pH, humidity, salinity, organic matter, variety) into a modeling table.  
-4. **Train** — Random Forest with grid-searched hyperparameters.  
+1. **Load & explore** — Read lookup tables and the main plant table; exploratory analysis on distributions and relationships.
+2. **Preprocess** — Handle missing values, encode categoricals, normalize or scale where needed.
+3. **Feature engineering** — Merge lookups (zone, soil, pH, humidity, salinity, organic matter, variety) into a modeling table.
+4. **Train** — Random Forest with grid-searched hyperparameters.
 5. **Evaluate** — Accuracy and visual diagnostics (e.g. confusion matrix–style plots).
 
 ## Screenshots
@@ -125,14 +123,14 @@ print(f"Best params: {grid_search.best_params_}")
 
 **Current**
 
-- Variety predictions from engineered environmental and soil inputs  
-- Visual summaries for trends and model performance  
-- Recommendations framed by zone, soil, and growing conditions  
+- Variety predictions from engineered environmental and soil inputs
+- Visual summaries for trends and model performance
+- Recommendations framed by zone, soil, and growing conditions
 
 **Possible next steps**
 
-- Interactive assistant for farmer-facing Q&A  
-- Stronger use of weather or forecast features in recommendations  
+- Interactive assistant for farmer-facing Q&A
+- Stronger use of weather or forecast features in recommendations
 
 ## Status
 
@@ -140,7 +138,7 @@ Initial version is complete; contributions and refinements are welcome.
 
 ## Challenges & learnings
 
-- **Challenges:** Class imbalance affected metrics; grid search added compute time.  
+- **Challenges:** Class imbalance affected metrics; grid search added compute time.
 - **Learnings:** End-to-end preprocessing and feature joins for tabular agronomic data; practical use of `GridSearchCV`; communicating results with clear plots.
 
 ## Contact
