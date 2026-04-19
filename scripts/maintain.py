@@ -4,7 +4,8 @@ Examples:
   python scripts/maintain.py sample-data   # regenerate data/*.csv (demo dataset)
   python scripts/maintain.py merge-cell    # join cell when Plant.csv includes PlantVarietyName
   python scripts/maintain.py ml-cells      # variety target, GridSearchCV, confusion matrix
-  python scripts/maintain.py all           # sample-data, then merge-cell, then ml-cells
+  python scripts/maintain.py export-model  # train + joblib artifacts under models/
+  python scripts/maintain.py all           # sample-data, merge-cell, ml-cells (not export-model)
 """
 from __future__ import annotations
 
@@ -180,6 +181,7 @@ def cmd_ml_cells() -> None:
 
 
 SAMPLE_DATA_SCRIPT = ROOT / "scripts" / "generate_sample_data.py"
+TRAIN_EXPORT_SCRIPT = ROOT / "scripts" / "train_export_model.py"
 
 
 def cmd_sample_data() -> None:
@@ -187,6 +189,13 @@ def cmd_sample_data() -> None:
         print(f"Missing {SAMPLE_DATA_SCRIPT}", file=sys.stderr)
         sys.exit(1)
     runpy.run_path(str(SAMPLE_DATA_SCRIPT), run_name="__main__")
+
+
+def cmd_export_model() -> None:
+    if not TRAIN_EXPORT_SCRIPT.is_file():
+        print(f"Missing {TRAIN_EXPORT_SCRIPT}", file=sys.stderr)
+        sys.exit(1)
+    runpy.run_path(str(TRAIN_EXPORT_SCRIPT), run_name="__main__")
 
 
 def cmd_all() -> None:
@@ -222,6 +231,12 @@ def main() -> None:
         help="Set variety encoding + RandomForest/GridSearch/confusion-matrix cells",
     )
     p_ml.set_defaults(_run=lambda: cmd_ml_cells())
+
+    p_exp = sub.add_parser(
+        "export-model",
+        help="Run train_export_model.py (writes models/*.joblib and JSON sidecars)",
+    )
+    p_exp.set_defaults(_run=lambda: cmd_export_model())
 
     p_all = sub.add_parser(
         "all",

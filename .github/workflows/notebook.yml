@@ -1,0 +1,28 @@
+name: Notebook
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate demo data
+        run: python scripts/generate_sample_data.py
+
+      - name: Execute notebook
+        run: jupyter nbconvert --to notebook --execute notebooks/Datathon.ipynb --ExecutePreprocessor.timeout=600 --inplace

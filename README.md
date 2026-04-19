@@ -6,6 +6,8 @@ Choosing varieties that fit local conditions supports higher yields, lower risk,
 
 **Recognition:** Developed for a Datathon; the team placed **2nd runner-up**. [View the digital badge](https://badgr.com/public/assertions/rpl3BidYQJKToosP9B4jLg?identity__email=ogupta@horizon.csueastbay.edu).
 
+[![Notebook CI](https://github.com/Siddiha/Crop-variety-prediction/actions/workflows/notebook.yml/badge.svg)](https://github.com/Siddiha/Crop-variety-prediction/actions/workflows/notebook.yml)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -14,12 +16,14 @@ Choosing varieties that fit local conditions supports higher yields, lower risk,
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Run the notebook](#run-the-notebook)
+- [Exported model (optional)](#exported-model-optional)
 - [How it works](#how-it-works)
 - [Screenshots](#screenshots)
 - [Example code](#example-code)
 - [Features](#features)
 - [Status](#status)
 - [Challenges & learnings](#challenges--learnings)
+- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -32,17 +36,25 @@ The notebook loads CSVs from `data/`, merges hardiness zones, pH, soil texture, 
 ```
 Crop-variety-prediction/
 ├── README.md
+├── CONTRIBUTING.md
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
+├── .github/
+│   └── workflows/
+│       └── notebook.yml     # CI: install deps, demo data, execute Datathon.ipynb
 ├── data/                    # CSV inputs (see Data section)
+├── models/                  # Trained artifacts (gitignored); see Exported model
 ├── images/                  # Figures for the README (EDA, metrics, recommendations)
 ├── docs/                    # Extra materials (e.g. presentation slides), optional
 ├── notebooks/
 │   └── Datathon.ipynb       # Main analysis and modeling
 └── scripts/
-    ├── generate_sample_data.py   # Builds synthetic CSVs under data/ for a runnable demo
-    └── maintain.py               # Rewrite canonical notebook cells (see below)
+    ├── crop_pipeline.py          # Shared load/clean logic (notebook + training script)
+    ├── generate_sample_data.py   # Synthetic CSVs under data/
+    ├── train_export_model.py     # Fit RF + save joblib under models/
+    ├── predict_variety.py        # Demo CLI using saved model
+    └── maintain.py               # sample-data, merge-cell, ml-cells, export-model, all
 ```
 
 ## Data
@@ -63,11 +75,23 @@ The notebook resolves `data/` whether you start Jupyter from the **repository ro
 python scripts/maintain.py sample-data   # same as: python scripts/generate_sample_data.py
 python scripts/maintain.py merge-cell    # join cell: variety on Plant.csv vs lookup merge
 python scripts/maintain.py ml-cells      # encoding + Random Forest / GridSearch / confusion matrix
+python scripts/maintain.py export-model  # same as: python scripts/train_export_model.py
 python scripts/maintain.py all           # sample-data, then merge-cell, then ml-cells
 python scripts/maintain.py --help
 ```
 
 `merge-cell`, `ml-cells`, and `all` clear saved notebook outputs; run the notebook again (or use `nbconvert --execute`) so outputs stay in sync.
+
+## Exported model (optional)
+
+After `data/` is in place, you can train the same Random Forest as in the notebook and save **joblib** artifacts (ignored by git; see `models/.gitignore`):
+
+```bash
+python scripts/train_export_model.py
+python scripts/predict_variety.py --row 0
+```
+
+Metadata and the feature column list are written next to the model for the demo predictor.
 
 ## Technologies
 
@@ -194,6 +218,10 @@ Initial version is complete; contributions and refinements are welcome.
 
 - **Challenges:** Class imbalance can affect metrics; grid search adds runtime; many variety classes make confusion matrices dense.
 - **Learnings:** Tabular joins for agronomic data, `GridSearchCV`, and reporting with confusion matrices and feature importance.
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for environment setup, maintainer commands, and CI behavior.
 
 ## License
 
