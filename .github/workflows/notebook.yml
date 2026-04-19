@@ -26,3 +26,6 @@ jobs:
 
       - name: Execute notebook
         run: jupyter nbconvert --to notebook --execute notebooks/Datathon.ipynb --ExecutePreprocessor.timeout=600 --inplace
+
+      - name: Run tests
+        run: pytest
