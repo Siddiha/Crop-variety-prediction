@@ -57,15 +57,17 @@ The notebook resolves `data/` whether you start Jupyter from the **repository ro
 
 ### Maintainer tools
 
-`scripts/maintain.py` overwrites selected cells in `notebooks/Datathon.ipynb` when you want the canonical versions back (for example after manual edits):
+`scripts/maintain.py` can regenerate the **demo CSVs** and/or overwrite **canonical cells** in `notebooks/Datathon.ipynb` (for example after manual edits):
 
 ```bash
-python scripts/maintain.py merge-cell   # join cell: variety on Plant.csv vs lookup merge
-python scripts/maintain.py ml-cells     # encoding + Random Forest / GridSearch / confusion matrix
+python scripts/maintain.py sample-data   # same as: python scripts/generate_sample_data.py
+python scripts/maintain.py merge-cell    # join cell: variety on Plant.csv vs lookup merge
+python scripts/maintain.py ml-cells      # encoding + Random Forest / GridSearch / confusion matrix
+python scripts/maintain.py all           # sample-data, then merge-cell, then ml-cells
 python scripts/maintain.py --help
 ```
 
-Re-run the notebook afterward so outputs stay in sync.
+`merge-cell`, `ml-cells`, and `all` clear saved notebook outputs; run the notebook again (or use `nbconvert --execute`) so outputs stay in sync.
 
 ## Technologies
 

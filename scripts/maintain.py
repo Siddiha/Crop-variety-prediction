@@ -1,14 +1,19 @@
-"""Maintain notebooks/Datathon.ipynb: rewrite specific cells without hand-editing JSON.
+"""Maintain sample data and notebooks/Datathon.ipynb without hand-editing JSON.
 
 Examples:
-  python scripts/maintain.py merge-cell   # join step when Plant.csv includes PlantVarietyName
-  python scripts/maintain.py ml-cells      # variety target, GridSearchCV, confusion matrix cells
+  python scripts/maintain.py sample-data   # regenerate data/*.csv (demo dataset)
+  python scripts/maintain.py merge-cell    # join cell when Plant.csv includes PlantVarietyName
+  python scripts/maintain.py ml-cells      # variety target, GridSearchCV, confusion matrix
+  python scripts/maintain.py all           # sample-data, then merge-cell, then ml-cells
 """
 from __future__ import annotations
 
 import argparse
 import json
+import runpy
+import sys
 from pathlib import Path
+from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 NB = ROOT / "notebooks" / "Datathon.ipynb"
@@ -148,7 +153,7 @@ def _lines(src: str) -> list[str]:
     return [line + "\n" for line in src.splitlines()]
 
 
-def _clear_outputs(nb: dict) -> None:
+def _clear_outputs(nb: dict[str, Any]) -> None:
     for c in nb["cells"]:
         c["execution_count"] = None
         if c.get("cell_type") == "code":
@@ -174,11 +179,37 @@ def cmd_ml_cells() -> None:
     print(f"Updated ML cells (14, 15, 17) in {NB}")
 
 
+SAMPLE_DATA_SCRIPT = ROOT / "scripts" / "generate_sample_data.py"
+
+
+def cmd_sample_data() -> None:
+    if not SAMPLE_DATA_SCRIPT.is_file():
+        print(f"Missing {SAMPLE_DATA_SCRIPT}", file=sys.stderr)
+        sys.exit(1)
+    runpy.run_path(str(SAMPLE_DATA_SCRIPT), run_name="__main__")
+
+
+def cmd_all() -> None:
+    cmd_sample_data()
+    cmd_merge_cell()
+    cmd_ml_cells()
+    print(
+        "Done. Re-run the notebook to refresh outputs, e.g.\n"
+        + "  jupyter nbconvert --to notebook --execute notebooks/Datathon.ipynb --inplace"
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Rewrite canonical cells in notebooks/Datathon.ipynb."
+        description="Regenerate demo data and/or rewrite canonical cells in Datathon.ipynb."
     )
     sub = parser.add_subparsers(dest="command", required=True)
+
+    p_sample = sub.add_parser(
+        "sample-data",
+        help="Run scripts/generate_sample_data.py (writes CSVs under data/)",
+    )
+    p_sample.set_defaults(_run=lambda: cmd_sample_data())
 
     p_merge = sub.add_parser(
         "merge-cell",
@@ -191,6 +222,12 @@ def main() -> None:
         help="Set variety encoding + RandomForest/GridSearch/confusion-matrix cells",
     )
     p_ml.set_defaults(_run=lambda: cmd_ml_cells())
+
+    p_all = sub.add_parser(
+        "all",
+        help="sample-data, then merge-cell, then ml-cells (clears notebook outputs)",
+    )
+    p_all.set_defaults(_run=lambda: cmd_all())
 
     args = parser.parse_args()
     args._run()
