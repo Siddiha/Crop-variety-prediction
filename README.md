@@ -2,7 +2,7 @@
 
 This project joins agronomic lookup tables, builds features, and trains a **Random Forest** classifier with **`GridSearchCV`** to predict **crop variety** (`PlantVarietyName`) from soil, climate zone, humidity, salinity, organic matter, and related fields. **Plant type** (e.g. vegetable vs fruit) is kept as an input feature so the model can separate variety within type.
 
-Choosing varieties that fit local conditions supports higher yields, lower risk, and more efficient use of water and inputs.
+Choosing varieties that fit local conditions supports higher yields, lower risk, and more efficient use of water and inputs..
 
 
 
