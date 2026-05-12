@@ -232,7 +232,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for environment setup, maintainer comma
 ## License
 
 This project is released under the [MIT License](./LICENSE).
-
-## Contact
-
-- **Email:** FathimaSiddka62@gmail.com
+Siddiha 
